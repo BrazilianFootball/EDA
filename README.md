@@ -11,6 +11,6 @@ mkdir data
 cd data
 git clone -n --depth=1 --filter=tree:0 git@github.com:IgorMichels/BrazilianSoccerData.git
 cd BrazilianSoccerData
-git sparse-checkout set --no-cone results
+git sparse-checkout set --no-cone results/processed
 git checkout
 ```
