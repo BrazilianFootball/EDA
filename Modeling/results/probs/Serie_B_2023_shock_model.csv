@@ -1,0 +1,272 @@
+Club,Position,Probability,Cumulative
+Ituano / SP,20,0.0002,0.0002
+Ponte Preta / SP,20,0.0002,0.0002
+Londrina / PR,20,0.0026,0.0026
+ABC / RN,20,0.9276,0.9276
+Tombense / MG,20,0.0336,0.0336
+Avaí / SC,20,0.0114,0.0114
+Chapecoense / SC,20,0.01,0.01
+Sampaio Corrêa / MA,20,0.0144,0.0144
+Chapecoense / SC,19,0.1236,0.1336
+CRB / AL,19,0.0014,0.0014
+Londrina / PR,19,0.0628,0.0654
+Ponte Preta / SP,19,0.0206,0.0208
+Ituano / SP,19,0.016,0.0162
+Sampaio Corrêa / MA,19,0.2216,0.236
+Atlético / GO,19,0.0036,0.0036
+Avaí / SC,19,0.1582,0.1696
+Botafogo / SP,19,0.0006,0.0006
+ABC / RN,19,0.0548,0.9823999999999999
+Tombense / MG,19,0.3368,0.3704
+Chapecoense / SC,18,0.154,0.28759999999999997
+Avaí / SC,18,0.1834,0.353
+ABC / RN,18,0.0114,0.9938
+Londrina / PR,18,0.1044,0.1698
+Tombense / MG,18,0.217,0.5874
+Ceará / CE,18,0.0002,0.0002
+Ponte Preta / SP,18,0.0474,0.0682
+Sampaio Corrêa / MA,18,0.2236,0.4596
+Botafogo / SP,18,0.0054,0.006
+CRB / AL,18,0.0046,0.006
+Atlético / GO,18,0.008,0.0116
+Ituano / SP,18,0.0406,0.056799999999999996
+Botafogo / SP,17,0.0178,0.0238
+Ituano / SP,17,0.0736,0.1304
+Ponte Preta / SP,17,0.08,0.1482
+Sampaio Corrêa / MA,17,0.1878,0.6474
+Avaí / SC,17,0.1736,0.5266
+Ceará / CE,17,0.0012,0.0014
+Londrina / PR,17,0.115,0.2848
+Atlético / GO,17,0.0226,0.034199999999999994
+Chapecoense / SC,17,0.1578,0.4454
+CRB / AL,17,0.0118,0.0178
+Tombense / MG,17,0.1542,0.7416
+ABC / RN,17,0.0046,0.9984
+Londrina / PR,16,0.1518,0.4366
+Botafogo / SP,16,0.035,0.058800000000000005
+Avaí / SC,16,0.1476,0.6742
+CRB / AL,16,0.0236,0.0414
+Mirassol / SP,16,0.0002,0.0002
+Ituano / SP,16,0.096,0.2264
+ABC / RN,16,0.001,0.9994
+Ponte Preta / SP,16,0.118,0.2662
+Ceará / CE,16,0.0028,0.0042
+Sampaio Corrêa / MA,16,0.131,0.7784
+Atlético / GO,16,0.032,0.0662
+Chapecoense / SC,16,0.155,0.6004
+Tombense / MG,16,0.106,0.8476
+Ituano / SP,15,0.1122,0.3386
+CRB / AL,15,0.035,0.0764
+Criciúma / SC,15,0.0002,0.0002
+Ceará / CE,15,0.007,0.011200000000000002
+ABC / RN,15,0.0006,1.0
+Botafogo / SP,15,0.062,0.1208
+Ponte Preta / SP,15,0.1534,0.4196
+Mirassol / SP,15,0.0018,0.002
+Tombense / MG,15,0.068,0.9156
+Atlético / GO,15,0.0716,0.13779999999999998
+Sampaio Corrêa / MA,15,0.0976,0.876
+Avaí / SC,15,0.116,0.7902
+Juventude / RS,15,0.0002,0.0002
+Chapecoense / SC,15,0.1314,0.7318
+Londrina / PR,15,0.143,0.5796
+Mirassol / SP,14,0.0034,0.0054
+Criciúma / SC,14,0.0002,0.0004
+Tombense / MG,14,0.0456,0.9612
+Atlético / GO,14,0.1028,0.24059999999999998
+Londrina / PR,14,0.1386,0.7182
+Sampaio Corrêa / MA,14,0.056,0.9319999999999999
+Avaí / SC,14,0.084,0.8742000000000001
+Chapecoense / SC,14,0.098,0.8298
+Ceará / CE,14,0.0178,0.029
+Juventude / RS,14,0.0004,0.0006000000000000001
+Ituano / SP,14,0.1442,0.4828
+Ponte Preta / SP,14,0.1582,0.5778
+Botafogo / SP,14,0.0946,0.2154
+CRB / AL,14,0.0562,0.1326
+Criciúma / SC,13,0.0004,0.0008
+Mirassol / SP,13,0.0098,0.0152
+Sampaio Corrêa / MA,13,0.0316,0.9636
+Ponte Preta / SP,13,0.1518,0.7296
+Juventude / RS,13,0.0008,0.0014
+Tombense / MG,13,0.0212,0.9824
+Londrina / PR,13,0.1116,0.8298
+Ituano / SP,13,0.1488,0.6315999999999999
+Chapecoense / SC,13,0.0698,0.8996
+CRB / AL,13,0.0928,0.2254
+Atlético / GO,13,0.1288,0.3694
+Avaí / SC,13,0.0562,0.9304
+Botafogo / SP,13,0.1462,0.36160000000000003
+Ceará / CE,13,0.0302,0.0592
+Criciúma / SC,12,0.0004,0.0012000000000000001
+Ituano / SP,12,0.1384,0.77
+Juventude / RS,12,0.007,0.0084
+Londrina / PR,12,0.0838,0.9136
+CRB / AL,12,0.1244,0.3498
+Chapecoense / SC,12,0.0466,0.9461999999999999
+Mirassol / SP,12,0.026,0.0412
+Ceará / CE,12,0.0582,0.1174
+Botafogo / SP,12,0.1718,0.5334
+Guarani / SP,12,0.0002,0.0002
+Ponte Preta / SP,12,0.1158,0.8454
+Sampaio Corrêa / MA,12,0.022,0.9856
+Avaí / SC,12,0.0346,0.9650000000000001
+Atlético / GO,12,0.1618,0.5312
+Tombense / MG,12,0.009,0.9914000000000001
+Tombense / MG,11,0.0054,0.9968
+Vila Nova / GO,11,0.0008,0.0008
+Juventude / RS,11,0.0186,0.026999999999999996
+Atlético / GO,11,0.1704,0.7016
+Londrina / PR,11,0.0456,0.9591999999999999
+Ponte Preta / SP,11,0.077,0.9224
+CRB / AL,11,0.1846,0.5344
+Novorizontino / SP,11,0.0002,0.0002
+Mirassol / SP,11,0.0546,0.0958
+Sampaio Corrêa / MA,11,0.0094,0.995
+Botafogo / SP,11,0.178,0.7114
+Ituano / SP,11,0.1052,0.8752
+Avaí / SC,11,0.018,0.983
+Vitória / BA,11,0.001,0.001
+Chapecoense / SC,11,0.031,0.9772
+Ceará / CE,11,0.0952,0.2126
+Guarani / SP,11,0.0002,0.0004
+Criciúma / SC,11,0.0048,0.006
+Criciúma / SC,10,0.018,0.024
+Botafogo / SP,10,0.1482,0.8596
+Londrina / PR,10,0.0264,0.9856
+CRB / AL,10,0.1854,0.7198
+Novorizontino / SP,10,0.0004,0.0006000000000000001
+Ponte Preta / SP,10,0.0494,0.9718
+Avaí / SC,10,0.0118,0.9948
+Sampaio Corrêa / MA,10,0.0036,0.9986
+Juventude / RS,10,0.0382,0.0652
+Tombense / MG,10,0.0018,0.9986
+Chapecoense / SC,10,0.0138,0.991
+Atlético / GO,10,0.149,0.8506
+Vila Nova / GO,10,0.003,0.0038
+Vitória / BA,10,0.0016,0.0026
+Guarani / SP,10,0.0026,0.003
+Mirassol / SP,10,0.109,0.20479999999999998
+Ceará / CE,10,0.165,0.37760000000000005
+Ituano / SP,10,0.0728,0.948
+Ceará / CE,9,0.2386,0.6162000000000001
+Chapecoense / SC,9,0.0082,0.9992
+Mirassol / SP,9,0.1904,0.3952
+CRB / AL,9,0.1488,0.8686
+Ponte Preta / SP,9,0.0186,0.9904
+Sampaio Corrêa / MA,9,0.0012,0.9998
+Vila Nova / GO,9,0.0092,0.013
+Criciúma / SC,9,0.0524,0.0764
+Ituano / SP,9,0.0324,0.9803999999999999
+Atlético / GO,9,0.0882,0.9388
+Botafogo / SP,9,0.0852,0.9448
+Tombense / MG,9,0.0014,1.0
+Sport / PE,9,0.0002,0.0002
+Novorizontino / SP,9,0.0036,0.0042
+Guarani / SP,9,0.0082,0.011200000000000002
+Vitória / BA,9,0.0048,0.0073999999999999995
+Juventude / RS,9,0.0948,0.15999999999999998
+Avaí / SC,9,0.0038,0.9986
+Londrina / PR,9,0.01,0.9955999999999999
+Sport / PE,8,0.0014,0.0016
+Novorizontino / SP,8,0.0168,0.020999999999999998
+Avaí / SC,8,0.0008,0.9994000000000001
+Mirassol / SP,8,0.251,0.6462
+Botafogo / SP,8,0.0346,0.9794
+Chapecoense / SC,8,0.0006,0.9998
+Ponte Preta / SP,8,0.008,0.9984
+Atlético / GO,8,0.0394,0.9782
+Londrina / PR,8,0.0034,0.999
+Juventude / RS,8,0.1884,0.3484
+Ituano / SP,8,0.0152,0.9955999999999999
+Vitória / BA,8,0.0156,0.023
+Guarani / SP,8,0.0252,0.0364
+Criciúma / SC,8,0.1082,0.18460000000000001
+Vila Nova / GO,8,0.0234,0.0364
+CRB / AL,8,0.0772,0.9458
+Sampaio Corrêa / MA,8,0.0002,1.0
+Ceará / CE,8,0.1906,0.8068
+Ituano / SP,7,0.0034,0.999
+Criciúma / SC,7,0.196,0.38060000000000005
+Botafogo / SP,7,0.0136,0.993
+Ceará / CE,7,0.1126,0.9194
+Novorizontino / SP,7,0.0348,0.055799999999999995
+Ponte Preta / SP,7,0.0012,0.9996
+Mirassol / SP,7,0.1774,0.8236
+Avaí / SC,7,0.0006,1.0
+Sport / PE,7,0.0036,0.0052
+Chapecoense / SC,7,0.0002,1.0
+Atlético / GO,7,0.0152,0.9934
+CRB / AL,7,0.035,0.9808
+Vila Nova / GO,7,0.0612,0.09759999999999999
+Guarani / SP,7,0.0672,0.1036
+Londrina / PR,7,0.0006,0.9995999999999999
+Vitória / BA,7,0.0466,0.0696
+Juventude / RS,7,0.2308,0.5791999999999999
+Criciúma / SC,6,0.2186,0.5992
+Sport / PE,6,0.0132,0.0184
+Atlético / GO,6,0.0056,0.999
+Vila Nova / GO,6,0.116,0.2136
+Botafogo / SP,6,0.005,0.998
+Vitória / BA,6,0.085,0.15460000000000002
+Juventude / RS,6,0.189,0.7682
+Ceará / CE,6,0.0482,0.9676
+Novorizontino / SP,6,0.0822,0.13799999999999998
+Londrina / PR,6,0.0004,1.0
+Guarani / SP,6,0.1316,0.2352
+CRB / AL,6,0.0134,0.9942
+Mirassol / SP,6,0.0908,0.9144
+Ituano / SP,6,0.0006,0.9995999999999999
+Ponte Preta / SP,6,0.0004,1.0
+Novorizontino / SP,5,0.133,0.271
+Sport / PE,5,0.0288,0.0472
+Juventude / RS,5,0.1142,0.8824
+Botafogo / SP,5,0.0016,0.9996
+Vitória / BA,5,0.1316,0.2862
+Guarani / SP,5,0.1772,0.4124
+Vila Nova / GO,5,0.1702,0.3838
+Atlético / GO,5,0.001,1.0
+CRB / AL,5,0.0036,0.9978
+Criciúma / SC,5,0.1676,0.7668
+Ituano / SP,5,0.0004,1.0
+Ceará / CE,5,0.0208,0.9884000000000001
+Mirassol / SP,5,0.05,0.9644
+Sport / PE,4,0.067,0.1142
+Criciúma / SC,4,0.1106,0.8774
+Juventude / RS,4,0.0628,0.9452
+CRB / AL,4,0.0016,0.9994
+Vitória / BA,4,0.1704,0.4566
+Ceará / CE,4,0.008,0.9964000000000001
+Mirassol / SP,4,0.0204,0.9848
+Botafogo / SP,4,0.0004,1.0
+Novorizontino / SP,4,0.1774,0.4484
+Guarani / SP,4,0.1826,0.595
+Vila Nova / GO,4,0.1988,0.5826
+Ceará / CE,3,0.0028,0.9992
+Criciúma / SC,3,0.0688,0.9462
+Vitória / BA,3,0.2008,0.6574
+Juventude / RS,3,0.0352,0.9803999999999999
+Novorizontino / SP,3,0.2014,0.6497999999999999
+Vila Nova / GO,3,0.1884,0.771
+Mirassol / SP,3,0.0102,0.995
+CRB / AL,3,0.0006,1.0
+Sport / PE,3,0.1178,0.23199999999999998
+Guarani / SP,3,0.174,0.769
+Novorizontino / SP,2,0.2128,0.8626
+Ceará / CE,2,0.0004,0.9996
+Juventude / RS,2,0.0162,0.9965999999999999
+Mirassol / SP,2,0.0042,0.9992
+Sport / PE,2,0.2246,0.4566
+Vila Nova / GO,2,0.16,0.931
+Vitória / BA,2,0.1924,0.8498
+Guarani / SP,2,0.152,0.921
+Criciúma / SC,2,0.0374,0.9836
+Guarani / SP,1,0.079,1.0
+Juventude / RS,1,0.0034,1.0
+Ceará / CE,1,0.0004,1.0
+Vila Nova / GO,1,0.069,1.0
+Sport / PE,1,0.5434,1.0
+Mirassol / SP,1,0.0008,1.0
+Criciúma / SC,1,0.0164,1.0
+Novorizontino / SP,1,0.1374,1.0
+Vitória / BA,1,0.1502,1.0

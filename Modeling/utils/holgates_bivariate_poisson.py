@@ -115,7 +115,7 @@ class HolgatesPoissonModel:
 
         probs['Cumulative'] = probs.groupby('Club').cumsum()['Probability']
         probs.to_csv(f'results/probs/{self.competition}_{self.year}_holgates_poisson.csv', index = False)
-        plot_probs(probs, 'Probability by Club and Position (Shock Model)')
+        plot_probs(probs, 'Probability by Club and Position (Holgate\'s Poisson)')
 
         stats = (table.groupby(['Points', 'Position']).count()['Simulation'] / self.n_sims) \
             .reset_index() \
