@@ -57,6 +57,6 @@ data = {'n_obs': n_obs,
         'results': results,
         'clubs': clubs}
 
-filename = 'posterior.csv'
+filename = 'simple_model_posterior.csv'
 df = run(model, data, filename, num_samples = 4000, num_warmup = 1000, reset = True)
 print(df.describe())
