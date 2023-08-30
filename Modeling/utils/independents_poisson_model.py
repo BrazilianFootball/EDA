@@ -99,7 +99,7 @@ class IndependentsPoissonModel:
 
         probs['Cumulative'] = probs.groupby('Club').cumsum()['Probability']
         probs.to_csv(f'results/probs/{self.competition}_{self.year}.csv', index = False)
-        plot_probs(probs, 'Probability by Club and Position (Independents Poisson)')
+        plot_probs(probs, 'Probability by Club and Position (Independents Poisson)', f'{self.competition}_{self.year}')
 
         stats = (table.groupby(['Points', 'Position']).count()['Simulation'] / self.n_sims) \
             .reset_index() \

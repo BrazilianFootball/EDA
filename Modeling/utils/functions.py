@@ -99,7 +99,7 @@ def calculate_final_position(table):
     table['Position'] = table.groupby(['Simulation']).cumcount() + 1
     return table
 
-def plot_probs(probs, title):
+def plot_probs(probs, title, filename):
     clubs_order = probs \
         .groupby('Club') \
         .max()['Probability'] \
@@ -126,4 +126,5 @@ def plot_probs(probs, title):
                        margin = dict(l = 200, r = 100, b = 50, t = 50))
 
     fig = go.Figure(data, layout = layout)
+    fig.write_image(f'results/images/{filename}.png', format='png')
     fig.show('png')

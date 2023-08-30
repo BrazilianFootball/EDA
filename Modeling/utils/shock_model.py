@@ -124,7 +124,7 @@ class ShockModel:
 
         probs['Cumulative'] = probs.groupby('Club').cumsum()['Probability']
         probs.to_csv(f'results/probs/{self.competition}_{self.year}_shock_model.csv', index = False)
-        plot_probs(probs, 'Probability by Club and Position (Shock Model)')
+        plot_probs(probs, 'Probability by Club and Position (Shock Model)', f'{self.competition}_{self.year}_shock_model')
 
         stats = (table.groupby(['Points', 'Position']).count()['Simulation'] / self.n_sims) \
             .reset_index() \
