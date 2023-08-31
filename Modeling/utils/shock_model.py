@@ -69,7 +69,10 @@ class ShockModel:
         bounds[0] = (1, 1)
         res = minimize(bp_likelihood, parameters, args = (played_games, inx), bounds = bounds)
         with open(f'results/optimizer/optimizer_result_{self.competition}_{self.year}_shock_model_{self.max_games}_games.pkl', 'wb') as f: pickle.dump(res, f)
-        if not res.success: print('Parameters didn\'t converge')
+        if not res.success:
+            print('Parameters didn\'t converge')
+            self.n_sims = int(self.n_sims ** (1/2))
+        
         parameters = res.x
         for club in inx:
             for force in inx[club]:
