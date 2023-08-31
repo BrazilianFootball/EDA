@@ -1,6 +1,7 @@
 import os
 import json
 import plotly
+import pickle
 import warnings
 import numpy as np
 
@@ -26,19 +27,25 @@ def likelihood(parameters, played_games, inx):
     return lik
 
 class IndependentsPoissonModel:
-    def __init__(self, competition, year, n_sims = 5_000_000):
+    def __init__(self, competition, year, n_sims = 5_000_000, max_games = 380, ignored_games = list(), x0 = None):
         self.competition = competition
         self.n_sims = n_sims
         self.year = year
+        self.max_games = max_games
+        self.ignored_games = ignored_games
+        self.x0 = x0
 
     def optimize_parameters(self):
-        played_games, inx, games = preprocessing(self.competition, self.year, False)
-        filename = f'parameters/{self.competition}_{self.year}.json'
-        if filename in os.listdir(): parameters = generate_x0(filename, inx, False)
+        played_games, inx, games = preprocessing(self.competition, self.year, False, self.max_games, self.ignored_games)
+        filename = f'parameters/{self.competition}_{self.year}_independents_poisson_{self.max_games}_games.json'
+        if self.x0 is not None: parameters = self.x0
+        elif filename in os.listdir(): parameters = generate_x0(filename, inx, False)
         else: parameters = np.random.random(2 * len(played_games))
         bounds = [(0, None) for _ in parameters]
         bounds[0] = (1, 1)
         res = minimize(likelihood, parameters, args = (played_games, inx), bounds = bounds)
+        with open(f'results/optimizer/optimizer_result_{self.competition}_{self.year}_independents_poisson_{self.max_games}_games.pkl', 'wb') as f: pickle.dump(res, f)
+        if not res.success: print('Parameters didn\'t converge')
         parameters = res.x
         for club in inx:
             for force in inx[club]:
@@ -90,7 +97,7 @@ class IndependentsPoissonModel:
         parameters, games, played_games = self.optimize_parameters()
         table, game_probs = self.simulation(games, played_games, parameters)
         table = calculate_final_position(table)
-        with open(f'results/probs/game_probs_{self.competition}_{self.year}.json', 'w') as f: json.dump(game_probs, f)
+        with open(f'results/probs/game_probs_{self.competition}_{self.year}_independents_poisson_{self.max_games}_games.json', 'w') as f: json.dump(game_probs, f)
 
         probs = (table.groupby(['Club', 'Position']).count()['Simulation'] / self.n_sims) \
             .reset_index() \
@@ -98,8 +105,8 @@ class IndependentsPoissonModel:
             .sort_values('Position', ascending = False, ignore_index = True)
 
         probs['Cumulative'] = probs.groupby('Club').cumsum()['Probability']
-        probs.to_csv(f'results/probs/{self.competition}_{self.year}.csv', index = False)
-        plot_probs(probs, 'Probability by Club and Position (Independents Poisson)', f'{self.competition}_{self.year}')
+        probs.to_csv(f'results/probs/{self.competition}_{self.year}_independents_poisson_{self.max_games}_games.csv', index = False)
+        plot_probs(probs, 'Probability by Club and Position (Independents Poisson)', f'{self.competition}_{self.year}_independents_poisson_{self.max_games}_games')
 
         stats = (table.groupby(['Points', 'Position']).count()['Simulation'] / self.n_sims) \
             .reset_index() \
@@ -107,4 +114,4 @@ class IndependentsPoissonModel:
             .sort_values('Points', ascending = True, ignore_index = True)
 
         stats['Cumulative'] = stats.groupby('Position').cumsum()['Probability']
-        stats.to_csv(f'results/stats/{self.competition}_{self.year}.csv', index = False)
+        stats.to_csv(f'results/stats/{self.competition}_{self.year}_independents_poisson_{self.max_games}_games.csv', index = False)

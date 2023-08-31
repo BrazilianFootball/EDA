@@ -1,6 +1,7 @@
 import os
 import json
 import plotly
+import pickle
 import warnings
 import numpy as np
 
@@ -41,19 +42,25 @@ def simulate_holgates_poisson(lambda_1, lambda_2, lambda_3, n_sims):
     return simulations
 
 class HolgatesPoissonModel:
-    def __init__(self, competition, year, n_sims = 5_000_000):
+    def __init__(self, competition, year, n_sims = 5_000_000, max_games = 380, ignored_games = list(), x0 = None):
         self.competition = competition
         self.n_sims = n_sims
         self.year = year
+        self.max_games = max_games
+        self.ignored_games = ignored_games
+        self.x0 = x0
 
     def optimize_parameters(self):
-        played_games, inx, games = preprocessing(self.competition, self.year, True)
-        filename = f'parameters/{self.competition}_{self.year}_holgates_poisson.json'
-        if filename in os.listdir(): parameters = generate_x0(filename, inx, True)
+        played_games, inx, games = preprocessing(self.competition, self.year, True, self.max_games, self.ignored_games)
+        filename = f'parameters/{self.competition}_{self.year}_holgates_poisson_{self.max_games}_games.json'
+        if self.x0 is not None: parameters = self.x0
+        elif filename in os.listdir(): parameters = generate_x0(filename, inx, True)
         else: parameters = np.random.random(3 * len(played_games))
         bounds = [(0, None) for _ in range(len(parameters))]
         bounds[0] = (1, 1)
         res = minimize(bp_likelihood, parameters, args = (played_games, inx), bounds = bounds)
+        with open(f'results/optimizer/optimizer_result_{self.competition}_{self.year}_holgates_poisson_{self.max_games}_games.pkl', 'wb') as f: pickle.dump(res, f)
+        if not res.success: print('Parameters didn\'t converge')
         parameters = res.x
         for club in inx:
             for force in inx[club]:
@@ -106,7 +113,7 @@ class HolgatesPoissonModel:
         parameters, games, played_games = self.optimize_parameters()
         table, game_probs = self.simulation(games, played_games, parameters)
         table = calculate_final_position(table)
-        with open(f'results/probs/game_probs_{self.competition}_{self.year}_holgates_poisson.json', 'w') as f: json.dump(game_probs, f)
+        with open(f'results/probs/game_probs_{self.competition}_{self.year}_holgates_poisson_{self.max_games}_games.json', 'w') as f: json.dump(game_probs, f)
 
         probs = (table.groupby(['Club', 'Position']).count()['Simulation'] / self.n_sims) \
             .reset_index() \
@@ -114,8 +121,8 @@ class HolgatesPoissonModel:
             .sort_values('Position', ascending = False, ignore_index = True)
 
         probs['Cumulative'] = probs.groupby('Club').cumsum()['Probability']
-        probs.to_csv(f'results/probs/{self.competition}_{self.year}_holgates_poisson.csv', index = False)
-        plot_probs(probs, 'Probability by Club and Position (Holgate\'s Poisson)', f'{self.competition}_{self.year}_holgates_poisson')
+        probs.to_csv(f'results/probs/{self.competition}_{self.year}_holgates_poisson_{self.max_games}_games.csv', index = False)
+        plot_probs(probs, 'Probability by Club and Position (Holgate\'s Poisson)', f'{self.competition}_{self.year}_holgates_poisson_{self.max_games}_games')
 
         stats = (table.groupby(['Points', 'Position']).count()['Simulation'] / self.n_sims) \
             .reset_index() \
@@ -123,4 +130,4 @@ class HolgatesPoissonModel:
             .sort_values('Points', ascending = True, ignore_index = True)
 
         stats['Cumulative'] = stats.groupby('Position').cumsum()['Probability']
-        stats.to_csv(f'results/stats/{self.competition}_{self.year}_holgates_poisson.csv', index = False)
+        stats.to_csv(f'results/stats/{self.competition}_{self.year}_holgates_poisson_{self.max_games}_games.csv', index = False)

@@ -1,3 +1,4 @@
+import os
 import json
 import plotly
 import warnings
@@ -18,7 +19,7 @@ def generate_games(clubs, filename):
     with open(filename, 'w') as f: f.writelines(games)
     return games
 
-def preprocessing(competition, year, bivariate):
+def preprocessing(competition, year, bivariate, max_games = 380, ignored_games = list()):
     with open(f'../data/BrazilianSoccerData/results/processed/{competition}_{year}_games.json', 'r') as f:
         data = json.load(f)
 
@@ -26,6 +27,7 @@ def preprocessing(competition, year, bivariate):
     played_games = dict()
     inx_count = 0
     for game in data:
+        if int(game) > max_games or int(game) in ignored_games: continue
         game = str(game).zfill(3)
         home, away, result = data[game]['Home'], data[game]['Away'], data[game]['Result']
         result = result.split(' X ')
@@ -42,7 +44,8 @@ def preprocessing(competition, year, bivariate):
                 inx[home]['Ext'] = inx_count
                 inx_count += 1
 
-    games = generate_games(list(played_games.keys()), f'{competition}_{year}.csv')
+    if 'data' not in os.listdir('results'): os.mkdir('results/data')
+    games = generate_games(list(played_games.keys()), f'results/data/{competition}_{year}.csv')
     return played_games, inx, games
 
 def generate_x0(filename, inx, bivariate):
