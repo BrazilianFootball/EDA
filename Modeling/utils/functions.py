@@ -1,13 +1,32 @@
 import os
-import json
 import plotly
 import warnings
-import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 
 warnings.filterwarnings('ignore')
 plotly.offline.init_notebook_mode()
+
+def create_directories():
+    try: os.chdir('results')
+    except:
+        os.mkdir('results')
+        os.chdir('results')
+
+    for dir in ['images', 'optimizer', 'probs', 'stats']:
+        try: os.chdir(dir)
+        except:
+            os.mkdir(dir)
+            os.chdir(dir)
+        finally: os.chdir('..')
+
+    os.chdir('..')
+    
+    try: os.chdir('parameters')
+    except:
+        os.mkdir('parameters')
+        os.chdir('parameters')
+    finally: os.chdir('..')
 
 def generate_games(clubs, filename):
     games = list()
