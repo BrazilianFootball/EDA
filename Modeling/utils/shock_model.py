@@ -12,7 +12,6 @@ from scipy.optimize import minimize
 from utils.functions import *
 
 warnings.filterwarnings('ignore')
-plotly.offline.init_notebook_mode()
 
 def simulate_shock_model(lambda_1, lambda_2, theta, n_sims):
     U = np.random.random(n_sims)

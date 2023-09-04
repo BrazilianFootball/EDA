@@ -12,7 +12,6 @@ from scipy.optimize import minimize
 from utils.functions import *
 
 warnings.filterwarnings('ignore')
-plotly.offline.init_notebook_mode()
 
 class IndependentsPoissonModel:
     def __init__(self, competition, year, n_sims = 5_000_000, max_games = 380, ignored_games = list(), x0 = None, home_away_pars = 0, to_git = True, max_iters = 5):

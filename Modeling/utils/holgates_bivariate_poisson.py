@@ -13,7 +13,6 @@ from scipy.optimize import minimize
 from utils.functions import *
 
 warnings.filterwarnings('ignore')
-plotly.offline.init_notebook_mode()
 
 def simulate_holgates_poisson(lambda_1, lambda_2, lambda_3, n_sims):
     aux = poisson.rvs(lambda_3, size = n_sims).astype(int)
