@@ -100,7 +100,7 @@ class ShockModel:
             if int(game) > self.max_games or int(game) in self.ignored_games: continue
             game = str(game).zfill(3)
             home, away, result = data[game]['Home'], data[game]['Away'], data[game]['Result']
-            result = result.split(' X ')
+            result = result.upper().split(' X ')
             result = [int(x) for x in result]
             if home not in played_games: played_games[home] = dict()
             played_games[home][away] = result
