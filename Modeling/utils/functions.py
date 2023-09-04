@@ -19,45 +19,6 @@ def generate_games(clubs, filename):
     with open(filename, 'w') as f: f.writelines(games)
     return games
 
-def preprocessing(competition, year, bivariate, max_games = 380, ignored_games = list()):
-    with open(f'../data/BrazilianSoccerData/results/processed/{competition}_{year}_games.json', 'r') as f:
-        data = json.load(f)
-
-    inx = dict()
-    played_games = dict()
-    inx_count = 0
-    for game in data:
-        if int(game) > max_games or int(game) in ignored_games: continue
-        game = str(game).zfill(3)
-        home, away, result = data[game]['Home'], data[game]['Away'], data[game]['Result']
-        result = result.split(' X ')
-        result = [int(x) for x in result]
-        if home not in played_games: played_games[home] = dict()
-        played_games[home][away] = result
-        if home not in inx:
-            inx[home] = dict()
-            inx[home]['Atk'] = inx_count
-            inx_count += 1
-            inx[home]['Def'] = inx_count
-            inx_count += 1
-            if bivariate:
-                inx[home]['Ext'] = inx_count
-                inx_count += 1
-
-    if 'data' not in os.listdir('results'): os.mkdir('results/data')
-    games = generate_games(list(played_games.keys()), f'results/data/{competition}_{year}.csv')
-    return played_games, inx, games
-
-def generate_x0(filename, inx, bivariate):
-    with open(filename, 'r') as f: parameters = json.load(f)
-    if bivariate: x0 = np.zeros((3 * len(inx)))
-    else: x0 = np.zeros((2 * len(inx)))
-    for club in inx:
-        for force in inx[club]:
-            x0[inx[club][force]] = parameters[club][force]
-
-    return x0
-
 def generate_table(points):
     cols = ['Points', 'Wins', 'Goals', 'Goals difference', 'Simulation', 'Club_id']
     clubs = {'Club_id' : list(), 'Club' : list()}
@@ -102,7 +63,7 @@ def calculate_final_position(table):
     table['Position'] = table.groupby(['Simulation']).cumcount() + 1
     return table
 
-def plot_probs(probs, title, filename):
+def plot_probs(probs, title, filename, to_git = True, show_fig = True):
     clubs_order = probs \
         .groupby('Club') \
         .max()['Probability'] \
@@ -130,4 +91,6 @@ def plot_probs(probs, title, filename):
 
     fig = go.Figure(data, layout = layout)
     fig.write_image(f'results/images/{filename}.png', format='png')
-    fig.show('png')
+    if show_fig:
+        if to_git: fig.show('png')
+        else: fig.show()
