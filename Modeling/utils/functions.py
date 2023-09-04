@@ -1,11 +1,9 @@
 import os
-import plotly
 import warnings
 import pandas as pd
 import plotly.graph_objects as go
 
 warnings.filterwarnings('ignore')
-plotly.offline.init_notebook_mode()
 
 def create_directories():
     try: os.chdir('results')

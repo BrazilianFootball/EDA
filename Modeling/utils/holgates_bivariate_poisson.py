@@ -1,6 +1,5 @@
 import os
 import json
-import plotly
 import pickle
 import warnings
 import numpy as np
