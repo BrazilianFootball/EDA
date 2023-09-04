@@ -3,4 +3,5 @@ numpy==1.24.3
 scipy==1.10.1
 pandas==2.0.1
 plotly==5.14.1
+kaleido==0.2.1
 plotly-express==0.4.1
