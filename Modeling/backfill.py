@@ -28,23 +28,20 @@ if __name__ == '__main__':
         if '-m=' in arg: from_mail = arg.split('=')[-1]
         if '-p=' in arg: password = arg.split('=')[-1]
 
-    subject = '[TAG] teste'
+    subject = '[BSM] Backfill'
     body = ''
 
+    models = {'Independents Poisson' : IndependentsPoissonModel,
+              'Holgates Bivariate Poisson' : HolgatesPoissonModel,
+              'Shock Model' : ShockModel}
+    
     for competition in competitions:
-        for home_away_pars in home_away_pars_list:
-            if cleaning: os.system('clear')
-            print(f"Independents Poisson - {competition.replace('_', ' ')} {year} - {home_away_pars} home/away parameters")
-            IndependentsPoissonModel(competition, year, n_sims, home_away_pars = home_away_pars, max_games = max_games).run_model(show_fig = False)
-
-            if cleaning: os.system('clear')
-            print(f"Holgates Bivariate Poisson - {competition.replace('_', ' ')} {year} - {home_away_pars} home/away parameters")
-            HolgatesPoissonModel(competition, year, n_sims, home_away_pars = home_away_pars, max_games = max_games).run_model(show_fig = False)
-
-            if cleaning: os.system('clear')
-            print(f"Shock Model - {competition.replace('_', ' ')} {year} - {home_away_pars} home/away parameters")
-            ShockModel(competition, year, n_sims, home_away_pars = home_away_pars, max_games = max_games).run_model(show_fig = False)
+        for model in models:
+            for home_away_pars in home_away_pars_list:
+                if cleaning: os.system('clear')
+                print(f"{model} - {competition.replace('_', ' ')} {year} - {home_away_pars} home/away parameters")
+                models[model](competition, year, n_sims, home_away_pars = home_away_pars, max_games = max_games).run_model(show_fig = False)
         
-        attachments = glob(f'results/*/*{competition}_{year}_*_{max_games}_games_*')
-        attachments += glob(f'parameters/*{competition}_{year}_*_{max_games}_games_*')
-        send(from_mail, password, from_mail, subject, body, attachments)
+            attachments = glob(f'results/*/*{competition}_{year}_*_{max_games}_games_*')
+            attachments += glob(f'parameters/*{competition}_{year}_*_{max_games}_games_*')
+            send(from_mail, password, from_mail, subject, body, attachments)
