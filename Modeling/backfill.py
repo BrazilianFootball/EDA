@@ -35,13 +35,21 @@ if __name__ == '__main__':
               'Holgates Bivariate Poisson' : HolgatesPoissonModel,
               'Shock Model' : ShockModel}
     
+    files_to_remove = list()
     for competition in competitions:
         for model in models:
             for home_away_pars in home_away_pars_list:
                 if cleaning: os.system('clear')
                 print(f"{model} - {competition.replace('_', ' ')} {year} - {home_away_pars} home/away parameters")
                 cur_model = models[model](competition, year, n_sims, home_away_pars = home_away_pars, max_games = max_games)
-                if cur_model.filename_tag + '.png' in os.listdir('results/images/'): continue
+                if cur_model.filename_tag + '.png' in os.listdir('results/images/'):
+                    files_to_remove += glob(f'results/*/*{competition}_{year}_*_{max_games}_games_*')
+                    files_to_remove += glob(f'parameters/*{competition}_{year}_*_{max_games}_games_*')
+                    continue
+                else:
+                    for file in files_to_remove: os.remove(file)
+                    files_to_remove = list()
+
                 cur_model.run_model(show_fig = False)
         
             attachments = glob(f'results/*/*{competition}_{year}_*_{max_games}_games_*')
