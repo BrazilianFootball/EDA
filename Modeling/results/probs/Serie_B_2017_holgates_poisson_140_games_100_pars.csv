@@ -1,0 +1,294 @@
+Club,Position,Probability,Cumulative
+ABC / RN,20,0.009,0.009
+Náutico / PE,20,0.99,0.99
+Boa / MG,20,0.001,0.001
+Goiás / GO,19,0.013,0.013
+Internacional / RS,19,0.001,0.001
+ABC / RN,19,0.742,0.751
+Londrina / PR,19,0.001,0.001
+Brasil / RS,19,0.003,0.003
+Luverdense / MT,19,0.005,0.005
+Náutico / PE,19,0.01,1.0
+Figueirense / SC,19,0.003,0.003
+Boa / MG,19,0.222,0.223
+Brasil / RS,18,0.027,0.03
+Londrina / PR,18,0.004,0.005
+Luverdense / MT,18,0.024,0.029
+Boa / MG,18,0.61,0.833
+CRB / AL,18,0.001,0.001
+Goiás / GO,18,0.069,0.082
+Oeste / SP,18,0.001,0.001
+Paraná / PR,18,0.004,0.004
+Figueirense / SC,18,0.029,0.032
+Paysandu / PA,18,0.002,0.002
+Criciúma / SC,18,0.001,0.001
+Santa Cruz / PE,18,0.001,0.001
+ABC / RN,18,0.209,0.96
+Internacional / RS,18,0.018,0.019
+Goiás / GO,17,0.224,0.306
+ABC / RN,17,0.032,0.992
+Figueirense / SC,17,0.138,0.17
+Internacional / RS,17,0.088,0.107
+Criciúma / SC,17,0.017,0.018000000000000002
+Brasil / RS,17,0.11,0.14
+Vila Nova / GO,17,0.001,0.001
+Paysandu / PA,17,0.021,0.023
+Londrina / PR,17,0.062,0.067
+CRB / AL,17,0.002,0.003
+Luverdense / MT,17,0.118,0.147
+Boa / MG,17,0.106,0.939
+Oeste / SP,17,0.013,0.013999999999999999
+Santa Cruz / PE,17,0.016,0.017
+Paraná / PR,17,0.052,0.055999999999999994
+Juventude / RS,16,0.002,0.002
+Ceará / CE,16,0.001,0.001
+Criciúma / SC,16,0.033,0.051000000000000004
+Santa Cruz / PE,16,0.028,0.045
+Figueirense / SC,16,0.121,0.29100000000000004
+Goiás / GO,16,0.173,0.479
+Paysandu / PA,16,0.034,0.057
+Londrina / PR,16,0.092,0.159
+Paraná / PR,16,0.064,0.12
+Oeste / SP,16,0.041,0.055
+Internacional / RS,16,0.106,0.213
+Luverdense / MT,16,0.125,0.272
+ABC / RN,16,0.008,1.0
+CRB / AL,16,0.019,0.022
+Boa / MG,16,0.035,0.974
+Brasil / RS,16,0.118,0.258
+Juventude / RS,15,0.01,0.012
+Oeste / SP,15,0.048,0.10300000000000001
+Boa / MG,15,0.015,0.989
+Luverdense / MT,15,0.106,0.378
+Paraná / PR,15,0.089,0.209
+Londrina / PR,15,0.103,0.262
+CRB / AL,15,0.017,0.039
+Ceará / CE,15,0.006,0.007
+Figueirense / SC,15,0.109,0.4
+Brasil / RS,15,0.124,0.382
+Paysandu / PA,15,0.039,0.096
+Internacional / RS,15,0.104,0.317
+Santa Cruz / PE,15,0.04,0.085
+Goiás / GO,15,0.119,0.598
+Vila Nova / GO,15,0.001,0.002
+Criciúma / SC,15,0.07,0.12100000000000001
+Juventude / RS,14,0.011,0.023
+Brasil / RS,14,0.108,0.49
+Criciúma / SC,14,0.07,0.191
+Figueirense / SC,14,0.098,0.498
+Londrina / PR,14,0.107,0.369
+Internacional / RS,14,0.128,0.445
+Luverdense / MT,14,0.107,0.485
+Goiás / GO,14,0.089,0.687
+Guarani / SP,14,0.001,0.001
+CRB / AL,14,0.024,0.063
+Santa Cruz / PE,14,0.044,0.129
+Paraná / PR,14,0.079,0.288
+Paysandu / PA,14,0.048,0.14400000000000002
+Boa / MG,14,0.005,0.994
+Ceará / CE,14,0.013,0.02
+Oeste / SP,14,0.068,0.171
+Criciúma / SC,13,0.073,0.264
+Figueirense / SC,13,0.093,0.591
+Vila Nova / GO,13,0.002,0.004
+Guarani / SP,13,0.002,0.003
+Internacional / RS,13,0.09,0.535
+Santa Cruz / PE,13,0.043,0.172
+Juventude / RS,13,0.022,0.045
+Paysandu / PA,13,0.068,0.21200000000000002
+Ceará / CE,13,0.008,0.027999999999999997
+Goiás / GO,13,0.081,0.768
+Oeste / SP,13,0.079,0.25
+Boa / MG,13,0.004,0.998
+Brasil / RS,13,0.104,0.594
+CRB / AL,13,0.027,0.09
+Luverdense / MT,13,0.1,0.585
+Londrina / PR,13,0.101,0.47
+Paraná / PR,13,0.103,0.391
+Londrina / PR,12,0.11,0.58
+Paraná / PR,12,0.099,0.49
+Guarani / SP,12,0.001,0.004
+Vila Nova / GO,12,0.006,0.01
+Santa Cruz / PE,12,0.054,0.226
+Oeste / SP,12,0.101,0.35100000000000003
+Juventude / RS,12,0.027,0.072
+Luverdense / MT,12,0.093,0.6779999999999999
+Brasil / RS,12,0.068,0.662
+Paysandu / PA,12,0.063,0.275
+Boa / MG,12,0.002,1.0
+Internacional / RS,12,0.097,0.632
+Goiás / GO,12,0.063,0.831
+CRB / AL,12,0.028,0.118
+Criciúma / SC,12,0.095,0.359
+Ceará / CE,12,0.016,0.044
+Figueirense / SC,12,0.077,0.668
+Londrina / PR,11,0.097,0.677
+Ceará / CE,11,0.019,0.063
+Paysandu / PA,11,0.073,0.348
+CRB / AL,11,0.049,0.167
+Paraná / PR,11,0.091,0.581
+Figueirense / SC,11,0.065,0.733
+Santa Cruz / PE,11,0.068,0.29400000000000004
+Brasil / RS,11,0.072,0.734
+Luverdense / MT,11,0.068,0.746
+Criciúma / SC,11,0.097,0.456
+Oeste / SP,11,0.125,0.47600000000000003
+Internacional / RS,11,0.093,0.725
+Juventude / RS,11,0.026,0.098
+Vila Nova / GO,11,0.004,0.014
+Guarani / SP,11,0.004,0.008
+Goiás / GO,11,0.049,0.88
+Oeste / SP,10,0.111,0.587
+Vila Nova / GO,10,0.011,0.025
+CRB / AL,10,0.055,0.222
+Goiás / GO,10,0.034,0.914
+Paysandu / PA,10,0.088,0.436
+Paraná / PR,10,0.083,0.664
+Guarani / SP,10,0.006,0.014
+Ceará / CE,10,0.043,0.106
+Criciúma / SC,10,0.106,0.562
+Juventude / RS,10,0.042,0.14
+Londrina / PR,10,0.073,0.75
+Luverdense / MT,10,0.066,0.812
+Internacional / RS,10,0.076,0.801
+Figueirense / SC,10,0.067,0.8
+Brasil / RS,10,0.066,0.8
+Santa Cruz / PE,10,0.073,0.367
+Criciúma / SC,9,0.077,0.639
+Londrina / PR,9,0.067,0.817
+Figueirense / SC,9,0.057,0.857
+Luverdense / MT,9,0.054,0.866
+Vila Nova / GO,9,0.019,0.044
+Paraná / PR,9,0.085,0.749
+CRB / AL,9,0.079,0.301
+Brasil / RS,9,0.055,0.855
+Goiás / GO,9,0.027,0.9410000000000001
+Juventude / RS,9,0.067,0.20700000000000002
+Paysandu / PA,9,0.106,0.542
+Internacional / RS,9,0.06,0.861
+Oeste / SP,9,0.108,0.6950000000000001
+Santa Cruz / PE,9,0.087,0.454
+Guarani / SP,9,0.006,0.02
+Ceará / CE,9,0.046,0.152
+Vila Nova / GO,8,0.025,0.069
+Criciúma / SC,8,0.109,0.748
+Paysandu / PA,8,0.107,0.649
+Guarani / SP,8,0.01,0.03
+Santa Cruz / PE,8,0.089,0.543
+Londrina / PR,8,0.056,0.873
+Juventude / RS,8,0.074,0.281
+Goiás / GO,8,0.028,0.969
+Ceará / CE,8,0.058,0.21
+Paraná / PR,8,0.08,0.829
+Brasil / RS,8,0.042,0.897
+CRB / AL,8,0.085,0.386
+Internacional / RS,8,0.045,0.906
+Figueirense / SC,8,0.047,0.904
+Oeste / SP,8,0.096,0.791
+Luverdense / MT,8,0.049,0.915
+CRB / AL,7,0.125,0.511
+Vila Nova / GO,7,0.038,0.107
+Brasil / RS,7,0.041,0.938
+Luverdense / MT,7,0.033,0.948
+Guarani / SP,7,0.026,0.056
+Oeste / SP,7,0.096,0.887
+Internacional / RS,7,0.039,0.945
+Figueirense / SC,7,0.027,0.931
+Santa Cruz / PE,7,0.101,0.644
+Ceará / CE,7,0.085,0.29500000000000004
+Londrina / PR,7,0.042,0.915
+Criciúma / SC,7,0.08,0.8280000000000001
+Goiás / GO,7,0.014,0.983
+Paraná / PR,7,0.065,0.894
+Juventude / RS,7,0.09,0.371
+Paysandu / PA,7,0.098,0.747
+América / MG,6,0.001,0.001
+Santa Cruz / PE,6,0.087,0.731
+Paraná / PR,6,0.047,0.9410000000000001
+Oeste / SP,6,0.063,0.9500000000000001
+Criciúma / SC,6,0.084,0.912
+Ceará / CE,6,0.119,0.41400000000000003
+Vila Nova / GO,6,0.072,0.179
+Paysandu / PA,6,0.089,0.836
+Brasil / RS,6,0.032,0.97
+Goiás / GO,6,0.008,0.991
+CRB / AL,6,0.125,0.636
+Juventude / RS,6,0.119,0.49
+Guarani / SP,6,0.051,0.107
+Internacional / RS,6,0.021,0.966
+Londrina / PR,6,0.037,0.952
+Figueirense / SC,6,0.025,0.9560000000000001
+Luverdense / MT,6,0.02,0.968
+Santa Cruz / PE,5,0.098,0.829
+Paysandu / PA,5,0.05,0.886
+Juventude / RS,5,0.137,0.627
+Goiás / GO,5,0.003,0.994
+América / MG,5,0.005,0.006
+Oeste / SP,5,0.026,0.976
+Internacional / RS,5,0.02,0.986
+Guarani / SP,5,0.089,0.196
+Ceará / CE,5,0.151,0.565
+Vila Nova / GO,5,0.152,0.33099999999999996
+CRB / AL,5,0.117,0.753
+Criciúma / SC,5,0.048,0.96
+Londrina / PR,5,0.028,0.98
+Luverdense / MT,5,0.017,0.985
+Brasil / RS,5,0.014,0.984
+Figueirense / SC,5,0.019,0.975
+Paraná / PR,5,0.026,0.967
+Santa Cruz / PE,4,0.086,0.915
+Guarani / SP,4,0.145,0.34099999999999997
+Internacional / RS,4,0.009,0.995
+Figueirense / SC,4,0.017,0.992
+Vila Nova / GO,4,0.169,0.5
+Brasil / RS,4,0.011,0.995
+América / MG,4,0.013,0.019
+CRB / AL,4,0.104,0.857
+Paraná / PR,4,0.019,0.986
+Oeste / SP,4,0.011,0.987
+Juventude / RS,4,0.152,0.779
+Goiás / GO,4,0.003,0.997
+Londrina / PR,4,0.011,0.991
+Paysandu / PA,4,0.062,0.948
+Criciúma / SC,4,0.025,0.985
+Ceará / CE,4,0.154,0.719
+Luverdense / MT,4,0.009,0.994
+Goiás / GO,3,0.003,1.0
+Criciúma / SC,3,0.012,0.997
+Londrina / PR,3,0.006,0.997
+Figueirense / SC,3,0.006,0.998
+Internacional / RS,3,0.005,1.0
+Luverdense / MT,3,0.003,0.997
+CRB / AL,3,0.085,0.9420000000000001
+Brasil / RS,3,0.005,1.0
+Vila Nova / GO,3,0.235,0.735
+Santa Cruz / PE,3,0.058,0.973
+Ceará / CE,3,0.153,0.872
+Guarani / SP,3,0.222,0.563
+Paraná / PR,3,0.012,0.998
+Oeste / SP,3,0.012,0.999
+Paysandu / PA,3,0.029,0.977
+Juventude / RS,3,0.125,0.904
+América / MG,3,0.029,0.048
+Guarani / SP,2,0.358,0.9209999999999999
+Ceará / CE,2,0.106,0.978
+América / MG,2,0.108,0.156
+Vila Nova / GO,2,0.228,0.963
+Oeste / SP,2,0.001,1.0
+Luverdense / MT,2,0.003,1.0
+Figueirense / SC,2,0.002,1.0
+Paraná / PR,2,0.002,1.0
+Santa Cruz / PE,2,0.024,0.997
+CRB / AL,2,0.055,0.997
+Paysandu / PA,2,0.022,0.999
+Criciúma / SC,2,0.003,1.0
+Londrina / PR,2,0.003,1.0
+Juventude / RS,2,0.085,0.989
+América / MG,1,0.844,1.0
+Vila Nova / GO,1,0.037,1.0
+Ceará / CE,1,0.022,1.0
+Santa Cruz / PE,1,0.003,1.0
+Guarani / SP,1,0.079,0.9999999999999999
+CRB / AL,1,0.003,1.0
+Juventude / RS,1,0.011,1.0
+Paysandu / PA,1,0.001,1.0
