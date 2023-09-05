@@ -1,0 +1,286 @@
+Club,Position,Probability,Cumulative
+Vila Nova / GO,20,0.867,0.867
+Boa / MG,20,0.001,0.001
+América / RN,20,0.002,0.002
+Oeste / SP,20,0.055,0.055
+Icasa / CE,20,0.02,0.02
+Red Bull Bragantino / SP,20,0.018,0.018
+Portuguesa / SP,20,0.037,0.037
+Paraná / PR,19,0.001,0.001
+Boa / MG,19,0.001,0.002
+ABC / RN,19,0.001,0.001
+Icasa / CE,19,0.192,0.212
+Red Bull Bragantino / SP,19,0.122,0.13999999999999999
+Atlético / GO,19,0.001,0.001
+Oeste / SP,19,0.288,0.34299999999999997
+América / RN,19,0.019,0.020999999999999998
+Vila Nova / GO,19,0.084,0.951
+Portuguesa / SP,19,0.291,0.32799999999999996
+Atlético / GO,18,0.005,0.006
+Red Bull Bragantino / SP,18,0.168,0.30800000000000005
+Oeste / SP,18,0.252,0.595
+Boa / MG,18,0.003,0.005
+América / RN,18,0.063,0.08399999999999999
+Portuguesa / SP,18,0.25,0.578
+ABC / RN,18,0.001,0.002
+Icasa / CE,18,0.222,0.434
+Paraná / PR,18,0.007,0.008
+Luverdense / MT,18,0.001,0.001
+Vila Nova / GO,18,0.028,0.979
+América / RN,17,0.089,0.173
+Boa / MG,17,0.016,0.021
+Icasa / CE,17,0.243,0.677
+Red Bull Bragantino / SP,17,0.205,0.513
+Paraná / PR,17,0.018,0.026
+Luverdense / MT,17,0.001,0.002
+Atlético / GO,17,0.002,0.008
+Náutico / PE,17,0.005,0.005
+Portuguesa / SP,17,0.195,0.7729999999999999
+Oeste / SP,17,0.2,0.7949999999999999
+Vila Nova / GO,17,0.013,0.992
+ABC / RN,17,0.013,0.015
+ABC / RN,16,0.04,0.055
+Portuguesa / SP,16,0.135,0.9079999999999999
+Náutico / PE,16,0.011,0.016
+Icasa / CE,16,0.191,0.868
+Red Bull Bragantino / SP,16,0.226,0.739
+Atlético / GO,16,0.019,0.027
+Sampaio Corrêa / MA,16,0.002,0.002
+Vila Nova / GO,16,0.006,0.998
+Oeste / SP,16,0.126,0.921
+Paraná / PR,16,0.04,0.066
+Santa Cruz / PE,16,0.001,0.001
+América / RN,16,0.159,0.33199999999999996
+Boa / MG,16,0.035,0.05600000000000001
+Luverdense / MT,16,0.009,0.011
+Portuguesa / SP,15,0.055,0.963
+Vila Nova / GO,15,0.002,1.0
+Red Bull Bragantino / SP,15,0.151,0.89
+Icasa / CE,15,0.092,0.96
+Náutico / PE,15,0.047,0.063
+ABC / RN,15,0.092,0.147
+Boa / MG,15,0.074,0.13
+Atlético / GO,15,0.057,0.084
+América / RN,15,0.249,0.581
+Paraná / PR,15,0.096,0.162
+Oeste / SP,15,0.046,0.967
+Luverdense / MT,15,0.035,0.046
+Sampaio Corrêa / MA,15,0.004,0.006
+Atlético / GO,14,0.102,0.186
+Oeste / SP,14,0.019,0.986
+Vasco da Gama / RJ,14,0.003,0.003
+Joinville / SC,14,0.001,0.001
+Red Bull Bragantino / SP,14,0.055,0.9450000000000001
+Sampaio Corrêa / MA,14,0.025,0.031
+Avaí / SC,14,0.002,0.002
+Portuguesa / SP,14,0.021,0.984
+Paraná / PR,14,0.174,0.33599999999999997
+América / RN,14,0.16,0.741
+Icasa / CE,14,0.018,0.978
+Luverdense / MT,14,0.076,0.122
+Santa Cruz / PE,14,0.005,0.006
+Náutico / PE,14,0.071,0.134
+Boa / MG,14,0.122,0.252
+Ponte Preta / SP,14,0.001,0.001
+ABC / RN,14,0.145,0.292
+Icasa / CE,13,0.018,0.996
+Joinville / SC,13,0.001,0.002
+Luverdense / MT,13,0.102,0.22399999999999998
+ABC / RN,13,0.149,0.44099999999999995
+Vasco da Gama / RJ,13,0.009,0.012
+Ponte Preta / SP,13,0.002,0.003
+Paraná / PR,13,0.154,0.49
+Portuguesa / SP,13,0.006,0.99
+América / RN,13,0.1,0.841
+Boa / MG,13,0.11,0.362
+Sampaio Corrêa / MA,13,0.043,0.074
+América / MG,13,0.001,0.001
+Santa Cruz / PE,13,0.02,0.026000000000000002
+Atlético / GO,13,0.133,0.319
+Avaí / SC,13,0.005,0.007
+Red Bull Bragantino / SP,13,0.032,0.977
+Náutico / PE,13,0.105,0.239
+Oeste / SP,13,0.01,0.996
+Joinville / SC,12,0.001,0.003
+Sampaio Corrêa / MA,12,0.065,0.139
+Náutico / PE,12,0.119,0.358
+Oeste / SP,12,0.002,0.998
+Luverdense / MT,12,0.108,0.33199999999999996
+Atlético / GO,12,0.131,0.45
+Portuguesa / SP,12,0.008,0.998
+Santa Cruz / PE,12,0.044,0.07
+ABC / RN,12,0.133,0.574
+América / RN,12,0.071,0.912
+Ponte Preta / SP,12,0.004,0.007
+Boa / MG,12,0.146,0.508
+Ceará / CE,12,0.002,0.002
+Paraná / PR,12,0.133,0.623
+Vasco da Gama / RJ,12,0.012,0.024
+Avaí / SC,12,0.009,0.016
+Red Bull Bragantino / SP,12,0.011,0.988
+Icasa / CE,12,0.001,0.997
+Náutico / PE,11,0.142,0.5
+Red Bull Bragantino / SP,11,0.008,0.996
+Boa / MG,11,0.121,0.629
+América / RN,11,0.036,0.948
+ABC / RN,11,0.111,0.6849999999999999
+Paraná / PR,11,0.113,0.736
+Luverdense / MT,11,0.12,0.45199999999999996
+Vasco da Gama / RJ,11,0.017,0.041
+Joinville / SC,11,0.005,0.008
+Atlético / GO,11,0.138,0.5880000000000001
+Oeste / SP,11,0.002,1.0
+Ponte Preta / SP,11,0.015,0.022
+Avaí / SC,11,0.02,0.036
+Santa Cruz / PE,11,0.06,0.13
+Portuguesa / SP,11,0.001,0.999
+Ceará / CE,11,0.012,0.014
+Icasa / CE,11,0.003,1.0
+América / MG,11,0.003,0.004
+Sampaio Corrêa / MA,11,0.073,0.212
+Náutico / PE,10,0.118,0.618
+Paraná / PR,10,0.073,0.8089999999999999
+ABC / RN,10,0.098,0.783
+Luverdense / MT,10,0.125,0.577
+Boa / MG,10,0.105,0.734
+Avaí / SC,10,0.039,0.075
+América / RN,10,0.025,0.973
+Joinville / SC,10,0.011,0.019
+Ponte Preta / SP,10,0.033,0.055
+Santa Cruz / PE,10,0.088,0.218
+Ceará / CE,10,0.01,0.024
+Red Bull Bragantino / SP,10,0.003,0.999
+Vasco da Gama / RJ,10,0.031,0.07200000000000001
+América / MG,10,0.005,0.009000000000000001
+Atlético / GO,10,0.125,0.7130000000000001
+Sampaio Corrêa / MA,10,0.111,0.323
+Sampaio Corrêa / MA,9,0.1,0.423
+Avaí / SC,9,0.05,0.125
+Luverdense / MT,9,0.122,0.699
+Atlético / GO,9,0.083,0.796
+América / RN,9,0.016,0.989
+Santa Cruz / PE,9,0.137,0.355
+Red Bull Bragantino / SP,9,0.001,1.0
+Náutico / PE,9,0.098,0.716
+Boa / MG,9,0.085,0.819
+Paraná / PR,9,0.07,0.879
+América / MG,9,0.008,0.017
+Vasco da Gama / RJ,9,0.049,0.121
+ABC / RN,9,0.088,0.871
+Portuguesa / SP,9,0.001,1.0
+Joinville / SC,9,0.017,0.036000000000000004
+Ponte Preta / SP,9,0.048,0.10300000000000001
+Ceará / CE,9,0.027,0.051000000000000004
+Ponte Preta / SP,8,0.072,0.175
+Paraná / PR,8,0.056,0.935
+Sampaio Corrêa / MA,8,0.132,0.5549999999999999
+Vasco da Gama / RJ,8,0.062,0.183
+Santa Cruz / PE,8,0.138,0.493
+Luverdense / MT,8,0.098,0.7969999999999999
+Náutico / PE,8,0.088,0.8039999999999999
+América / RN,8,0.005,0.994
+Ceará / CE,8,0.038,0.089
+Boa / MG,8,0.069,0.888
+Avaí / SC,8,0.07,0.195
+Atlético / GO,8,0.07,0.866
+Joinville / SC,8,0.033,0.069
+América / MG,8,0.021,0.038000000000000006
+ABC / RN,8,0.048,0.919
+América / RN,7,0.004,0.998
+Santa Cruz / PE,7,0.151,0.644
+Ponte Preta / SP,7,0.114,0.289
+Vasco da Gama / RJ,7,0.09,0.273
+Sampaio Corrêa / MA,7,0.119,0.6739999999999999
+Náutico / PE,7,0.064,0.868
+América / MG,7,0.03,0.068
+Boa / MG,7,0.045,0.933
+Ceará / CE,7,0.054,0.143
+ABC / RN,7,0.032,0.951
+Joinville / SC,7,0.043,0.112
+Atlético / GO,7,0.052,0.918
+Avaí / SC,7,0.093,0.28800000000000003
+Luverdense / MT,7,0.073,0.87
+Paraná / PR,7,0.036,0.971
+Santa Cruz / PE,6,0.123,0.767
+Paraná / PR,6,0.012,0.983
+Luverdense / MT,6,0.046,0.9159999999999999
+Boa / MG,6,0.031,0.964
+Ceará / CE,6,0.061,0.204
+Sampaio Corrêa / MA,6,0.108,0.782
+América / MG,6,0.054,0.122
+Náutico / PE,6,0.045,0.9129999999999999
+Joinville / SC,6,0.067,0.179
+Avaí / SC,6,0.112,0.4
+Atlético / GO,6,0.034,0.9520000000000001
+ABC / RN,6,0.022,0.973
+América / RN,6,0.001,0.999
+Ponte Preta / SP,6,0.165,0.454
+Vasco da Gama / RJ,6,0.119,0.392
+Luverdense / MT,5,0.033,0.949
+América / RN,5,0.001,1.0
+Sampaio Corrêa / MA,5,0.089,0.871
+Avaí / SC,5,0.122,0.522
+Boa / MG,5,0.023,0.987
+Vasco da Gama / RJ,5,0.12,0.512
+Náutico / PE,5,0.041,0.954
+Ceará / CE,5,0.11,0.314
+Paraná / PR,5,0.009,0.992
+América / MG,5,0.072,0.194
+Santa Cruz / PE,5,0.107,0.874
+Joinville / SC,5,0.104,0.28300000000000003
+ABC / RN,5,0.01,0.983
+Atlético / GO,5,0.021,0.9730000000000001
+Ponte Preta / SP,5,0.138,0.5920000000000001
+Avaí / SC,4,0.117,0.639
+Náutico / PE,4,0.019,0.973
+Sampaio Corrêa / MA,4,0.049,0.9199999999999999
+Santa Cruz / PE,4,0.061,0.935
+Ponte Preta / SP,4,0.15,0.742
+Vasco da Gama / RJ,4,0.148,0.6599999999999999
+Boa / MG,4,0.001,0.988
+Ceará / CE,4,0.138,0.452
+Luverdense / MT,4,0.026,0.975
+América / MG,4,0.111,0.305
+Joinville / SC,4,0.146,0.429
+Paraná / PR,4,0.007,0.999
+ABC / RN,4,0.008,0.991
+Atlético / GO,4,0.019,0.992
+Vasco da Gama / RJ,3,0.136,0.796
+Atlético / GO,3,0.004,0.996
+Santa Cruz / PE,3,0.032,0.967
+América / MG,3,0.174,0.479
+Avaí / SC,3,0.139,0.778
+Boa / MG,3,0.009,0.997
+Náutico / PE,3,0.018,0.991
+Ponte Preta / SP,3,0.12,0.862
+Joinville / SC,3,0.159,0.588
+Sampaio Corrêa / MA,3,0.039,0.959
+Luverdense / MT,3,0.017,0.992
+Ceará / CE,3,0.148,0.6
+ABC / RN,3,0.005,0.996
+Vasco da Gama / RJ,2,0.129,0.925
+Luverdense / MT,2,0.003,0.995
+Ponte Preta / SP,2,0.091,0.9530000000000001
+América / MG,2,0.233,0.712
+Joinville / SC,2,0.186,0.774
+Ceará / CE,2,0.177,0.777
+Boa / MG,2,0.002,0.999
+Santa Cruz / PE,2,0.021,0.988
+ABC / RN,2,0.004,1.0
+Náutico / PE,2,0.004,0.995
+Sampaio Corrêa / MA,2,0.025,0.984
+Avaí / SC,2,0.122,0.9
+Atlético / GO,2,0.003,0.999
+Náutico / PE,1,0.005,1.0
+Avaí / SC,1,0.1,1.0
+Luverdense / MT,1,0.005,1.0
+Paraná / PR,1,0.001,1.0
+América / MG,1,0.288,1.0
+Vasco da Gama / RJ,1,0.075,1.0
+Santa Cruz / PE,1,0.012,1.0
+Atlético / GO,1,0.001,1.0
+Joinville / SC,1,0.226,1.0
+Sampaio Corrêa / MA,1,0.016,1.0
+Boa / MG,1,0.001,1.0
+Ceará / CE,1,0.223,1.0
+Ponte Preta / SP,1,0.047,1.0

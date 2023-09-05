@@ -1,0 +1,241 @@
+Club,Position,Probability,Cumulative
+Vitória / BA,20,0.294,0.294
+Chapecoense / SC,20,0.023,0.023
+Coritiba / PR,20,0.042,0.042
+Palmeiras / SP,20,0.112,0.112
+Bahia / BA,20,0.267,0.267
+Goiás / GO,20,0.002,0.002
+Figueirense / SC,20,0.047,0.047
+Criciúma / SC,20,0.212,0.212
+Flamengo / RJ,20,0.001,0.001
+Sport / PE,19,0.003,0.003
+Chapecoense / SC,19,0.044,0.067
+Coritiba / PR,19,0.066,0.10800000000000001
+Palmeiras / SP,19,0.163,0.275
+Criciúma / SC,19,0.235,0.44699999999999995
+Flamengo / RJ,19,0.001,0.002
+Bahia / BA,19,0.194,0.461
+Goiás / GO,19,0.012,0.014
+Vitória / BA,19,0.22,0.514
+Figueirense / SC,19,0.062,0.109
+Bahia / BA,18,0.172,0.633
+Goiás / GO,18,0.016,0.03
+Vitória / BA,18,0.153,0.667
+Chapecoense / SC,18,0.066,0.133
+Coritiba / PR,18,0.096,0.20400000000000001
+Palmeiras / SP,18,0.175,0.44999999999999996
+Criciúma / SC,18,0.199,0.646
+Figueirense / SC,18,0.115,0.224
+Flamengo / RJ,18,0.006,0.008
+Sport / PE,18,0.002,0.005
+Coritiba / PR,17,0.108,0.312
+Goiás / GO,17,0.036,0.066
+Flamengo / RJ,17,0.015,0.023
+Figueirense / SC,17,0.149,0.373
+Vitória / BA,17,0.119,0.786
+Bahia / BA,17,0.129,0.762
+Chapecoense / SC,17,0.116,0.249
+Sport / PE,17,0.007,0.012
+Athletico Paranaense / PR,17,0.003,0.003
+Palmeiras / SP,17,0.161,0.611
+Grêmio / RS,17,0.001,0.001
+Criciúma / SC,17,0.156,0.802
+Botafogo / RJ,16,0.005,0.005
+Goiás / GO,16,0.07,0.136
+Palmeiras / SP,16,0.127,0.738
+Chapecoense / SC,16,0.132,0.381
+Vitória / BA,16,0.088,0.874
+Coritiba / PR,16,0.157,0.46900000000000003
+Figueirense / SC,16,0.141,0.514
+Sport / PE,16,0.016,0.028
+Criciúma / SC,16,0.1,0.902
+Santos / SP,16,0.002,0.002
+Grêmio / RS,16,0.001,0.002
+Flamengo / RJ,16,0.04,0.063
+Bahia / BA,16,0.115,0.877
+Athletico Paranaense / PR,16,0.006,0.009000000000000001
+Sport / PE,15,0.028,0.056
+Chapecoense / SC,15,0.176,0.5569999999999999
+Grêmio / RS,15,0.003,0.005
+Atlético / MG,15,0.001,0.001
+Botafogo / RJ,15,0.004,0.009000000000000001
+Coritiba / PR,15,0.171,0.64
+Palmeiras / SP,15,0.109,0.847
+Goiás / GO,15,0.102,0.238
+Figueirense / SC,15,0.165,0.679
+Criciúma / SC,15,0.061,0.963
+Flamengo / RJ,15,0.041,0.10400000000000001
+Bahia / BA,15,0.067,0.9440000000000001
+Athletico Paranaense / PR,15,0.012,0.021
+Vitória / BA,15,0.06,0.9339999999999999
+Criciúma / SC,14,0.026,0.989
+Flamengo / RJ,14,0.098,0.202
+Coritiba / PR,14,0.134,0.774
+Figueirense / SC,14,0.124,0.8029999999999999
+Goiás / GO,14,0.177,0.415
+Chapecoense / SC,14,0.156,0.713
+Santos / SP,14,0.002,0.004
+Atlético / MG,14,0.002,0.003
+Vitória / BA,14,0.031,0.965
+Grêmio / RS,14,0.007,0.012
+Bahia / BA,14,0.033,0.977
+Athletico Paranaense / PR,14,0.034,0.05500000000000001
+Sport / PE,14,0.076,0.132
+Botafogo / RJ,14,0.028,0.037000000000000005
+Palmeiras / SP,14,0.072,0.919
+Goiás / GO,13,0.191,0.606
+Bahia / BA,13,0.017,0.994
+Figueirense / SC,13,0.085,0.888
+Atlético / MG,13,0.017,0.02
+Santos / SP,13,0.016,0.02
+Athletico Paranaense / PR,13,0.069,0.12400000000000001
+Vitória / BA,13,0.021,0.986
+Sport / PE,13,0.106,0.238
+Flamengo / RJ,13,0.129,0.331
+Chapecoense / SC,13,0.138,0.851
+Grêmio / RS,13,0.028,0.04
+Criciúma / SC,13,0.009,0.998
+Botafogo / RJ,13,0.029,0.066
+Coritiba / PR,13,0.099,0.873
+Palmeiras / SP,13,0.046,0.965
+Santos / SP,12,0.034,0.054000000000000006
+Athletico Paranaense / PR,12,0.104,0.228
+Coritiba / PR,12,0.063,0.936
+Vitória / BA,12,0.008,0.994
+Palmeiras / SP,12,0.019,0.984
+Flamengo / RJ,12,0.177,0.508
+Atlético / MG,12,0.024,0.044
+Chapecoense / SC,12,0.064,0.915
+Figueirense / SC,12,0.061,0.949
+Sport / PE,12,0.166,0.404
+Goiás / GO,12,0.148,0.754
+Bahia / BA,12,0.004,0.998
+Grêmio / RS,12,0.072,0.11199999999999999
+Botafogo / RJ,12,0.056,0.122
+Santos / SP,11,0.068,0.12200000000000001
+Sport / PE,11,0.16,0.5640000000000001
+Vitória / BA,11,0.005,0.999
+Goiás / GO,11,0.092,0.846
+Palmeiras / SP,11,0.012,0.996
+Grêmio / RS,11,0.106,0.218
+Flamengo / RJ,11,0.155,0.663
+Coritiba / PR,11,0.036,0.9720000000000001
+Botafogo / RJ,11,0.114,0.23600000000000002
+Chapecoense / SC,11,0.035,0.95
+Figueirense / SC,11,0.028,0.977
+Athletico Paranaense / PR,11,0.133,0.361
+Atlético / MG,11,0.055,0.099
+Bahia / BA,11,0.001,0.999
+São Paulo / SP,10,0.001,0.001
+Bahia / BA,10,0.001,1.0
+Coritiba / PR,10,0.019,0.9910000000000001
+Athletico Paranaense / PR,10,0.149,0.51
+Atlético / MG,10,0.098,0.197
+Sport / PE,10,0.134,0.698
+Goiás / GO,10,0.069,0.915
+Palmeiras / SP,10,0.003,0.999
+Flamengo / RJ,10,0.119,0.782
+Chapecoense / SC,10,0.022,0.972
+Botafogo / RJ,10,0.171,0.40700000000000003
+Santos / SP,10,0.087,0.20900000000000002
+Criciúma / SC,10,0.002,1.0
+Grêmio / RS,10,0.117,0.335
+Figueirense / SC,10,0.008,0.985
+Goiás / GO,9,0.041,0.956
+Atlético / MG,9,0.148,0.345
+Flamengo / RJ,9,0.087,0.869
+Santos / SP,9,0.086,0.295
+Botafogo / RJ,9,0.198,0.605
+Chapecoense / SC,9,0.019,0.991
+São Paulo / SP,9,0.001,0.002
+Figueirense / SC,9,0.01,0.995
+Palmeiras / SP,9,0.001,1.0
+Internacional / RS,9,0.001,0.001
+Grêmio / RS,9,0.166,0.501
+Sport / PE,9,0.097,0.795
+Athletico Paranaense / PR,9,0.141,0.651
+Coritiba / PR,9,0.004,0.9950000000000001
+Atlético / MG,8,0.201,0.546
+Figueirense / SC,8,0.004,0.999
+Botafogo / RJ,8,0.171,0.776
+Athletico Paranaense / PR,8,0.134,0.785
+Santos / SP,8,0.138,0.433
+São Paulo / SP,8,0.005,0.007
+Flamengo / RJ,8,0.057,0.926
+Chapecoense / SC,8,0.005,0.996
+Goiás / GO,8,0.026,0.982
+Internacional / RS,8,0.002,0.003
+Sport / PE,8,0.087,0.882
+Coritiba / PR,8,0.003,0.998
+Corinthians / SP,8,0.006,0.006
+Grêmio / RS,8,0.161,0.662
+Botafogo / RJ,7,0.136,0.912
+Fluminense / RJ,7,0.007,0.007
+Flamengo / RJ,7,0.048,0.974
+Chapecoense / SC,7,0.004,1.0
+Sport / PE,7,0.064,0.946
+Corinthians / SP,7,0.024,0.03
+Goiás / GO,7,0.012,0.994
+Athletico Paranaense / PR,7,0.107,0.892
+Santos / SP,7,0.201,0.634
+Grêmio / RS,7,0.163,0.825
+Coritiba / PR,7,0.001,0.999
+Atlético / MG,7,0.205,0.751
+Internacional / RS,7,0.007,0.01
+Figueirense / SC,7,0.001,1.0
+São Paulo / SP,7,0.02,0.027
+Santos / SP,6,0.252,0.886
+Sport / PE,6,0.041,0.987
+Grêmio / RS,6,0.141,0.966
+Athletico Paranaense / PR,6,0.075,0.967
+Coritiba / PR,6,0.001,1.0
+Vitória / BA,6,0.001,1.0
+Flamengo / RJ,6,0.021,0.995
+São Paulo / SP,6,0.067,0.094
+Goiás / GO,6,0.006,1.0
+Corinthians / SP,6,0.053,0.08299999999999999
+Fluminense / RJ,6,0.041,0.048
+Internacional / RS,6,0.023,0.033
+Atlético / MG,6,0.205,0.956
+Botafogo / RJ,6,0.073,0.9850000000000001
+Sport / PE,5,0.009,0.996
+Atlético / MG,5,0.034,0.99
+São Paulo / SP,5,0.246,0.33999999999999997
+Corinthians / SP,5,0.254,0.33699999999999997
+Botafogo / RJ,5,0.013,0.9980000000000001
+Santos / SP,5,0.084,0.97
+Flamengo / RJ,5,0.005,1.0
+Internacional / RS,5,0.121,0.154
+Athletico Paranaense / PR,5,0.027,0.994
+Fluminense / RJ,5,0.181,0.22899999999999998
+Grêmio / RS,5,0.026,0.992
+Botafogo / RJ,4,0.002,1.0
+Fluminense / RJ,4,0.256,0.485
+Grêmio / RS,4,0.005,0.997
+Athletico Paranaense / PR,4,0.002,0.996
+Corinthians / SP,4,0.288,0.625
+Sport / PE,4,0.004,1.0
+Atlético / MG,4,0.008,0.998
+São Paulo / SP,4,0.261,0.601
+Internacional / RS,4,0.152,0.306
+Santos / SP,4,0.022,0.992
+Atlético / MG,3,0.002,1.0
+Athletico Paranaense / PR,3,0.004,1.0
+São Paulo / SP,3,0.211,0.8119999999999999
+Internacional / RS,3,0.268,0.5740000000000001
+Fluminense / RJ,3,0.267,0.752
+Grêmio / RS,3,0.002,0.999
+Corinthians / SP,3,0.241,0.8659999999999999
+Santos / SP,3,0.005,0.997
+Corinthians / SP,2,0.133,0.9989999999999999
+Santos / SP,2,0.003,1.0
+Internacional / RS,2,0.416,0.99
+São Paulo / SP,2,0.187,0.999
+Grêmio / RS,2,0.001,1.0
+Cruzeiro / MG,2,0.015,0.015
+Fluminense / RJ,2,0.245,0.997
+Internacional / RS,1,0.01,1.0
+Cruzeiro / MG,1,0.985,1.0
+São Paulo / SP,1,0.001,1.0
+Fluminense / RJ,1,0.003,1.0
+Corinthians / SP,1,0.001,0.9999999999999999
