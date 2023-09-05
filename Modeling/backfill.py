@@ -40,8 +40,11 @@ if __name__ == '__main__':
             for home_away_pars in home_away_pars_list:
                 if cleaning: os.system('clear')
                 print(f"{model} - {competition.replace('_', ' ')} {year} - {home_away_pars} home/away parameters")
-                models[model](competition, year, n_sims, home_away_pars = home_away_pars, max_games = max_games).run_model(show_fig = False)
+                cur_model = models[model](competition, year, n_sims, home_away_pars = home_away_pars, max_games = max_games)
+                if cur_model.filename_tag + '.png' in os.listdir('results/images/'): continue
+                cur_model.run_model(show_fig = False)
         
             attachments = glob(f'results/*/*{competition}_{year}_*_{max_games}_games_*')
             attachments += glob(f'parameters/*{competition}_{year}_*_{max_games}_games_*')
             send(from_mail, password, from_mail, subject, body, attachments)
+            for file in attachments: os.remove(file)
