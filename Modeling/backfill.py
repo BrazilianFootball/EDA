@@ -43,8 +43,8 @@ if __name__ == '__main__':
                 print(f"{model} - {competition.replace('_', ' ')} {year} - {home_away_pars} home/away parameters")
                 cur_model = models[model](competition, year, n_sims, home_away_pars = home_away_pars, max_games = max_games)
                 if cur_model.filename_tag + '.png' in os.listdir('results/images/'):
-                    files_to_remove += glob(f'results/*/*{competition}_{year}_*_{max_games}_games_*')
-                    files_to_remove += glob(f'parameters/*{competition}_{year}_*_{max_games}_games_*')
+                    files_to_remove += glob(f'results/*/*{cur_model.filename_tag}*')
+                    files_to_remove += glob(f'parameters/{cur_model.filename_tag}.json')
                     continue
                 else:
                     for file in files_to_remove: os.remove(file)
@@ -52,7 +52,7 @@ if __name__ == '__main__':
 
                 cur_model.run_model(show_fig = False)
         
-            attachments = glob(f'results/*/*{competition}_{year}_*_{max_games}_games_*')
-            attachments += glob(f'parameters/*{competition}_{year}_*_{max_games}_games_*')
-            send(from_mail, password, from_mail, subject, body, attachments)
+            attachments = glob(f'results/*/*{cur_model.filename_tag}*')
+            attachments += glob(f'parameters/{cur_model.filename_tag}.json')
+            if len(attachments) != 0: send(from_mail, password, from_mail, subject, body, attachments)
             for file in attachments: os.remove(file)
