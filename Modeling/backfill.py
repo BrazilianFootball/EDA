@@ -45,10 +45,9 @@ if __name__ == '__main__':
                 if cur_model.filename_tag + '.png' in os.listdir('results/images/'):
                     files_to_remove += glob(f'results/*/*{cur_model.filename_tag}*')
                     files_to_remove += glob(f'parameters/{cur_model.filename_tag}.json')
-                    continue
-                else:
                     for file in files_to_remove: os.remove(file)
                     files_to_remove = list()
+                    continue
 
                 cur_model.run_model(show_fig = False)
         
