@@ -35,6 +35,7 @@ if __name__ == '__main__':
               'Holgates Bivariate Poisson' : HolgatesPoissonModel,
               'Shock Model' : ShockModel}
     
+    attachments = list()
     files_to_remove = list()
     for competition in competitions:
         for model in models:
@@ -50,7 +51,14 @@ if __name__ == '__main__':
                     continue
 
                 cur_model.run_model(show_fig = False)
-                attachments = glob(f'results/*/*{cur_model.filename_tag}*')
+                attachments += glob(f'results/*/*{cur_model.filename_tag}*')
                 attachments += glob(f'parameters/{cur_model.filename_tag}.json')
-                if len(attachments) != 0: send(from_mail, password, from_mail, subject, body, attachments)
+                if len(attachments) != 0 and model == 'Shock Model':
+                    send(from_mail, password, from_mail, subject, body, attachments)
+                    for file in attachments: os.remove(file)
+                    attachments = list()
+                
+            if len(attachments) != 0:
+                send(from_mail, password, from_mail, subject, body, attachments)
                 for file in attachments: os.remove(file)
+                attachments = list()
