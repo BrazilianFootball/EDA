@@ -13,7 +13,7 @@ from utils.functions import *
 warnings.filterwarnings('ignore')
 
 class IndependentsPoissonModel:
-    def __init__(self, competition, year, n_sims = 5_000_000, max_games = 380, ignored_games = list(), x0 = None, home_away_pars = 0, to_git = True, max_iters = 5):
+    def __init__(self, competition, year, n_sims = 5_000_000, max_games = 380, ignored_games = list(), x0 = None, home_away_pars = 0, to_git = True, max_iters = 10):
         self.x0 = x0
         self.year = year
         self.to_git = to_git
@@ -109,7 +109,7 @@ class IndependentsPoissonModel:
                     bounds.append((0, None))
                     inx_count += 1
 
-        bounds[0] = (1, 1)
+        # bounds[0] = (1, 1)
         if self.home_away_pars == 1: bounds.append((0, None))
         if 'data' not in os.listdir('results'): os.mkdir('results/data')
         games = generate_games(list(played_games.keys()), f'results/data/{self.competition}_{self.year}.csv')

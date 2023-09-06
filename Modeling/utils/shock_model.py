@@ -21,7 +21,7 @@ def simulate_shock_model(lambda_1, lambda_2, theta, n_sims):
     return simulations
 
 class ShockModel:
-    def __init__(self, competition, year, n_sims = 5_000_000, max_games = 380, ignored_games = list(), x0 = None, home_away_pars = 0, to_git = True, max_iters = 5, max_theta = .2):
+    def __init__(self, competition, year, n_sims = 5_000_000, max_games = 380, ignored_games = list(), x0 = None, home_away_pars = 0, to_git = True, max_iters = 10, max_theta = .2):
         self.x0 = x0
         self.year = year
         self.to_git = to_git
@@ -138,7 +138,7 @@ class ShockModel:
                 bounds.append((0, self.max_theta / 2))
                 inx_count += 1
 
-        bounds[0] = (1, 1)
+        # bounds[0] = (1, 1)
         if self.home_away_pars == 1: bounds.append((0, None))
         if 'data' not in os.listdir('results'): os.mkdir('results/data')
         games = generate_games(list(played_games.keys()), f'results/data/{self.competition}_{self.year}.csv')
