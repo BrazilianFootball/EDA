@@ -1,0 +1,67 @@
+Club,Position,Probability,Cumulative
+América / MG,20,1.0,1.0
+Santa Cruz / PE,19,1.0,1.0
+Figueirense / SC,18,1.0,1.0
+Sport / PE,17,0.07847,0.07847
+Internacional / RS,17,0.91921,0.91921
+Vitória / BA,17,0.00232,0.00232
+Coritiba / PR,16,0.204544,0.204544
+Vitória / BA,16,0.34746,0.34978
+Internacional / RS,16,0.079107,0.998317
+Sport / PE,16,0.368889,0.447359
+Cruzeiro / MG,15,0.024046,0.024046
+Vitória / BA,15,0.353034,0.702814
+Sport / PE,15,0.24001,0.687369
+Internacional / RS,15,0.001683,1.0
+Coritiba / PR,15,0.381227,0.585771
+Cruzeiro / MG,14,0.12745,0.15149600000000002
+Sport / PE,14,0.312631,1.0
+Vitória / BA,14,0.224931,0.927745
+Coritiba / PR,14,0.334988,0.920759
+Cruzeiro / MG,13,0.487492,0.638988
+São Paulo / SP,13,0.09593,0.09593
+Coritiba / PR,13,0.079241,1.0
+Vitória / BA,13,0.072255,1.0
+Ponte Preta / SP,13,0.070672,0.070672
+Fluminense / RJ,13,0.19441,0.19441
+São Paulo / SP,12,0.196688,0.292618
+Ponte Preta / SP,12,0.208055,0.278727
+Fluminense / RJ,12,0.359433,0.553843
+Chapecoense / SC,12,0.055271,0.055271
+Cruzeiro / MG,12,0.180553,0.819541
+São Paulo / SP,11,0.273158,0.5657760000000001
+Chapecoense / SC,11,0.146024,0.201295
+Fluminense / RJ,11,0.247301,0.801144
+Ponte Preta / SP,11,0.191569,0.470296
+Cruzeiro / MG,11,0.141948,0.961489
+Grêmio / RS,10,0.040751,0.040751
+Chapecoense / SC,10,0.226024,0.427319
+Cruzeiro / MG,10,0.038511,1.0
+Ponte Preta / SP,10,0.215815,0.686111
+São Paulo / SP,10,0.317689,0.883465
+Fluminense / RJ,10,0.16121,0.9623539999999999
+São Paulo / SP,9,0.116535,1.0
+Fluminense / RJ,9,0.037646,1.0
+Chapecoense / SC,9,0.364958,0.792277
+Ponte Preta / SP,9,0.259036,0.945147
+Grêmio / RS,9,0.221825,0.262576
+Grêmio / RS,8,0.526551,0.7891269999999999
+Ponte Preta / SP,8,0.054853,1.0
+Corinthians / SP,8,0.210873,0.210873
+Chapecoense / SC,8,0.207723,1.0
+Athletico Paranaense / PR,7,0.050799,0.050799
+Corinthians / SP,7,0.502726,0.713599
+Botafogo / RJ,7,0.235602,0.235602
+Grêmio / RS,7,0.210873,0.9999999999999999
+Corinthians / SP,6,0.154553,0.868152
+Botafogo / RJ,6,0.62125,0.856852
+Athletico Paranaense / PR,6,0.224197,0.274996
+Botafogo / RJ,5,0.143148,1.0
+Corinthians / SP,5,0.131848,1.0
+Athletico Paranaense / PR,5,0.725004,1.0
+Atlético / MG,4,1.0,1.0
+Flamengo / RJ,3,0.658439,0.658439
+Santos / SP,3,0.341561,0.341561
+Flamengo / RJ,2,0.341561,1.0
+Santos / SP,2,0.658439,1.0
+Palmeiras / SP,1,1.0,1.0

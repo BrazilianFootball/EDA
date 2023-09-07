@@ -1,0 +1,57 @@
+Club,Position,Probability,Cumulative
+Botafogo / RJ,20,0.039644,0.039644
+Criciúma / SC,20,0.960356,0.960356
+Botafogo / RJ,19,0.960356,1.0
+Criciúma / SC,19,0.039644,1.0
+Bahia / BA,18,0.890691,0.890691
+Palmeiras / SP,18,0.016302,0.016302
+Vitória / BA,18,0.093007,0.093007
+Bahia / BA,17,0.079399,0.97009
+Vitória / BA,17,0.656098,0.7491049999999999
+Palmeiras / SP,17,0.264503,0.28080499999999997
+Bahia / BA,16,0.02991,1.0
+Vitória / BA,16,0.250895,1.0
+Palmeiras / SP,16,0.719195,1.0
+Goiás / GO,15,0.173602,0.173602
+Chapecoense / SC,15,0.754383,0.754383
+Coritiba / PR,15,0.072015,0.072015
+Goiás / GO,14,0.165615,0.339217
+Chapecoense / SC,14,0.135681,0.890064
+Coritiba / PR,14,0.698704,0.7707189999999999
+Figueirense / SC,13,0.120074,0.120074
+Goiás / GO,13,0.540709,0.879926
+Coritiba / PR,13,0.229281,1.0
+Chapecoense / SC,13,0.109936,1.0
+Goiás / GO,12,0.120074,1.0
+Figueirense / SC,12,0.5406,0.660674
+Sport / PE,12,0.339326,0.339326
+Sport / PE,11,0.481698,0.821024
+Santos / SP,11,0.102453,0.102453
+Flamengo / RJ,11,0.076523,0.076523
+Figueirense / SC,11,0.339326,1.0
+Sport / PE,10,0.094161,0.915185
+Santos / SP,10,0.474947,0.5774
+Flamengo / RJ,10,0.418123,0.49464600000000003
+Athletico Paranaense / PR,10,0.012769,0.012769
+Athletico Paranaense / PR,9,0.11746,0.13022899999999998
+Flamengo / RJ,9,0.446137,0.940783
+Santos / SP,9,0.351588,0.928988
+Sport / PE,9,0.084815,1.0
+Santos / SP,8,0.071012,1.0
+Athletico Paranaense / PR,8,0.869771,1.0
+Flamengo / RJ,8,0.059217,1.0
+Atlético / MG,7,0.357309,0.357309
+Fluminense / RJ,7,0.225191,0.225191
+Grêmio / RS,7,0.4175,0.4175
+Atlético / MG,6,0.336948,0.694257
+Fluminense / RJ,6,0.395722,0.620913
+Grêmio / RS,6,0.26733,0.68483
+Atlético / MG,5,0.305743,1.0
+Fluminense / RJ,5,0.379087,1.0
+Grêmio / RS,5,0.31517,1.0
+Corinthians / SP,4,0.340202,0.340202
+Internacional / RS,4,0.659798,0.659798
+Corinthians / SP,3,0.659798,1.0
+Internacional / RS,3,0.340202,1.0
+São Paulo / SP,2,1.0,1.0
+Cruzeiro / MG,1,1.0,1.0
