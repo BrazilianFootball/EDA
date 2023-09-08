@@ -32,33 +32,55 @@ class IndependentsPoissonModel:
             for home in played_games:
                 for away in played_games[home]:
                     result = played_games[home][away]
-                    mu0 = parameters[inx[home]['Atk']] / parameters[inx[away]['Def']]
-                    mu1 = parameters[inx[away]['Atk']] / parameters[inx[home]['Def']]
+                    inx_1, inx_2 = inx[home]['Atk'] - 1, inx[away]['Def'] - 1
+                    if inx_1 == -1: mu0 = 1 / parameters[inx_2]
+                    else: mu0 = parameters[inx_1] / parameters[inx_2]
                     lik -= poisson.logpmf(result[0], mu0)
+
+                    inx_1, inx_2 = inx[away]['Atk'] - 1, inx[home]['Def'] - 1
+                    if inx_1 == -1: mu1 = 1 / parameters[inx_2]
+                    else: mu1 = parameters[inx_1] / parameters[inx_2]
                     lik -= poisson.logpmf(result[1], mu1)
+
         elif self.home_away_pars == 1:
             for home in played_games:
                 for away in played_games[home]:
                     result = played_games[home][away]
-                    mu0 = parameters[inx[home]['Atk']] / parameters[inx[away]['Def']] + parameters[-1]
-                    mu1 = parameters[inx[away]['Atk']] / parameters[inx[home]['Def']]
+                    inx_1, inx_2 = inx[home]['Atk'] - 1, inx[away]['Def'] - 1
+                    if inx_1 == -1: mu0 = 1 / parameters[inx_2] + parameters[-1]
+                    else: mu0 = parameters[inx_1] / parameters[inx_2] + parameters[-1]
                     lik -= poisson.logpmf(result[0], mu0)
+
+                    inx_1, inx_2 = inx[away]['Atk'] - 1, inx[home]['Def'] - 1
+                    if inx_1 == -1: mu1 = 1 / parameters[inx_2]
+                    else: mu1 = parameters[inx_1] / parameters[inx_2]
                     lik -= poisson.logpmf(result[1], mu1)
+                    
         elif self.home_away_pars == 20:
             for home in played_games:
                 for away in played_games[home]:
                     result = played_games[home][away]
-                    mu0 = parameters[inx[home]['Atk']] / parameters[inx[away]['Def']] + parameters[inx[home]['Home bonus']]
-                    mu1 = parameters[inx[away]['Atk']] / parameters[inx[home]['Def']]
+                    inx_1, inx_2, inx_3 = inx[home]['Atk'] - 1, inx[away]['Def'] - 1, inx[home]['Home bonus'] - 1
+                    if inx_1 == -1: mu0 = 1 / parameters[inx_2] + parameters[inx_3]
+                    else: mu0 = parameters[inx_1] / parameters[inx_2] + parameters[inx_3]
                     lik -= poisson.logpmf(result[0], mu0)
+
+                    inx_1, inx_2 = inx[away]['Atk'] - 1, inx[home]['Def'] - 1
+                    if inx_1 == -1: mu1 = 1 / parameters[inx_2]
+                    else: mu1 = parameters[inx_1] / parameters[inx_2]
                     lik -= poisson.logpmf(result[1], mu1)
+
         elif self.home_away_pars == 40:
             for home in played_games:
                 for away in played_games[home]:
                     result = played_games[home][away]
-                    mu0 = parameters[inx[home]['Home']['Atk']] / parameters[inx[away]['Away']['Def']]
-                    mu1 = parameters[inx[away]['Away']['Atk']] / parameters[inx[home]['Home']['Def']]
+                    inx_1, inx_2 = inx[home]['Home']['Atk'] - 1, inx[away]['Away']['Def'] - 1
+                    if inx_1 == -1: mu0 = 1 / parameters[inx_2]
+                    else: mu0 = parameters[inx_1] / parameters[inx_2]
                     lik -= poisson.logpmf(result[0], mu0)
+
+                    inx_1, inx_2 = inx[away]['Away']['Atk'] - 1, inx[home]['Home']['Def'] - 1
+                    mu1 = parameters[inx_1] / parameters[inx_2]
                     lik -= poisson.logpmf(result[1], mu1)
 
         return lik
@@ -110,6 +132,7 @@ class IndependentsPoissonModel:
                     inx_count += 1
 
         # bounds[0] = (1, 1)
+        bounds.pop(0)
         if self.home_away_pars == 1: bounds.append((0, None))
         if 'data' not in os.listdir('results'): os.mkdir('results/data')
         games = generate_games(list(played_games.keys()), f'results/data/{self.competition}_{self.year}.csv')
@@ -118,14 +141,14 @@ class IndependentsPoissonModel:
     def optimize_parameters(self, verbose):
         played_games, inx, games, bounds = self.preprocessing()
         filename = f'parameters/{self.filename_tag}.json'
-        if self.x0 is not None and self.x0.shape[0] == (2 * len(played_games) + self.home_away_pars): parameters = self.x0
-        else: parameters = np.random.random(2 * len(played_games) + self.home_away_pars)
+        if self.x0 is not None and self.x0.shape[0] == (2 * len(played_games) + self.home_away_pars - 1): parameters = self.x0
+        else: parameters = np.random.random(2 * len(played_games) + self.home_away_pars - 1)
         res = minimize(self.likelihood, parameters, args = (played_games, inx), bounds = bounds)
         with open(f'results/optimizer/optimizer_result_{self.filename_tag}.pkl', 'wb') as f: pickle.dump(res, f)
         if not res.success and verbose:
             print('Parameters didn\'t converge')
         
-        parameters = res.x
+        parameters = np.hstack([np.array([1]), res.x])
         if self.home_away_pars == 40:
             for club in inx:
                 for local in inx[club]:

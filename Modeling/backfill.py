@@ -1,5 +1,7 @@
 import os
+import re
 import sys
+import pickle
 import datetime
 
 from glob import glob
@@ -44,11 +46,16 @@ if __name__ == '__main__':
                 print(f"{model} - {competition.replace('_', ' ')} {year} - {home_away_pars} home/away parameters")
                 cur_model = models[model](competition, year, n_sims, home_away_pars = home_away_pars, max_games = max_games)
                 if cur_model.filename_tag + '.png' in os.listdir('results/images/'):
-                    files_to_remove += glob(f'results/*/*{cur_model.filename_tag}*')
-                    files_to_remove += glob(f'parameters/{cur_model.filename_tag}.json')
-                    for file in files_to_remove: os.remove(file)
-                    files_to_remove = list()
-                    continue
+                    with open(f'results/optimizer/optimizer_result_{cur_model.filename_tag}.pkl', 'rb') as f:
+                        res = pickle.load(f)
+                    
+                    pars = int(re.findall('_(\d+)_pars', cur_model.filename_tag)[0])
+                    if pars != res.x.shape[0]:
+                        files_to_remove += glob(f'results/*/*{cur_model.filename_tag}*')
+                        files_to_remove += glob(f'parameters/{cur_model.filename_tag}.json')
+                        for file in files_to_remove: os.remove(file)
+                        files_to_remove = list()
+                        continue
 
                 cur_model.run_model(show_fig = False)
                 attachments += glob(f'results/*/*{cur_model.filename_tag}*')

@@ -57,33 +57,63 @@ class ShockModel:
             for home in played_games:
                 for away in played_games[home]:
                     result = played_games[home][away]
-                    l1 = parameters[inx[home]['Atk']] / parameters[inx[away]['Def']]
-                    l2 = parameters[inx[away]['Atk']] / parameters[inx[home]['Def']]
-                    l3 = parameters[inx[home]['Ext']] + parameters[inx[away]['Ext']]
+                    inx_1, inx_2 = inx[home]['Atk'] - 1, inx[away]['Def'] - 1
+                    if inx_1 == -1: l1 = 1 / parameters[inx_2]
+                    else: l1 = parameters[inx_1] / parameters[inx_2]
+                    
+                    inx_1, inx_2 = inx[away]['Atk'] - 1, inx[home]['Def'] - 1
+                    if inx_1 == -1: l2 = 1 / parameters[inx_2]
+                    else: l2 = parameters[inx_1] / parameters[inx_2]
+
+                    inx_1, inx_2 = inx[home]['Ext'] - 1, inx[away]['Ext'] - 1
+                    l3 = parameters[inx_1] + parameters[inx_2]
                     lik -= self.bp_logpmf(result[0], result[1], l1, l2, l3)
+
         elif self.home_away_pars == 1:
             for home in played_games:
                 for away in played_games[home]:
                     result = played_games[home][away]
-                    l1 = parameters[inx[home]['Atk']] / parameters[inx[away]['Def']] + parameters[-1]
-                    l2 = parameters[inx[away]['Atk']] / parameters[inx[home]['Def']]
-                    l3 = parameters[inx[home]['Ext']] + parameters[inx[away]['Ext']]
+                    inx_1, inx_2 = inx[home]['Atk'] - 1, inx[away]['Def'] - 1
+                    if inx_1 == -1: l1 = 1 / parameters[inx_2] + parameters[-1]
+                    else: l1 = parameters[inx_1] / parameters[inx_2] + parameters[-1]
+
+                    inx_1, inx_2 = inx[away]['Atk'] - 1, inx[home]['Def'] - 1
+                    if inx_1 == -1: l2 = 1 / parameters[inx_2]
+                    else: l2 = parameters[inx_1] / parameters[inx_2]
+
+                    inx_1, inx_2 = inx[home]['Ext'] - 1, inx[away]['Ext'] - 1
+                    l3 = parameters[inx_1] + parameters[inx_2]
                     lik -= self.bp_logpmf(result[0], result[1], l1, l2, l3)
+
         elif self.home_away_pars == 20:
             for home in played_games:
                 for away in played_games[home]:
                     result = played_games[home][away]
-                    l1 = parameters[inx[home]['Atk']] / parameters[inx[away]['Def']] + parameters[inx[home]['Home bonus']]
-                    l2 = parameters[inx[away]['Atk']] / parameters[inx[home]['Def']]
-                    l3 = parameters[inx[home]['Ext']] + parameters[inx[away]['Ext']]
+                    inx_1, inx_2, inx_3 = inx[home]['Atk'] - 1, inx[away]['Def'] - 1, inx[home]['Home bonus'] - 1
+                    if inx_1 == -1: l1 = 1 / parameters[inx_2] + parameters[inx_3]
+                    else: l1 = parameters[inx_1] / parameters[inx_2] + parameters[inx_3]
+                    
+                    inx_1, inx_2 = inx[away]['Atk'] - 1, inx[home]['Def'] - 1
+                    if inx_1 == -1: l2 = 1 / parameters[inx_2]
+                    else: l2 = parameters[inx_1] / parameters[inx_2]
+                    
+                    inx_1, inx_2 = inx[home]['Ext'] - 1, inx[away]['Ext'] - 1
+                    l3 = parameters[inx_1] + parameters[inx_2]
                     lik -= self.bp_logpmf(result[0], result[1], l1, l2, l3)
+
         elif self.home_away_pars == 40:
             for home in played_games:
                 for away in played_games[home]:
                     result = played_games[home][away]
-                    l1 = parameters[inx[home]['Home']['Atk']] / parameters[inx[away]['Away']['Def']]
-                    l2 = parameters[inx[away]['Away']['Atk']] / parameters[inx[home]['Home']['Def']]
-                    l3 = parameters[inx[home]['Ext']] + parameters[inx[away]['Ext']]
+                    inx_1, inx_2 = inx[home]['Home']['Atk'] - 1, inx[away]['Away']['Def'] - 1
+                    if inx_1 == -1: l1 = 1 / parameters[inx_2]
+                    else: l1 = parameters[inx_1] / parameters[inx_2]
+
+                    inx_1, inx_2 = inx[away]['Away']['Atk'] - 1, inx[home]['Home']['Def'] - 1
+                    l2 = parameters[inx_1] / parameters[inx_2]
+
+                    inx_1, inx_2 = inx[home]['Ext'] - 1, inx[away]['Ext'] - 1
+                    l3 = parameters[inx_1] + parameters[inx_2]
                     lik -= self.bp_logpmf(result[0], result[1], l1, l2, l3)
 
         return lik
@@ -139,6 +169,7 @@ class ShockModel:
                 inx_count += 1
 
         # bounds[0] = (1, 1)
+        bounds.pop(0)
         if self.home_away_pars == 1: bounds.append((0, None))
         if 'data' not in os.listdir('results'): os.mkdir('results/data')
         games = generate_games(list(played_games.keys()), f'results/data/{self.competition}_{self.year}.csv')
@@ -147,14 +178,14 @@ class ShockModel:
     def optimize_parameters(self, verbose):
         played_games, inx, games, bounds = self.preprocessing()
         filename = f'parameters/{self.filename_tag}.json'
-        if self.x0 is not None and self.x0.shape[0] == (3 * len(played_games) + self.home_away_pars): parameters = self.x0
-        else: parameters = np.random.random(3 * len(played_games) + self.home_away_pars)
+        if self.x0 is not None and self.x0.shape[0] == (3 * len(played_games) + self.home_away_pars - 1): parameters = self.x0
+        else: parameters = np.random.random(3 * len(played_games) + self.home_away_pars - 1)
         res = minimize(self.bp_likelihood, parameters, args = (played_games, inx), bounds = bounds)
         with open(f'results/optimizer/optimizer_result_{self.filename_tag}.pkl', 'wb') as f: pickle.dump(res, f)
         if not res.success and verbose:
             print('Parameters didn\'t converge')
         
-        parameters = res.x
+        parameters = np.hstack([np.array([1]), res.x])
         if self.home_away_pars == 40:
             for club in inx:
                 for local in inx[club]:
