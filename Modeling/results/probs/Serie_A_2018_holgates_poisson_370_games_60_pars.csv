@@ -1,0 +1,67 @@
+Club,Position,Probability,Cumulative
+Paraná / PR,20,1.0,1.0
+Sport / PE,19,0.026472,0.026472
+Vitória / BA,19,0.973528,0.973528
+América / MG,18,0.074932,0.074932
+Vitória / BA,18,0.026472,1.0
+Vasco da Gama / RJ,18,0.002285,0.002285
+Fluminense / RJ,18,1e-06,1e-06
+Chapecoense / SC,18,0.068918,0.068918
+Sport / PE,18,0.827392,0.8538640000000001
+América / MG,17,0.447718,0.5226500000000001
+Vasco da Gama / RJ,17,0.030507,0.032792
+Sport / PE,17,0.04197,0.895834
+Fluminense / RJ,17,0.033465,0.033466
+Chapecoense / SC,17,0.44634,0.515258
+Chapecoense / SC,16,0.337554,0.852812
+Fluminense / RJ,16,0.208344,0.24181
+Ceará / CE,16,0.04895,0.04895
+Sport / PE,16,0.077472,0.973306
+Vasco da Gama / RJ,16,0.178808,0.2116
+América / MG,16,0.148872,0.671522
+Ceará / CE,15,0.303071,0.352021
+Sport / PE,15,0.026694,1.0
+Chapecoense / SC,15,0.032679,0.885491
+Vasco da Gama / RJ,15,0.45477,0.66637
+Fluminense / RJ,15,0.134388,0.37619800000000003
+América / MG,15,0.048398,0.71992
+Corinthians / SP,14,0.139744,0.139744
+Vasco da Gama / RJ,14,0.063328,0.729698
+Fluminense / RJ,14,0.296844,0.673042
+América / MG,14,0.28008,1.0
+Chapecoense / SC,14,0.080186,0.965677
+Ceará / CE,14,0.139818,0.49183899999999997
+Chapecoense / SC,13,0.034323,1.0
+Ceará / CE,13,0.258418,0.750257
+Corinthians / SP,13,0.401378,0.541122
+Vasco da Gama / RJ,13,0.172792,0.90249
+Fluminense / RJ,13,0.133089,0.806131
+Bahia / BA,12,0.068606,0.068606
+Vasco da Gama / RJ,12,0.09751,1.0
+Ceará / CE,12,0.249743,1.0
+Corinthians / SP,12,0.390272,0.931394
+Fluminense / RJ,12,0.193869,1.0
+Corinthians / SP,11,0.068606,1.0
+Bahia / BA,11,0.931394,1.0
+Santos / SP,10,0.341587,0.341587
+Botafogo / RJ,10,0.582221,0.582221
+Cruzeiro / MG,10,0.076192,0.076192
+Botafogo / RJ,9,0.282681,0.8649020000000001
+Santos / SP,9,0.371573,0.71316
+Cruzeiro / MG,9,0.345746,0.421938
+Cruzeiro / MG,8,0.403517,0.825455
+Santos / SP,8,0.28684,1.0
+Athletico Paranaense / PR,8,0.174545,0.174545
+Botafogo / RJ,8,0.135098,1.0
+Athletico Paranaense / PR,7,0.697051,0.871596
+Atlético / MG,7,0.128404,0.128404
+Cruzeiro / MG,7,0.174545,1.0
+Atlético / MG,6,0.871596,1.0
+Athletico Paranaense / PR,6,0.128404,0.9999999999999999
+São Paulo / SP,5,0.642343,0.642343
+Grêmio / RS,5,0.357657,0.357657
+São Paulo / SP,4,0.357657,1.0
+Grêmio / RS,4,0.642343,1.0
+Internacional / RS,3,1.0,1.0
+Flamengo / RJ,2,1.0,1.0
+Palmeiras / SP,1,1.0,1.0

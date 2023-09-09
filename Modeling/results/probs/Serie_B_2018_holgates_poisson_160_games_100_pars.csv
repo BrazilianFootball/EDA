@@ -1,0 +1,303 @@
+Club,Position,Probability,Cumulative
+Londrina / PR,20,0.008,0.008
+Boa / MG,20,0.967,0.967
+Brasil / RS,20,0.001,0.001
+Sampaio Corrêa / MA,20,0.023,0.023
+Paysandu / PA,20,0.001,0.001
+Paysandu / PA,19,0.025,0.026000000000000002
+Boa / MG,19,0.028,0.995
+Goiás / GO,19,0.002,0.002
+Ponte Preta / SP,19,0.001,0.001
+Guarani / SP,19,0.002,0.002
+Brasil / RS,19,0.053,0.054
+Criciúma / SC,19,0.055,0.055
+Sampaio Corrêa / MA,19,0.444,0.467
+Londrina / PR,19,0.287,0.295
+São Bento / SP,19,0.031,0.031
+CRB / AL,19,0.044,0.044
+Oeste / SP,19,0.005,0.005
+Juventude / RS,19,0.023,0.023
+Brasil / RS,18,0.085,0.139
+Paysandu / PA,18,0.066,0.092
+Londrina / PR,18,0.237,0.532
+Oeste / SP,18,0.025,0.030000000000000002
+Boa / MG,18,0.004,0.999
+São Bento / SP,18,0.069,0.1
+Ponte Preta / SP,18,0.001,0.002
+Criciúma / SC,18,0.119,0.174
+Juventude / RS,18,0.065,0.088
+Guarani / SP,18,0.012,0.014
+Sampaio Corrêa / MA,18,0.242,0.7090000000000001
+Goiás / GO,18,0.007,0.009000000000000001
+CRB / AL,18,0.068,0.112
+Brasil / RS,17,0.092,0.23099999999999998
+Coritiba / PR,17,0.002,0.002
+Guarani / SP,17,0.018,0.032
+Paysandu / PA,17,0.09,0.182
+CRB / AL,17,0.092,0.20400000000000001
+Juventude / RS,17,0.091,0.179
+Ponte Preta / SP,17,0.005,0.007
+Boa / MG,17,0.001,1.0
+Goiás / GO,17,0.02,0.029
+Criciúma / SC,17,0.14,0.314
+São Bento / SP,17,0.141,0.241
+Sampaio Corrêa / MA,17,0.106,0.8150000000000001
+Oeste / SP,17,0.05,0.08
+Londrina / PR,17,0.152,0.6839999999999999
+Londrina / PR,16,0.105,0.7889999999999999
+Goiás / GO,16,0.048,0.077
+Oeste / SP,16,0.068,0.14800000000000002
+São Bento / SP,16,0.144,0.385
+Criciúma / SC,16,0.125,0.439
+Paysandu / PA,16,0.088,0.27
+Figueirense / SC,16,0.001,0.001
+Guarani / SP,16,0.025,0.056999999999999995
+CRB / AL,16,0.078,0.28200000000000003
+Coritiba / PR,16,0.003,0.005
+Atlético / GO,16,0.002,0.002
+Avaí / SC,16,0.001,0.001
+Juventude / RS,16,0.129,0.308
+Ponte Preta / SP,16,0.009,0.016
+Brasil / RS,16,0.103,0.33399999999999996
+Sampaio Corrêa / MA,16,0.071,0.886
+Juventude / RS,15,0.157,0.46499999999999997
+Londrina / PR,15,0.059,0.848
+Oeste / SP,15,0.072,0.22
+Avaí / SC,15,0.002,0.003
+Coritiba / PR,15,0.004,0.009000000000000001
+Brasil / RS,15,0.111,0.445
+São Bento / SP,15,0.135,0.52
+Criciúma / SC,15,0.11,0.549
+Paysandu / PA,15,0.091,0.361
+Sampaio Corrêa / MA,15,0.045,0.931
+Goiás / GO,15,0.04,0.11699999999999999
+Ponte Preta / SP,15,0.013,0.028999999999999998
+CRB / AL,15,0.112,0.394
+Atlético / GO,15,0.002,0.004
+Fortaleza / CE,15,0.001,0.001
+Guarani / SP,15,0.045,0.102
+Figueirense / SC,15,0.001,0.002
+Criciúma / SC,14,0.102,0.651
+Londrina / PR,14,0.053,0.9009999999999999
+Oeste / SP,14,0.102,0.322
+Guarani / SP,14,0.04,0.142
+Coritiba / PR,14,0.015,0.024
+CRB / AL,14,0.116,0.51
+Juventude / RS,14,0.134,0.599
+São Bento / SP,14,0.129,0.649
+Paysandu / PA,14,0.095,0.45599999999999996
+Goiás / GO,14,0.066,0.183
+Ponte Preta / SP,14,0.008,0.037
+Brasil / RS,14,0.102,0.5469999999999999
+Atlético / GO,14,0.001,0.005
+Sampaio Corrêa / MA,14,0.031,0.962
+Figueirense / SC,14,0.006,0.008
+Avaí / SC,13,0.003,0.006
+Juventude / RS,13,0.119,0.718
+São Bento / SP,13,0.132,0.781
+Criciúma / SC,13,0.087,0.738
+Londrina / PR,13,0.029,0.9299999999999999
+Atlético / GO,13,0.006,0.011
+CSA / AL,13,0.001,0.001
+Sampaio Corrêa / MA,13,0.017,0.979
+Goiás / GO,13,0.075,0.258
+Brasil / RS,13,0.089,0.636
+Coritiba / PR,13,0.031,0.055
+Ponte Preta / SP,13,0.026,0.063
+Guarani / SP,13,0.058,0.2
+CRB / AL,13,0.097,0.607
+Paysandu / PA,13,0.108,0.564
+Oeste / SP,13,0.117,0.439
+Figueirense / SC,13,0.005,0.013000000000000001
+Figueirense / SC,12,0.007,0.02
+Londrina / PR,12,0.026,0.956
+Goiás / GO,12,0.075,0.33299999999999996
+Criciúma / SC,12,0.078,0.816
+Guarani / SP,12,0.067,0.267
+Atlético / GO,12,0.01,0.021
+São Bento / SP,12,0.092,0.873
+Avaí / SC,12,0.009,0.015
+Sampaio Corrêa / MA,12,0.01,0.989
+Brasil / RS,12,0.091,0.727
+Coritiba / PR,12,0.066,0.121
+Ponte Preta / SP,12,0.033,0.096
+CRB / AL,12,0.101,0.708
+Paysandu / PA,12,0.102,0.6659999999999999
+Fortaleza / CE,12,0.001,0.002
+Oeste / SP,12,0.114,0.553
+Juventude / RS,12,0.118,0.836
+Juventude / RS,11,0.063,0.899
+Guarani / SP,11,0.095,0.362
+Fortaleza / CE,11,0.004,0.006
+Goiás / GO,11,0.121,0.45399999999999996
+Vila Nova / GO,11,0.003,0.003
+Ponte Preta / SP,11,0.057,0.153
+CRB / AL,11,0.088,0.796
+Atlético / GO,11,0.022,0.043
+São Bento / SP,11,0.053,0.926
+Avaí / SC,11,0.008,0.023
+Sampaio Corrêa / MA,11,0.005,0.994
+Brasil / RS,11,0.079,0.8059999999999999
+Figueirense / SC,11,0.019,0.039
+Paysandu / PA,11,0.096,0.762
+Oeste / SP,11,0.122,0.675
+Coritiba / PR,11,0.091,0.212
+Criciúma / SC,11,0.058,0.874
+Londrina / PR,11,0.016,0.972
+Paysandu / PA,10,0.089,0.851
+Ponte Preta / SP,10,0.065,0.218
+Oeste / SP,10,0.103,0.778
+Guarani / SP,10,0.1,0.462
+Sampaio Corrêa / MA,10,0.002,0.996
+São Bento / SP,10,0.035,0.961
+Londrina / PR,10,0.015,0.987
+Vila Nova / GO,10,0.009,0.012
+Juventude / RS,10,0.044,0.943
+Goiás / GO,10,0.124,0.578
+Fortaleza / CE,10,0.007,0.013000000000000001
+CSA / AL,10,0.002,0.003
+CRB / AL,10,0.053,0.849
+Brasil / RS,10,0.058,0.864
+Atlético / GO,10,0.032,0.075
+Figueirense / SC,10,0.035,0.07400000000000001
+Coritiba / PR,10,0.157,0.369
+Criciúma / SC,10,0.044,0.918
+Avaí / SC,10,0.026,0.049
+Avaí / SC,9,0.024,0.073
+Criciúma / SC,9,0.035,0.953
+Brasil / RS,9,0.055,0.919
+Fortaleza / CE,9,0.015,0.028
+Juventude / RS,9,0.028,0.971
+Sampaio Corrêa / MA,9,0.001,0.997
+Figueirense / SC,9,0.042,0.116
+Londrina / PR,9,0.007,0.994
+Atlético / GO,9,0.046,0.121
+CRB / AL,9,0.063,0.912
+Goiás / GO,9,0.114,0.692
+Oeste / SP,9,0.082,0.86
+Coritiba / PR,9,0.184,0.5529999999999999
+Guarani / SP,9,0.109,0.571
+Ponte Preta / SP,9,0.094,0.312
+CSA / AL,9,0.003,0.006
+São Bento / SP,9,0.025,0.986
+Paysandu / PA,9,0.061,0.9119999999999999
+Vila Nova / GO,9,0.012,0.024
+CRB / AL,8,0.036,0.948
+Atlético / GO,8,0.091,0.212
+CSA / AL,8,0.008,0.014
+Sampaio Corrêa / MA,8,0.001,0.998
+Brasil / RS,8,0.031,0.95
+Paysandu / PA,8,0.039,0.951
+Oeste / SP,8,0.064,0.924
+Criciúma / SC,8,0.026,0.979
+Ponte Preta / SP,8,0.113,0.425
+Londrina / PR,8,0.004,0.998
+Coritiba / PR,8,0.181,0.734
+Juventude / RS,8,0.021,0.992
+Goiás / GO,8,0.096,0.788
+Vila Nova / GO,8,0.013,0.037
+Figueirense / SC,8,0.068,0.184
+Fortaleza / CE,8,0.015,0.043
+Avaí / SC,8,0.051,0.124
+São Bento / SP,8,0.012,0.998
+Guarani / SP,8,0.13,0.7010000000000001
+Guarani / SP,7,0.117,0.8180000000000001
+Coritiba / PR,7,0.14,0.874
+CRB / AL,7,0.024,0.972
+Avaí / SC,7,0.08,0.20400000000000001
+Ponte Preta / SP,7,0.14,0.565
+Oeste / SP,7,0.034,0.958
+Paysandu / PA,7,0.029,0.98
+São Bento / SP,7,0.002,1.0
+CSA / AL,7,0.024,0.038
+Goiás / GO,7,0.071,0.859
+Atlético / GO,7,0.096,0.308
+Vila Nova / GO,7,0.041,0.078
+Sampaio Corrêa / MA,7,0.001,0.999
+Fortaleza / CE,7,0.038,0.081
+Londrina / PR,7,0.001,0.999
+Figueirense / SC,7,0.118,0.302
+Criciúma / SC,7,0.012,0.991
+Brasil / RS,7,0.028,0.978
+Juventude / RS,7,0.004,0.996
+Oeste / SP,6,0.024,0.982
+Brasil / RS,6,0.012,0.99
+Atlético / GO,6,0.162,0.47
+Vila Nova / GO,6,0.048,0.126
+Ponte Preta / SP,6,0.125,0.69
+CSA / AL,6,0.039,0.077
+Goiás / GO,6,0.072,0.9309999999999999
+Paysandu / PA,6,0.009,0.989
+Avaí / SC,6,0.112,0.316
+Guarani / SP,6,0.079,0.897
+Criciúma / SC,6,0.004,0.995
+Juventude / RS,6,0.002,0.998
+CRB / AL,6,0.017,0.989
+Coritiba / PR,6,0.075,0.949
+Fortaleza / CE,6,0.077,0.158
+Londrina / PR,6,0.001,1.0
+Figueirense / SC,6,0.142,0.444
+CRB / AL,5,0.005,0.994
+Brasil / RS,5,0.005,0.995
+Avaí / SC,5,0.141,0.45699999999999996
+Sampaio Corrêa / MA,5,0.001,1.0
+Ponte Preta / SP,5,0.106,0.796
+Paysandu / PA,5,0.007,0.996
+Atlético / GO,5,0.166,0.636
+Coritiba / PR,5,0.039,0.988
+Vila Nova / GO,5,0.102,0.22799999999999998
+Figueirense / SC,5,0.145,0.589
+Guarani / SP,5,0.051,0.9480000000000001
+Criciúma / SC,5,0.005,1.0
+Fortaleza / CE,5,0.105,0.263
+Oeste / SP,5,0.012,0.994
+Juventude / RS,5,0.002,1.0
+Goiás / GO,5,0.034,0.965
+CSA / AL,5,0.074,0.151
+Coritiba / PR,4,0.009,0.997
+CSA / AL,4,0.107,0.258
+Brasil / RS,4,0.003,0.998
+Fortaleza / CE,4,0.153,0.416
+Goiás / GO,4,0.023,0.988
+Ponte Preta / SP,4,0.087,0.883
+Figueirense / SC,4,0.157,0.746
+Vila Nova / GO,4,0.147,0.375
+Guarani / SP,4,0.022,0.97
+Avaí / SC,4,0.16,0.617
+Paysandu / PA,4,0.004,1.0
+CRB / AL,4,0.004,0.998
+Atlético / GO,4,0.121,0.757
+Oeste / SP,4,0.003,0.997
+Atlético / GO,3,0.122,0.879
+Guarani / SP,3,0.014,0.984
+Goiás / GO,3,0.004,0.992
+Figueirense / SC,3,0.119,0.865
+Brasil / RS,3,0.002,1.0
+Fortaleza / CE,3,0.172,0.588
+CSA / AL,3,0.16,0.418
+Vila Nova / GO,3,0.201,0.5760000000000001
+CRB / AL,3,0.001,0.999
+Coritiba / PR,3,0.002,0.999
+Ponte Preta / SP,3,0.056,0.939
+Avaí / SC,3,0.147,0.764
+Vila Nova / GO,2,0.199,0.775
+Atlético / GO,2,0.07,0.9490000000000001
+Oeste / SP,2,0.003,1.0
+Fortaleza / CE,2,0.209,0.7969999999999999
+CRB / AL,2,0.001,1.0
+Ponte Preta / SP,2,0.04,0.979
+Guarani / SP,2,0.011,0.995
+CSA / AL,2,0.237,0.655
+Coritiba / PR,2,0.001,1.0
+Goiás / GO,2,0.007,0.999
+Avaí / SC,2,0.129,0.893
+Figueirense / SC,2,0.093,0.958
+Guarani / SP,1,0.005,1.0
+Goiás / GO,1,0.001,1.0
+Avaí / SC,1,0.107,1.0
+Fortaleza / CE,1,0.203,1.0
+Figueirense / SC,1,0.042,1.0
+Vila Nova / GO,1,0.225,1.0
+CSA / AL,1,0.345,1.0
+Ponte Preta / SP,1,0.021,1.0
+Atlético / GO,1,0.051,1.0
