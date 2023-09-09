@@ -1,265 +1,254 @@
 Club,Position,Probability,Cumulative
-São Caetano / SP,20,0.006,0.006
-Ceará / CE,20,0.001,0.001
-ASA / AL,20,0.031,0.031
-Oeste / SP,20,0.014,0.014
-Red Bull Bragantino / SP,20,0.001,0.001
-Guaratinguetá / SP,20,0.007,0.007
-Paysandu / PA,20,0.119,0.119
-ABC / RN,20,0.658,0.658
+São Caetano / SP,20,0.011,0.011
+ABC / RN,20,0.642,0.642
 América / RN,20,0.066,0.066
-Atlético / GO,20,0.097,0.097
-Ceará / CE,19,0.007,0.008
-Guaratinguetá / SP,19,0.035,0.042
-América / RN,19,0.139,0.20500000000000002
-Oeste / SP,19,0.057,0.07100000000000001
-Atlético / GO,19,0.206,0.303
-ASA / AL,19,0.067,0.098
-Paysandu / PA,19,0.274,0.393
-Icasa / CE,19,0.001,0.001
-ABC / RN,19,0.184,0.8420000000000001
-Red Bull Bragantino / SP,19,0.003,0.004
-São Caetano / SP,19,0.027,0.033
-Boa / MG,18,0.002,0.002
-Paysandu / PA,18,0.252,0.645
-Guaratinguetá / SP,18,0.059,0.101
-Avaí / SC,18,0.002,0.002
-ABC / RN,18,0.08,0.922
-Ceará / CE,18,0.018,0.026
-Icasa / CE,18,0.002,0.003
-São Caetano / SP,18,0.053,0.086
-Figueirense / SC,18,0.002,0.002
-Oeste / SP,18,0.086,0.157
-Atlético / GO,18,0.152,0.45499999999999996
-Red Bull Bragantino / SP,18,0.01,0.014
-ASA / AL,18,0.115,0.21300000000000002
-América / RN,18,0.167,0.372
-Ceará / CE,17,0.035,0.061
-América / RN,17,0.164,0.536
-ABC / RN,17,0.042,0.9640000000000001
-Figueirense / SC,17,0.002,0.004
-Atlético / GO,17,0.151,0.606
+Guaratinguetá / SP,20,0.016,0.016
+Oeste / SP,20,0.019,0.019
+ASA / AL,20,0.032,0.032
+Atlético / GO,20,0.101,0.101
+Paysandu / PA,20,0.113,0.113
+ABC / RN,19,0.163,0.805
+Red Bull Bragantino / SP,19,0.002,0.002
+América / RN,19,0.156,0.222
+Oeste / SP,19,0.059,0.078
+ASA / AL,19,0.075,0.107
+Ceará / CE,19,0.007,0.007
+Icasa / CE,19,0.003,0.003
+Paysandu / PA,19,0.296,0.409
+Guaratinguetá / SP,19,0.034,0.05
+Atlético / GO,19,0.179,0.28
+São Caetano / SP,19,0.026,0.037
+São Caetano / SP,18,0.038,0.075
+Paysandu / PA,18,0.257,0.6659999999999999
+América / MG,18,0.001,0.001
+Ceará / CE,18,0.017,0.024
+Guaratinguetá / SP,18,0.064,0.114
+Oeste / SP,18,0.091,0.16899999999999998
+Figueirense / SC,18,0.001,0.001
+Icasa / CE,18,0.003,0.006
+América / RN,18,0.155,0.377
+ABC / RN,18,0.093,0.898
+Atlético / GO,18,0.175,0.45499999999999996
+ASA / AL,18,0.099,0.20600000000000002
+Red Bull Bragantino / SP,18,0.006,0.008
+Paysandu / PA,17,0.151,0.817
+São Caetano / SP,17,0.101,0.176
+América / RN,17,0.137,0.514
+Guaratinguetá / SP,17,0.103,0.217
 Sport / PE,17,0.001,0.001
-Guaratinguetá / SP,17,0.094,0.195
-América / MG,17,0.001,0.001
-Boa / MG,17,0.001,0.003
-Avaí / SC,17,0.003,0.005
-Icasa / CE,17,0.004,0.007
-Oeste / SP,17,0.135,0.29200000000000004
-Red Bull Bragantino / SP,17,0.022,0.036
-ASA / AL,17,0.128,0.341
-Paysandu / PA,17,0.148,0.793
-São Caetano / SP,17,0.069,0.155
-Avaí / SC,16,0.002,0.007
-Boa / MG,16,0.004,0.007
-Red Bull Bragantino / SP,16,0.042,0.078
-Ceará / CE,16,0.045,0.106
-São Caetano / SP,16,0.1,0.255
-Icasa / CE,16,0.009,0.016
-Atlético / GO,16,0.127,0.733
-Oeste / SP,16,0.122,0.41400000000000003
+Figueirense / SC,17,0.003,0.004
+Icasa / CE,17,0.011,0.017
+Red Bull Bragantino / SP,17,0.014,0.022
+Atlético / GO,17,0.144,0.599
+ASA / AL,17,0.137,0.343
+Oeste / SP,17,0.113,0.28200000000000003
+ABC / RN,17,0.05,0.9480000000000001
+Boa / MG,17,0.001,0.001
+Avaí / SC,17,0.002,0.002
+Ceará / CE,17,0.032,0.056
+Figueirense / SC,16,0.015,0.019
+Atlético / GO,16,0.132,0.731
+Boa / MG,16,0.01,0.011
+Ceará / CE,16,0.058,0.114
+Avaí / SC,16,0.006,0.008
+América / RN,16,0.141,0.655
+Guaratinguetá / SP,16,0.109,0.326
+ABC / RN,16,0.028,0.976
+Icasa / CE,16,0.012,0.028999999999999998
+Oeste / SP,16,0.132,0.41400000000000003
+São Caetano / SP,16,0.091,0.267
+Paysandu / PA,16,0.094,0.911
 Sport / PE,16,0.005,0.006
-Paysandu / PA,16,0.101,0.894
-Guaratinguetá / SP,16,0.131,0.326
-Figueirense / SC,16,0.005,0.009000000000000001
-ASA / AL,16,0.14,0.48100000000000004
-ABC / RN,16,0.023,0.987
-América / MG,16,0.001,0.002
-América / RN,16,0.143,0.679
-São Caetano / SP,15,0.119,0.374
-Sport / PE,15,0.011,0.017
-Red Bull Bragantino / SP,15,0.043,0.121
-ASA / AL,15,0.145,0.626
-Boa / MG,15,0.021,0.028
-Paysandu / PA,15,0.061,0.9550000000000001
-Oeste / SP,15,0.136,0.55
-ABC / RN,15,0.002,0.989
-Guaratinguetá / SP,15,0.126,0.452
-Figueirense / SC,15,0.015,0.024
-América / RN,15,0.094,0.773
-Ceará / CE,15,0.08,0.186
-Atlético / GO,15,0.1,0.833
-Icasa / CE,15,0.037,0.053
-Avaí / SC,15,0.01,0.017
-Paysandu / PA,14,0.029,0.984
-Icasa / CE,14,0.048,0.101
-Atlético / GO,14,0.063,0.896
-Ceará / CE,14,0.129,0.315
-Red Bull Bragantino / SP,14,0.075,0.196
-Sport / PE,14,0.015,0.032
-Avaí / SC,14,0.009,0.026
-Guaratinguetá / SP,14,0.116,0.5680000000000001
-Boa / MG,14,0.023,0.051000000000000004
-Oeste / SP,14,0.126,0.676
-América / RN,14,0.086,0.859
-ASA / AL,14,0.128,0.754
-América / MG,14,0.002,0.004
-São Caetano / SP,14,0.12,0.494
-Figueirense / SC,14,0.023,0.047
-ABC / RN,14,0.008,0.997
+ASA / AL,16,0.138,0.48100000000000004
+Red Bull Bragantino / SP,16,0.029,0.051000000000000004
+Sport / PE,15,0.014,0.02
+Boa / MG,15,0.018,0.029
+São Caetano / SP,15,0.127,0.394
+Red Bull Bragantino / SP,15,0.06,0.111
+Guaratinguetá / SP,15,0.136,0.462
+Ceará / CE,15,0.068,0.182
+Paysandu / PA,15,0.044,0.955
+Avaí / SC,15,0.012,0.02
+Icasa / CE,15,0.034,0.063
+Oeste / SP,15,0.129,0.543
+Figueirense / SC,15,0.011,0.03
+Atlético / GO,15,0.093,0.824
+ASA / AL,15,0.128,0.609
+América / RN,15,0.109,0.764
+ABC / RN,15,0.014,0.99
+América / MG,15,0.003,0.004
+Avaí / SC,14,0.014,0.034
+América / MG,14,0.007,0.011
+Icasa / CE,14,0.057,0.12
+Ceará / CE,14,0.12,0.302
+Sport / PE,14,0.02,0.04
+Atlético / GO,14,0.066,0.89
+América / RN,14,0.088,0.852
+Boa / MG,14,0.018,0.047
+Paysandu / PA,14,0.027,0.982
+ABC / RN,14,0.007,0.997
+Guaratinguetá / SP,14,0.131,0.593
+Oeste / SP,14,0.108,0.651
+Figueirense / SC,14,0.034,0.064
+ASA / AL,14,0.102,0.7110000000000001
+São Caetano / SP,14,0.128,0.522
+Red Bull Bragantino / SP,14,0.073,0.184
+Guaratinguetá / SP,13,0.118,0.7110000000000001
+Paysandu / PA,13,0.008,0.99
+Atlético / GO,13,0.039,0.9289999999999999
+Figueirense / SC,13,0.046,0.11
+ASA / AL,13,0.099,0.81
+Ceará / CE,13,0.134,0.436
 ABC / RN,13,0.002,0.999
-América / RN,13,0.058,0.917
-Figueirense / SC,13,0.04,0.087
-Ceará / CE,13,0.139,0.454
-Oeste / SP,13,0.1,0.776
-Avaí / SC,13,0.023,0.049
-Sport / PE,13,0.026,0.057999999999999996
-Paysandu / PA,13,0.01,0.994
-ASA / AL,13,0.081,0.8350000000000001
-Guaratinguetá / SP,13,0.126,0.694
-Boa / MG,13,0.038,0.089
-Icasa / CE,13,0.076,0.177
-São Caetano / SP,13,0.128,0.622
-América / MG,13,0.007,0.011
-Atlético / GO,13,0.044,0.94
-Red Bull Bragantino / SP,13,0.102,0.298
-Paysandu / PA,12,0.006,1.0
+Red Bull Bragantino / SP,13,0.085,0.269
+Sport / PE,13,0.024,0.064
+América / RN,13,0.057,0.909
+Boa / MG,13,0.031,0.078
+América / MG,13,0.007,0.018000000000000002
+Oeste / SP,13,0.11,0.761
+São Caetano / SP,13,0.121,0.643
+Avaí / SC,13,0.034,0.068
+Icasa / CE,13,0.085,0.20500000000000002
+Guaratinguetá / SP,12,0.089,0.8
+Paysandu / PA,12,0.008,0.998
+América / MG,12,0.013,0.031
+Red Bull Bragantino / SP,12,0.116,0.385
+América / RN,12,0.039,0.948
+Oeste / SP,12,0.084,0.845
+Icasa / CE,12,0.096,0.30100000000000005
+Figueirense / SC,12,0.058,0.168
 ABC / RN,12,0.001,1.0
-Figueirense / SC,12,0.051,0.138
-Avaí / SC,12,0.05,0.099
-Oeste / SP,12,0.08,0.856
-América / MG,12,0.011,0.022
-Guaratinguetá / SP,12,0.109,0.803
-Icasa / CE,12,0.105,0.282
-Joinville / SC,12,0.001,0.001
-Red Bull Bragantino / SP,12,0.126,0.424
-Atlético / GO,12,0.025,0.965
-Sport / PE,12,0.043,0.10099999999999999
-ASA / AL,12,0.061,0.896
-América / RN,12,0.031,0.9480000000000001
-Ceará / CE,12,0.126,0.5800000000000001
-Boa / MG,12,0.06,0.149
-São Caetano / SP,12,0.114,0.736
-Icasa / CE,11,0.129,0.411
-Boa / MG,11,0.089,0.238
-Guaratinguetá / SP,11,0.075,0.878
-Sport / PE,11,0.06,0.16099999999999998
-América / MG,11,0.028,0.05
-Red Bull Bragantino / SP,11,0.127,0.5509999999999999
-Oeste / SP,11,0.06,0.916
-São Caetano / SP,11,0.097,0.833
-Atlético / GO,11,0.014,0.979
-ASA / AL,11,0.037,0.933
-Ceará / CE,11,0.128,0.708
-América / RN,11,0.023,0.971
-Figueirense / SC,11,0.073,0.211
-Avaí / SC,11,0.06,0.159
-Red Bull Bragantino / SP,10,0.118,0.669
-São Caetano / SP,10,0.071,0.904
-Sport / PE,10,0.092,0.253
-Joinville / SC,10,0.001,0.002
-ASA / AL,10,0.025,0.9580000000000001
-Oeste / SP,10,0.046,0.962
-Icasa / CE,10,0.138,0.5489999999999999
-América / MG,10,0.048,0.098
-Atlético / GO,10,0.012,0.991
-América / RN,10,0.017,0.988
-Figueirense / SC,10,0.112,0.323
-Avaí / SC,10,0.081,0.24
-Ceará / CE,10,0.087,0.795
-Guaratinguetá / SP,10,0.047,0.925
-Boa / MG,10,0.105,0.34299999999999997
-América / RN,9,0.007,0.995
-Figueirense / SC,9,0.147,0.47
-Avaí / SC,9,0.114,0.354
-Joinville / SC,9,0.002,0.004
-Sport / PE,9,0.118,0.371
-São Caetano / SP,9,0.039,0.943
-Atlético / GO,9,0.005,0.996
-Boa / MG,9,0.131,0.474
-Oeste / SP,9,0.013,0.975
-América / MG,9,0.073,0.17099999999999999
-ASA / AL,9,0.017,0.9750000000000001
-Ceará / CE,9,0.074,0.869
-Guaratinguetá / SP,9,0.027,0.952
-Red Bull Bragantino / SP,9,0.107,0.776
-Icasa / CE,9,0.126,0.675
-Sport / PE,8,0.133,0.504
-Paraná / PR,8,0.001,0.001
-Ceará / CE,8,0.064,0.933
-Figueirense / SC,8,0.145,0.615
-América / MG,8,0.1,0.271
-Red Bull Bragantino / SP,8,0.083,0.859
-ASA / AL,8,0.017,0.992
-Avaí / SC,8,0.13,0.484
-Boa / MG,8,0.144,0.618
-Oeste / SP,8,0.013,0.988
-Icasa / CE,8,0.103,0.778
-São Caetano / SP,8,0.028,0.971
-América / RN,8,0.001,0.996
-Guaratinguetá / SP,8,0.026,0.978
-Joinville / SC,8,0.01,0.014
+Sport / PE,12,0.058,0.122
+Avaí / SC,12,0.046,0.114
+ASA / AL,12,0.064,0.874
+São Caetano / SP,12,0.098,0.741
+Boa / MG,12,0.071,0.149
+Ceará / CE,12,0.124,0.56
+Atlético / GO,12,0.035,0.964
+Red Bull Bragantino / SP,11,0.13,0.515
+América / RN,11,0.021,0.969
+ASA / AL,11,0.037,0.911
+São Caetano / SP,11,0.094,0.835
+Boa / MG,11,0.091,0.24
+Guaratinguetá / SP,11,0.074,0.874
+Icasa / CE,11,0.118,0.41900000000000004
+Avaí / SC,11,0.063,0.177
+Oeste / SP,11,0.055,0.9
+Ceará / CE,11,0.111,0.671
+Sport / PE,11,0.065,0.187
+América / MG,11,0.032,0.063
+Atlético / GO,11,0.017,0.981
+Figueirense / SC,11,0.092,0.26
+Guaratinguetá / SP,10,0.049,0.923
+Oeste / SP,10,0.043,0.9430000000000001
+América / RN,10,0.013,0.982
+Atlético / GO,10,0.008,0.989
+Icasa / CE,10,0.137,0.556
+Figueirense / SC,10,0.09,0.35
+São Caetano / SP,10,0.062,0.897
+Ceará / CE,10,0.103,0.774
+Avaí / SC,10,0.069,0.246
+Boa / MG,10,0.098,0.33799999999999997
+Paysandu / PA,10,0.002,1.0
+ASA / AL,10,0.039,0.9500000000000001
+América / MG,10,0.055,0.118
+Red Bull Bragantino / SP,10,0.128,0.643
+Sport / PE,10,0.104,0.291
+Oeste / SP,9,0.023,0.966
+São Caetano / SP,9,0.048,0.9450000000000001
+Sport / PE,9,0.116,0.40700000000000003
+Red Bull Bragantino / SP,9,0.113,0.756
+ASA / AL,9,0.026,0.9760000000000001
+América / MG,9,0.077,0.195
+Joinville / SC,9,0.01,0.01
+Avaí / SC,9,0.12,0.366
+Guaratinguetá / SP,9,0.037,0.96
+Atlético / GO,9,0.007,0.996
+Figueirense / SC,9,0.11,0.46
+Ceará / CE,9,0.079,0.853
+Boa / MG,9,0.126,0.46399999999999997
+América / RN,9,0.008,0.99
+Icasa / CE,9,0.1,0.656
+Icasa / CE,8,0.121,0.777
+América / MG,8,0.111,0.306
 Atlético / GO,8,0.002,0.998
-Sport / PE,7,0.15,0.654
-Avaí / SC,7,0.171,0.655
-Icasa / CE,7,0.104,0.882
-Figueirense / SC,7,0.144,0.7589999999999999
-Boa / MG,7,0.131,0.749
-América / RN,7,0.004,1.0
-Guaratinguetá / SP,7,0.01,0.988
-Red Bull Bragantino / SP,7,0.064,0.923
-ASA / AL,7,0.003,0.995
-Joinville / SC,7,0.013,0.027
-Ceará / CE,7,0.032,0.965
-Atlético / GO,7,0.002,1.0
-América / MG,7,0.148,0.419
-São Caetano / SP,7,0.016,0.987
-Oeste / SP,7,0.008,0.996
-Sport / PE,6,0.171,0.825
-Ceará / CE,6,0.025,0.99
-Chapecoense / SC,6,0.001,0.001
-Boa / MG,6,0.125,0.874
-São Caetano / SP,6,0.008,0.995
-ASA / AL,6,0.004,0.999
-Red Bull Bragantino / SP,6,0.05,0.973
-Icasa / CE,6,0.074,0.956
-América / MG,6,0.201,0.62
-Oeste / SP,6,0.001,0.997
-Avaí / SC,6,0.159,0.8140000000000001
-Figueirense / SC,6,0.129,0.8879999999999999
-Paraná / PR,6,0.001,0.002
-Guaratinguetá / SP,6,0.008,0.996
-Joinville / SC,6,0.043,0.06999999999999999
-Joinville / SC,5,0.154,0.22399999999999998
-Ceará / CE,5,0.01,1.0
-São Caetano / SP,5,0.004,0.999
-Sport / PE,5,0.126,0.9510000000000001
-Oeste / SP,5,0.003,1.0
-Guaratinguetá / SP,5,0.003,0.999
-Paraná / PR,5,0.003,0.005
-Avaí / SC,5,0.149,0.9630000000000001
-ASA / AL,5,0.001,1.0
-Icasa / CE,5,0.036,0.992
-Boa / MG,5,0.104,0.978
-Chapecoense / SC,5,0.004,0.005
-Figueirense / SC,5,0.091,0.979
-Red Bull Bragantino / SP,5,0.023,0.996
-América / MG,5,0.289,0.909
-Icasa / CE,4,0.008,1.0
-Joinville / SC,4,0.645,0.869
-Boa / MG,4,0.022,1.0
+Figueirense / SC,8,0.13,0.5900000000000001
+ASA / AL,8,0.015,0.991
+Sport / PE,8,0.126,0.533
+Avaí / SC,8,0.128,0.494
+Guaratinguetá / SP,8,0.027,0.987
+Ceará / CE,8,0.07,0.923
+Red Bull Bragantino / SP,8,0.095,0.851
+América / RN,8,0.006,0.996
+Boa / MG,8,0.123,0.587
+Oeste / SP,8,0.015,0.981
+Joinville / SC,8,0.008,0.018000000000000002
+São Caetano / SP,8,0.023,0.968
+Icasa / CE,7,0.108,0.885
+Boa / MG,7,0.15,0.737
+América / MG,7,0.122,0.428
+Joinville / SC,7,0.017,0.035
+Atlético / GO,7,0.001,0.999
+Figueirense / SC,7,0.137,0.7270000000000001
+Guaratinguetá / SP,7,0.007,0.994
+Sport / PE,7,0.149,0.6819999999999999
+ASA / AL,7,0.007,0.998
+São Caetano / SP,7,0.02,0.988
+Avaí / SC,7,0.161,0.655
+Oeste / SP,7,0.009,0.99
+Red Bull Bragantino / SP,7,0.075,0.926
+América / RN,7,0.003,0.999
+Ceará / CE,7,0.034,0.957
+Sport / PE,6,0.146,0.828
+Figueirense / SC,6,0.149,0.876
+Avaí / SC,6,0.17,0.825
+São Caetano / SP,6,0.006,0.994
+Ceará / CE,6,0.032,0.989
+Boa / MG,6,0.145,0.882
+Red Bull Bragantino / SP,6,0.051,0.977
+América / MG,6,0.185,0.613
+ASA / AL,6,0.002,1.0
+Joinville / SC,6,0.033,0.068
+América / RN,6,0.001,1.0
+Guaratinguetá / SP,6,0.005,0.999
+Paraná / PR,6,0.001,0.001
+Oeste / SP,6,0.006,0.996
+Icasa / CE,6,0.067,0.9520000000000001
+Atlético / GO,6,0.001,1.0
+Red Bull Bragantino / SP,5,0.023,1.0
+Joinville / SC,5,0.125,0.193
+Oeste / SP,5,0.004,1.0
+São Caetano / SP,5,0.005,0.999
+Avaí / SC,5,0.148,0.973
+Ceará / CE,5,0.011,1.0
+Icasa / CE,5,0.041,0.993
+Boa / MG,5,0.098,0.98
+Sport / PE,5,0.133,0.961
+América / MG,5,0.313,0.9259999999999999
+Paraná / PR,5,0.002,0.003
+Guaratinguetá / SP,5,0.001,1.0
+Figueirense / SC,5,0.096,0.972
+Paraná / PR,4,0.1,0.10300000000000001
+Figueirense / SC,4,0.028,1.0
+Joinville / SC,4,0.657,0.8500000000000001
+América / MG,4,0.072,0.998
+Boa / MG,4,0.02,1.0
 São Caetano / SP,4,0.001,1.0
-Guaratinguetá / SP,4,0.001,1.0
-Avaí / SC,4,0.036,0.999
-Figueirense / SC,4,0.021,1.0
-América / MG,4,0.087,0.996
-Sport / PE,4,0.046,0.997
-Chapecoense / SC,4,0.05,0.055
-Red Bull Bragantino / SP,4,0.004,1.0
-Paraná / PR,4,0.076,0.081
+Chapecoense / SC,4,0.046,0.046
+Avaí / SC,4,0.027,1.0
+Icasa / CE,4,0.007,1.0
+Sport / PE,4,0.039,1.0
 Palmeiras / SP,4,0.003,0.003
-Sport / PE,3,0.003,1.0
-Paraná / PR,3,0.505,0.586
-Palmeiras / SP,3,0.04,0.043000000000000003
-Joinville / SC,3,0.104,0.973
-Avaí / SC,3,0.001,1.0
-Chapecoense / SC,3,0.343,0.398
-América / MG,3,0.004,1.0
-Paraná / PR,2,0.36,0.946
-Joinville / SC,2,0.023,0.996
-Chapecoense / SC,2,0.452,0.8500000000000001
-Palmeiras / SP,2,0.165,0.20800000000000002
-Paraná / PR,1,0.054,1.0
-Joinville / SC,1,0.004,1.0
-Chapecoense / SC,1,0.15,1.0
-Palmeiras / SP,1,0.792,1.0
+Paraná / PR,3,0.532,0.635
+América / MG,3,0.002,1.0
+Chapecoense / SC,3,0.304,0.35
+Palmeiras / SP,3,0.045,0.048
+Joinville / SC,3,0.117,0.9670000000000001
+Joinville / SC,2,0.031,0.9980000000000001
+Chapecoense / SC,2,0.495,0.845
+Paraná / PR,2,0.309,0.944
+Palmeiras / SP,2,0.165,0.21300000000000002
+Chapecoense / SC,1,0.155,1.0
+Paraná / PR,1,0.056,1.0
+Palmeiras / SP,1,0.787,1.0
+Joinville / SC,1,0.002,1.0
