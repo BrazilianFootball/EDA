@@ -1,14 +1,18 @@
+import os
 import sys
 from glob import glob
 from utils.mail_delivery import catch_results
 
 if __name__ == '__main__':
+    cleaning = False
     for arg in sys.argv:
         if '-p=' in arg: password = arg.split('=')[-1]
         if '-m=' in arg: mail = arg.split('=')[-1]
         if '-t=' in arg: tag = arg.split('=')[-1]
+        if '--c' in arg: cleaning = True
     
     catch_results(mail, password, tag)
+    if cleaning: os.system('clear')
     competitions = ['Serie_A', 'Serie_B']
     years = [*range(2013, 2024)]
     n_games = [*range(100, 390, 10)]
