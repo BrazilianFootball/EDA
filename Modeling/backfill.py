@@ -50,7 +50,7 @@ if __name__ == '__main__':
                         res = pickle.load(f)
                     
                     pars = int(re.findall('_(\d+)_pars', cur_model.filename_tag)[0])
-                    if pars != res.x.shape[0] and res.success:
+                    if (res.x.shape[0] == (pars - 1)) and (res.success) and (res.hess_inv is not None):
                         files_to_remove += glob(f'results/*/*{cur_model.filename_tag}*')
                         files_to_remove += glob(f'parameters/{cur_model.filename_tag}.json')
                         for file in files_to_remove: os.remove(file)
