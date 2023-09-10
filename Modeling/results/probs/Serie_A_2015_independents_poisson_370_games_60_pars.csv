@@ -1,0 +1,70 @@
+Club,Position,Probability,Cumulative
+Joinville / SC,20,1.0,1.0
+Vasco da Gama / RJ,19,0.311271,0.311271
+Avaí / SC,19,0.035162,0.035162
+Figueirense / SC,19,0.109039,0.109039
+Goiás / GO,19,0.544528,0.544528
+Figueirense / SC,18,0.300101,0.40914
+Avaí / SC,18,0.22682,0.261982
+Goiás / GO,18,0.059316,0.603844
+Vasco da Gama / RJ,18,0.413763,0.725034
+Avaí / SC,17,0.44131,0.703292
+Vasco da Gama / RJ,17,0.143455,0.8684890000000001
+Figueirense / SC,17,0.211545,0.620685
+Goiás / GO,17,0.203095,0.8069390000000001
+Coritiba / PR,17,0.000595,0.000595
+Figueirense / SC,16,0.359396,0.980081
+Vasco da Gama / RJ,16,0.131511,1.0
+Avaí / SC,16,0.281004,0.984296
+Coritiba / PR,16,0.035028,0.035622999999999995
+Goiás / GO,16,0.193061,1.0
+Figueirense / SC,15,0.019919,1.0
+Avaí / SC,15,0.015704,1.0
+Coritiba / PR,15,0.964377,1.0
+Flamengo / RJ,14,0.020061,0.020061
+Fluminense / RJ,14,0.183908,0.183908
+Chapecoense / SC,14,0.796031,0.796031
+Fluminense / RJ,13,0.546415,0.7303229999999999
+Palmeiras / SP,13,0.102068,0.102068
+Chapecoense / SC,13,0.159769,0.9558
+Flamengo / RJ,13,0.191748,0.211809
+Fluminense / RJ,12,0.269677,1.0
+Palmeiras / SP,12,0.226937,0.329005
+Chapecoense / SC,12,0.0442,1.0
+Flamengo / RJ,12,0.459186,0.670995
+Ponte Preta / SP,11,0.360402,0.360402
+Flamengo / RJ,11,0.010099,0.681094
+Athletico Paranaense / PR,11,0.581079,0.581079
+Palmeiras / SP,11,0.04842,0.377425
+Athletico Paranaense / PR,10,0.318725,0.899804
+Ponte Preta / SP,10,0.238498,0.5989
+Flamengo / RJ,10,0.132079,0.813173
+Palmeiras / SP,10,0.310698,0.688123
+Palmeiras / SP,9,0.311877,1.0
+Ponte Preta / SP,9,0.4011,1.0
+Athletico Paranaense / PR,9,0.100196,1.0
+Flamengo / RJ,9,0.186827,1.0
+Cruzeiro / MG,8,0.697469,0.697469
+Internacional / RS,8,0.039659,0.039659
+Sport / PE,8,0.207721,0.207721
+Santos / SP,8,0.055151,0.055151
+Sport / PE,7,0.413383,0.621104
+Santos / SP,7,0.25411,0.309261
+Internacional / RS,7,0.173565,0.213224
+Cruzeiro / MG,7,0.158942,0.856411
+Sport / PE,6,0.23716,0.858264
+Internacional / RS,6,0.208853,0.42207700000000004
+Santos / SP,6,0.4395,0.748761
+Cruzeiro / MG,6,0.114487,0.970898
+Sport / PE,5,0.141736,1.0
+Cruzeiro / MG,5,0.029102,1.0
+Internacional / RS,5,0.334713,0.75679
+Santos / SP,5,0.251239,1.0
+São Paulo / SP,5,0.24321,0.24321
+Internacional / RS,4,0.24321,1.0
+São Paulo / SP,4,0.75679,1.0
+Grêmio / RS,3,0.898117,0.898117
+Atlético / MG,3,0.101883,0.101883
+Grêmio / RS,2,0.101883,1.0
+Atlético / MG,2,0.898117,1.0
+Corinthians / SP,1,1.0,1.0
