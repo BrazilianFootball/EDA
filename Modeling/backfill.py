@@ -44,7 +44,7 @@ if __name__ == '__main__':
             for home_away_pars in home_away_pars_list:
                 if cleaning: os.system('clear')
                 print(f"{model} - {competition.replace('_', ' ')} {year} - {home_away_pars} home/away parameters")
-                cur_model = models[model](competition, year, n_sims, home_away_pars = home_away_pars, max_games = max_games)
+                cur_model = models[model](competition, year, n_sims, home_away_pars = home_away_pars, max_games = max_games, max_iters = 25)
                 if cur_model.filename_tag + '.png' in os.listdir('results/images/'):
                     with open(f'results/optimizer/optimizer_result_{cur_model.filename_tag}.pkl', 'rb') as f:
                         res = pickle.load(f)
