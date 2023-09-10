@@ -1,5 +1,7 @@
 import os
+import re
 import sys
+import pickle
 from glob import glob
 from utils.mail_delivery import catch_results
 
@@ -24,8 +26,11 @@ if __name__ == '__main__':
             expected = 0
             for games in n_games:
                 expected += 12
-                n = len(glob(f'results/images/{competition}_{year}*{games}_games*'))
-                total += n
+                for file in glob(f'results/optimizer/*{competition}_{year}*{games}_games*'):
+                    with open(file, 'rb') as f: res = pickle.load(f)
+                    pars = int(re.findall('_(\d+)_pars', file)[0])
+                    if (res.x.shape[0] == (pars - 1)) and (res.success) and (res.hess_inv is not None):
+                        total += 1
 
             total_ += total
             expected_ += expected
