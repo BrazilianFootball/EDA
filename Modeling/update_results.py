@@ -31,6 +31,7 @@ if __name__ == '__main__':
                     pars = int(re.findall('_(\d+)_pars', file)[0])
                     if (res.x.shape[0] == (pars - 1)) and (res.success) and (res.hess_inv is not None):
                         total += 1
+                    else: os.remove(file)
 
             total_ += total
             expected_ += expected
