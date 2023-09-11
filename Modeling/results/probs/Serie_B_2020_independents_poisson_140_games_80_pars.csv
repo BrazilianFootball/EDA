@@ -1,0 +1,282 @@
+Club,Position,Probability,Cumulative
+Figueirense / SC,20,0.018,0.018
+Botafogo / SP,20,0.002,0.002
+Oeste / SP,20,0.92,0.92
+Guarani / SP,20,0.06,0.06
+CSA / AL,19,0.012,0.012
+Botafogo / SP,19,0.089,0.091
+Oeste / SP,19,0.069,0.9890000000000001
+Brasil / RS,19,0.02,0.02
+Náutico / PE,19,0.013,0.013
+Avaí / SC,19,0.001,0.001
+Confiança / SE,19,0.001,0.001
+Guarani / SP,19,0.474,0.534
+Operário / PR,19,0.001,0.001
+Figueirense / SC,19,0.32,0.338
+Confiança / SE,18,0.016,0.017
+Avaí / SC,18,0.006,0.007
+Náutico / PE,18,0.04,0.053
+Oeste / SP,18,0.008,0.997
+Brasil / RS,18,0.047,0.067
+Guarani / SP,18,0.29,0.824
+Figueirense / SC,18,0.376,0.714
+Botafogo / SP,18,0.189,0.28
+CSA / AL,18,0.022,0.034
+Vitória / BA,18,0.001,0.001
+Operário / PR,18,0.005,0.006
+CSA / AL,17,0.097,0.131
+Botafogo / SP,17,0.325,0.605
+Náutico / PE,17,0.099,0.152
+Oeste / SP,17,0.003,1.0
+América / MG,17,0.002,0.002
+Brasil / RS,17,0.124,0.191
+Paraná / PR,17,0.001,0.001
+Operário / PR,17,0.013,0.019
+Confiança / SE,17,0.025,0.042
+Guarani / SP,17,0.106,0.9299999999999999
+Cruzeiro / MG,17,0.009,0.009
+Avaí / SC,17,0.017,0.024
+Vitória / BA,17,0.008,0.009000000000000001
+Figueirense / SC,17,0.171,0.885
+Operário / PR,16,0.038,0.056999999999999995
+Paraná / PR,16,0.001,0.002
+CSA / AL,16,0.155,0.28600000000000003
+Figueirense / SC,16,0.063,0.9480000000000001
+Avaí / SC,16,0.03,0.054
+Confiança / SE,16,0.073,0.11499999999999999
+América / MG,16,0.001,0.003
+Cruzeiro / MG,16,0.045,0.054
+Vitória / BA,16,0.019,0.028
+Sampaio Corrêa / MA,16,0.002,0.002
+Botafogo / SP,16,0.165,0.77
+Guarani / SP,16,0.041,0.971
+Náutico / PE,16,0.158,0.31
+Ponte Preta / SP,16,0.011,0.011
+Brasil / RS,16,0.198,0.389
+Brasil / RS,15,0.178,0.567
+CRB / AL,15,0.003,0.003
+América / MG,15,0.008,0.011
+Sampaio Corrêa / MA,15,0.003,0.005
+Paraná / PR,15,0.001,0.003
+Náutico / PE,15,0.167,0.477
+Figueirense / SC,15,0.035,0.9830000000000001
+Cruzeiro / MG,15,0.058,0.112
+Ponte Preta / SP,15,0.015,0.026
+Vitória / BA,15,0.038,0.066
+CSA / AL,15,0.162,0.448
+Operário / PR,15,0.053,0.11
+Botafogo / SP,15,0.106,0.876
+Confiança / SE,15,0.096,0.21100000000000002
+Guarani / SP,15,0.015,0.986
+Avaí / SC,15,0.062,0.11599999999999999
+Sampaio Corrêa / MA,14,0.005,0.01
+CSA / AL,14,0.139,0.587
+Náutico / PE,14,0.12,0.597
+Confiança / SE,14,0.147,0.358
+Paraná / PR,14,0.001,0.004
+CRB / AL,14,0.018,0.020999999999999998
+Brasil / RS,14,0.147,0.714
+Ponte Preta / SP,14,0.019,0.045
+Cruzeiro / MG,14,0.091,0.203
+Avaí / SC,14,0.069,0.185
+Operário / PR,14,0.083,0.193
+Figueirense / SC,14,0.007,0.99
+Botafogo / SP,14,0.065,0.941
+Guarani / SP,14,0.008,0.994
+Vitória / BA,14,0.061,0.127
+América / MG,14,0.02,0.031
+Ponte Preta / SP,13,0.03,0.075
+Confiança / SE,13,0.13,0.488
+Guarani / SP,13,0.003,0.997
+Juventude / RS,13,0.001,0.001
+Figueirense / SC,13,0.006,0.996
+Cruzeiro / MG,13,0.101,0.304
+Paraná / PR,13,0.011,0.015
+Operário / PR,13,0.102,0.295
+CSA / AL,13,0.122,0.7090000000000001
+Brasil / RS,13,0.111,0.825
+Náutico / PE,13,0.124,0.721
+Avaí / SC,13,0.091,0.276
+Botafogo / SP,13,0.021,0.962
+Vitória / BA,13,0.081,0.208
+América / MG,13,0.032,0.063
+Sampaio Corrêa / MA,13,0.014,0.024
+CRB / AL,13,0.02,0.040999999999999995
+Operário / PR,12,0.118,0.413
+CSA / AL,12,0.071,0.78
+Sampaio Corrêa / MA,12,0.023,0.047
+Cruzeiro / MG,12,0.119,0.423
+Ponte Preta / SP,12,0.056,0.131
+CRB / AL,12,0.027,0.068
+Guarani / SP,12,0.003,1.0
+Vitória / BA,12,0.102,0.31
+Paraná / PR,12,0.016,0.031
+América / MG,12,0.044,0.107
+Náutico / PE,12,0.076,0.797
+Botafogo / SP,12,0.02,0.982
+Confiança / SE,12,0.137,0.625
+Figueirense / SC,12,0.004,1.0
+Avaí / SC,12,0.107,0.383
+Juventude / RS,12,0.003,0.004
+Brasil / RS,12,0.074,0.899
+Vitória / BA,11,0.127,0.437
+Botafogo / SP,11,0.009,0.991
+Operário / PR,11,0.103,0.516
+Sampaio Corrêa / MA,11,0.041,0.088
+Ponte Preta / SP,11,0.062,0.193
+Paraná / PR,11,0.031,0.062
+Avaí / SC,11,0.093,0.476
+Cruzeiro / MG,11,0.106,0.529
+América / MG,11,0.074,0.181
+CSA / AL,11,0.093,0.873
+Juventude / RS,11,0.003,0.007
+CRB / AL,11,0.035,0.10300000000000001
+Náutico / PE,11,0.076,0.873
+Confiança / SE,11,0.105,0.73
+Brasil / RS,11,0.042,0.941
+CSA / AL,10,0.045,0.918
+Avaí / SC,10,0.117,0.593
+Juventude / RS,10,0.005,0.012
+Operário / PR,10,0.144,0.6599999999999999
+Confiança / SE,10,0.095,0.825
+Cuiabá / MT,10,0.003,0.003
+Botafogo / SP,10,0.005,0.996
+Cruzeiro / MG,10,0.104,0.633
+Vitória / BA,10,0.1,0.537
+América / MG,10,0.093,0.274
+Ponte Preta / SP,10,0.074,0.267
+Paraná / PR,10,0.048,0.11
+CRB / AL,10,0.053,0.156
+Náutico / PE,10,0.047,0.92
+Brasil / RS,10,0.016,0.957
+Sampaio Corrêa / MA,10,0.051,0.139
+Paraná / PR,9,0.082,0.192
+Operário / PR,9,0.114,0.774
+Juventude / RS,9,0.01,0.022
+Náutico / PE,9,0.026,0.946
+Confiança / SE,9,0.056,0.881
+Cuiabá / MT,9,0.01,0.013000000000000001
+América / MG,9,0.116,0.39
+CSA / AL,9,0.028,0.9460000000000001
+Sampaio Corrêa / MA,9,0.066,0.20500000000000002
+Brasil / RS,9,0.02,0.977
+Botafogo / SP,9,0.002,0.998
+Vitória / BA,9,0.107,0.644
+Avaí / SC,9,0.089,0.6819999999999999
+CRB / AL,9,0.079,0.235
+Cruzeiro / MG,9,0.107,0.74
+Ponte Preta / SP,9,0.088,0.355
+América / MG,8,0.134,0.524
+Cruzeiro / MG,8,0.083,0.823
+Cuiabá / MT,8,0.008,0.020999999999999998
+CSA / AL,8,0.026,0.972
+Paraná / PR,8,0.107,0.299
+Sampaio Corrêa / MA,8,0.085,0.29000000000000004
+Náutico / PE,8,0.02,0.966
+Brasil / RS,8,0.014,0.991
+Vitória / BA,8,0.099,0.743
+Operário / PR,8,0.066,0.84
+Ponte Preta / SP,8,0.11,0.46499999999999997
+CRB / AL,8,0.09,0.325
+Botafogo / SP,8,0.001,0.999
+Juventude / RS,8,0.014,0.036000000000000004
+Avaí / SC,8,0.094,0.776
+Confiança / SE,8,0.049,0.93
+Operário / PR,7,0.053,0.893
+Brasil / RS,7,0.004,0.995
+América / MG,7,0.139,0.663
+Vitória / BA,7,0.075,0.8180000000000001
+Paraná / PR,7,0.11,0.40900000000000003
+Avaí / SC,7,0.083,0.859
+CRB / AL,7,0.114,0.439
+CSA / AL,7,0.015,0.987
+Confiança / SE,7,0.036,0.966
+Juventude / RS,7,0.028,0.064
+Cuiabá / MT,7,0.014,0.035
+Náutico / PE,7,0.013,0.979
+Ponte Preta / SP,7,0.131,0.596
+Sampaio Corrêa / MA,7,0.12,0.41000000000000003
+Cruzeiro / MG,7,0.065,0.888
+Cuiabá / MT,6,0.035,0.07
+América / MG,6,0.122,0.785
+Ponte Preta / SP,6,0.117,0.713
+Avaí / SC,6,0.062,0.921
+Cruzeiro / MG,6,0.057,0.945
+Juventude / RS,6,0.045,0.109
+CSA / AL,6,0.009,0.996
+CRB / AL,6,0.145,0.584
+Confiança / SE,6,0.017,0.983
+Operário / PR,6,0.04,0.9329999999999999
+Sampaio Corrêa / MA,6,0.148,0.558
+Brasil / RS,6,0.003,0.998
+Chapecoense / SC,6,0.003,0.003
+Náutico / PE,6,0.007,0.986
+Vitória / BA,6,0.07,0.888
+Paraná / PR,6,0.12,0.529
+Paraná / PR,5,0.171,0.7
+Sampaio Corrêa / MA,5,0.14,0.698
+Ponte Preta / SP,5,0.101,0.814
+Vitória / BA,5,0.062,0.95
+Cuiabá / MT,5,0.064,0.134
+Avaí / SC,5,0.043,0.964
+Chapecoense / SC,5,0.005,0.008
+Operário / PR,5,0.039,0.972
+Confiança / SE,5,0.009,0.992
+América / MG,5,0.108,0.893
+Náutico / PE,5,0.012,0.998
+CSA / AL,5,0.003,0.999
+Brasil / RS,5,0.002,1.0
+Juventude / RS,5,0.071,0.18
+Cruzeiro / MG,5,0.028,0.973
+CRB / AL,5,0.142,0.726
+Paraná / PR,4,0.166,0.866
+CRB / AL,4,0.14,0.866
+Cruzeiro / MG,4,0.021,0.994
+CSA / AL,4,0.001,1.0
+Vitória / BA,4,0.026,0.976
+Chapecoense / SC,4,0.026,0.034
+Cuiabá / MT,4,0.135,0.269
+Ponte Preta / SP,4,0.095,0.909
+Confiança / SE,4,0.005,0.997
+Botafogo / SP,4,0.001,1.0
+Avaí / SC,4,0.021,0.985
+Juventude / RS,4,0.145,0.32499999999999996
+Náutico / PE,4,0.001,0.999
+Operário / PR,4,0.018,0.99
+América / MG,4,0.068,0.9610000000000001
+Sampaio Corrêa / MA,4,0.131,0.829
+Vitória / BA,3,0.017,0.993
+CRB / AL,3,0.089,0.955
+Avaí / SC,3,0.013,0.998
+Chapecoense / SC,3,0.076,0.11
+América / MG,3,0.027,0.988
+Confiança / SE,3,0.002,0.999
+Sampaio Corrêa / MA,3,0.107,0.936
+Paraná / PR,3,0.075,0.9410000000000001
+Operário / PR,3,0.01,1.0
+Náutico / PE,3,0.001,1.0
+Juventude / RS,3,0.268,0.593
+Cruzeiro / MG,3,0.003,0.997
+Ponte Preta / SP,3,0.066,0.975
+Cuiabá / MT,3,0.246,0.515
+Confiança / SE,2,0.001,1.0
+Paraná / PR,2,0.047,0.988
+Avaí / SC,2,0.001,0.999
+Ponte Preta / SP,2,0.023,0.998
+CRB / AL,2,0.041,0.996
+Juventude / RS,2,0.271,0.864
+América / MG,2,0.009,0.997
+Vitória / BA,2,0.007,1.0
+Cuiabá / MT,2,0.342,0.857
+Chapecoense / SC,2,0.203,0.313
+Cruzeiro / MG,2,0.003,1.0
+Sampaio Corrêa / MA,2,0.052,0.988
+Juventude / RS,1,0.136,1.0
+CRB / AL,1,0.004,1.0
+Cuiabá / MT,1,0.143,1.0
+Ponte Preta / SP,1,0.002,1.0
+Chapecoense / SC,1,0.687,1.0
+Avaí / SC,1,0.001,1.0
+Sampaio Corrêa / MA,1,0.012,1.0
+Paraná / PR,1,0.012,1.0
+América / MG,1,0.003,1.0
