@@ -1,52 +1,52 @@
 Club,Position,Probability,Cumulative
 Avaí / SC,20,1.0,1.0
-Chapecoense / SC,19,0.878592,0.878592
-CSA / AL,19,0.121408,0.121408
-CSA / AL,18,0.878592,1.0
-Chapecoense / SC,18,0.121408,1.0
-Cruzeiro / MG,17,0.922629,0.922629
-Ceará / CE,17,0.077371,0.077371
-Cruzeiro / MG,16,0.077371,1.0
-Ceará / CE,16,0.922629,1.0
-Botafogo / RJ,15,0.505357,0.505357
-Fluminense / RJ,15,0.494643,0.494643
-Fluminense / RJ,14,0.505357,1.0
-Botafogo / RJ,14,0.494643,1.0
-Fortaleza / CE,13,0.003156,0.003156
-Vasco da Gama / RJ,13,0.329873,0.329873
-Bahia / BA,13,0.116272,0.116272
-Goiás / GO,13,0.02209,0.02209
-Atlético / MG,13,0.528609,0.528609
-Bahia / BA,12,0.327645,0.443917
-Goiás / GO,12,0.187588,0.209678
-Atlético / MG,12,0.256805,0.7854140000000001
-Vasco da Gama / RJ,12,0.195315,0.525188
-Fortaleza / CE,12,0.032647,0.035803
-Fortaleza / CE,11,0.088738,0.124541
-Bahia / BA,11,0.291385,0.735302
-Goiás / GO,11,0.350221,0.559899
-Atlético / MG,11,0.111507,0.896921
-Vasco da Gama / RJ,11,0.158149,0.6833370000000001
-Goiás / GO,10,0.295503,0.855402
-Vasco da Gama / RJ,10,0.316663,1.0
-Fortaleza / CE,10,0.158626,0.283167
-Bahia / BA,10,0.126353,0.8616550000000001
-Atlético / MG,10,0.102855,0.999776
-Fortaleza / CE,9,0.716833,1.0
-Goiás / GO,9,0.144598,1.0
-Bahia / BA,9,0.138345,1.0
-Atlético / MG,9,0.000224,1.0
-Internacional / RS,8,0.696295,0.696295
-Corinthians / SP,8,0.303705,0.303705
-Corinthians / SP,7,0.696295,1.0
-Internacional / RS,7,0.303705,1.0
+Chapecoense / SC,19,0.919671,0.919671
+CSA / AL,19,0.080329,0.080329
+CSA / AL,18,0.919671,1.0
+Chapecoense / SC,18,0.080329,1.0
+Cruzeiro / MG,17,0.950478,0.950478
+Ceará / CE,17,0.049522,0.049522
+Cruzeiro / MG,16,0.049522,1.0
+Ceará / CE,16,0.950478,1.0
+Botafogo / RJ,15,0.622506,0.622506
+Fluminense / RJ,15,0.377494,0.377494
+Fluminense / RJ,14,0.622506,1.0
+Botafogo / RJ,14,0.377494,1.0
+Fortaleza / CE,13,0.00405,0.00405
+Vasco da Gama / RJ,13,0.359132,0.359132
+Bahia / BA,13,0.048229,0.048229
+Goiás / GO,13,0.02936,0.02936
+Atlético / MG,13,0.559229,0.559229
+Bahia / BA,12,0.169494,0.217723
+Goiás / GO,12,0.253144,0.282504
+Atlético / MG,12,0.257817,0.8170459999999999
+Vasco da Gama / RJ,12,0.267729,0.626861
+Fortaleza / CE,12,0.051816,0.055866
+Fortaleza / CE,11,0.19504,0.25090599999999996
+Bahia / BA,11,0.218718,0.43644099999999997
+Goiás / GO,11,0.411566,0.69407
+Atlético / MG,11,0.074031,0.891077
+Vasco da Gama / RJ,11,0.100645,0.727506
+Goiás / GO,10,0.167219,0.861289
+Vasco da Gama / RJ,10,0.272494,1.0
+Fortaleza / CE,10,0.257058,0.507964
+Bahia / BA,10,0.194461,0.630902
+Atlético / MG,10,0.108768,0.999845
+Fortaleza / CE,9,0.492036,1.0
+Goiás / GO,9,0.138711,1.0
+Bahia / BA,9,0.369098,1.0
+Atlético / MG,9,0.000155,1.0
+Internacional / RS,8,0.68292,0.68292
+Corinthians / SP,8,0.31708,0.31708
+Corinthians / SP,7,0.68292,1.0
+Internacional / RS,7,0.31708,1.0
 São Paulo / SP,6,1.0,1.0
-Athletico Paranaense / PR,5,0.839023,0.839023
-Grêmio / RS,5,0.160977,0.160977
-Athletico Paranaense / PR,4,0.160977,1.0
-Grêmio / RS,4,0.839023,1.0
-Santos / SP,3,0.415352,0.415352
-Palmeiras / SP,3,0.584648,0.584648
-Santos / SP,2,0.584648,1.0
-Palmeiras / SP,2,0.415352,1.0
+Athletico Paranaense / PR,5,0.919182,0.919182
+Grêmio / RS,5,0.080818,0.080818
+Athletico Paranaense / PR,4,0.080818,1.0
+Grêmio / RS,4,0.919182,1.0
+Santos / SP,3,0.296766,0.296766
+Palmeiras / SP,3,0.703234,0.703234
+Santos / SP,2,0.703234,1.0
+Palmeiras / SP,2,0.296766,1.0
 Flamengo / RJ,1,1.0,1.0
