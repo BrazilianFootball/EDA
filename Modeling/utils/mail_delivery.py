@@ -32,7 +32,7 @@ def send(from_mail, password, to_mail, subject, body, attachments = None):
     server.sendmail(from_mail, to_mail, text)
     server.quit()
 
-def catch_results(username, password, tag):
+def catch_results(username, password, tag, cleaning = False):
     server = 'imap.gmail.com'
     mail = imaplib.IMAP4_SSL(server)
     mail.login(username, password)
@@ -40,6 +40,7 @@ def catch_results(username, password, tag):
     data = mail.search(None, 'ALL')
     mail_ids = data[1]
     id_list = mail_ids[0].split()
+    if len(id_list) == 0: return
     latest_email_id = int(id_list[-1])
     for i in range(latest_email_id, 0, -1):
         data = mail.fetch(str(i), '(RFC822)')
@@ -72,15 +73,11 @@ def catch_results(username, password, tag):
                     fileName = '/'.join(fileName)
                     if bool(fileName):
                         filePath = os.path.join(os.getcwd(), fileName)
-                        if not os.path.isfile(filePath) :
-                            fp = open(filePath, 'wb')
-                            fp.write(part.get_payload(decode=True))
-                            fp.close()
+                        if os.path.isfile(filePath): os.remove(filePath)
+                        fp = open(filePath, 'wb')
+                        fp.write(part.get_payload(decode=True))
+                        fp.close()
                         
-                        subject = str(msg).split("Subject: ", 1)[1].split("\nTo:", 1)[0]
-                        
-                        print('Downloaded "{file}" from email titled "{subject}" with.'.format(file=fileName, subject=subject))
-
         if tag not in email_subject: break
     
-    os.system('clear')
+    if cleaning: os.system('clear')
