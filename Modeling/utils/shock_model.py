@@ -23,6 +23,7 @@ def simulate_shock_model(lambda_1, lambda_2, theta, n_sims):
 class ShockModel:
     def __init__(self, competition, year, n_sims = 5_000_000, max_games = 380, ignored_games = list(), x0 = None, home_away_pars = 0, to_git = True, max_iters = 10, max_theta = .2):
         self.x0 = x0
+        self.iters = 1
         self.year = year
         self.to_git = to_git
         self.n_sims = n_sims
@@ -183,7 +184,7 @@ class ShockModel:
         res = minimize(self.bp_likelihood, parameters, args = (played_games, inx), bounds = bounds)
         with open(f'results/optimizer/optimizer_result_{self.filename_tag}.pkl', 'wb') as f: pickle.dump(res, f)
         if not res.success and verbose:
-            print('Parameters didn\'t converge')
+            print(f'Parameters didn\'t converge ({self.iters}/{self.max_iters})')
         
         parameters = np.hstack([np.array([1]), res.x])
         if self.home_away_pars == 40:
@@ -252,14 +253,13 @@ class ShockModel:
         return generate_table(points), game_probs
 
     def run_model(self, verbose = True, show_fig = True):
-        iters = 1
         success, parameters, games, played_games = self.optimize_parameters(verbose)
-        while not success and iters < self.max_iters:
-            iters += 1
+        while not success and self.iters < self.max_iters:
+            self.iters += 1
             success, parameters, games, played_games = self.optimize_parameters(verbose)
 
         if not success: self.n_sims = int(self.n_sims ** (1/2))
-        elif verbose: print(f'Parameters converged after {iters} iteration(s)!')
+        elif verbose: print(f'Parameters converged after {self.iters} iteration(s)!')
         table, game_probs = self.simulation(games, played_games, parameters)
         table = calculate_final_position(table)
         with open(f'results/probs/game_probs_{self.filename_tag}.json', 'w') as f: json.dump(game_probs, f)
