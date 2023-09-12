@@ -1,0 +1,55 @@
+Club,Position,Probability,Cumulative
+Botafogo / RJ,20,1.0,1.0
+Coritiba / PR,19,1.0,1.0
+Vasco da Gama / RJ,18,0.29156,0.29156
+Goiás / GO,18,0.70844,0.70844
+Vasco da Gama / RJ,17,0.708434,0.999994
+Goiás / GO,17,0.29156,1.0
+Fortaleza / CE,17,6e-06,6e-06
+Vasco da Gama / RJ,16,6e-06,1.0
+Sport / PE,16,0.052589,0.052589
+Bahia / BA,16,0.231381,0.231381
+Fortaleza / CE,16,0.716024,0.7160299999999999
+Sport / PE,15,0.340588,0.393177
+Bahia / BA,15,0.476296,0.707677
+Fortaleza / CE,15,0.183116,0.899146
+Sport / PE,14,0.606823,1.0
+Fortaleza / CE,14,0.100854,1.0
+Bahia / BA,14,0.292323,1.0
+Ceará / CE,13,0.062046,0.062046
+Atlético / GO,13,0.937954,0.937954
+Corinthians / SP,12,0.432499,0.432499
+Ceará / CE,12,0.142909,0.204955
+Athletico Paranaense / PR,12,0.040642,0.040642
+Atlético / GO,12,0.062046,1.0
+Red Bull Bragantino / SP,12,0.321904,0.321904
+Corinthians / SP,11,0.32841,0.7609090000000001
+Athletico Paranaense / PR,11,0.170401,0.21104299999999998
+Ceará / CE,11,0.278255,0.48321
+Red Bull Bragantino / SP,11,0.222934,0.544838
+Athletico Paranaense / PR,10,0.207368,0.418411
+Ceará / CE,10,0.350924,0.8341339999999999
+Corinthians / SP,10,0.159516,0.920425
+Red Bull Bragantino / SP,10,0.282192,0.82703
+Corinthians / SP,9,0.079575,1.0
+Red Bull Bragantino / SP,9,0.17297,1.0
+Athletico Paranaense / PR,9,0.581589,1.0
+Ceará / CE,9,0.165866,1.0
+Santos / SP,8,1.0,1.0
+Palmeiras / SP,7,0.683028,0.683028
+Grêmio / RS,7,0.316972,0.316972
+Palmeiras / SP,6,0.316972,1.0
+Fluminense / RJ,6,0.052052,0.052052
+Grêmio / RS,6,0.630976,0.947948
+Grêmio / RS,5,0.052052,1.0
+Fluminense / RJ,5,0.647163,0.699215
+São Paulo / SP,5,0.300785,0.300785
+Atlético / MG,4,0.132147,0.132147
+Fluminense / RJ,4,0.300785,1.0
+São Paulo / SP,4,0.567068,0.867853
+Atlético / MG,3,0.867853,1.0
+São Paulo / SP,3,0.132147,1.0
+Internacional / RS,2,0.588023,0.588023
+Flamengo / RJ,2,0.411977,0.411977
+Internacional / RS,1,0.411977,1.0
+Flamengo / RJ,1,0.588023,1.0

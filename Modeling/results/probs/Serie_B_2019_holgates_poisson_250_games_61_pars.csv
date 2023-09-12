@@ -1,281 +1,281 @@
 Club,Position,Probability,Cumulative
-Vitória / BA,20,0.211,0.211
-São Bento / SP,20,0.202,0.202
-Guarani / SP,20,0.045,0.045
-Londrina / PR,20,0.031,0.031
-Oeste / SP,20,0.004,0.004
-Criciúma / SC,20,0.204,0.204
-Figueirense / SC,20,0.244,0.244
-Brasil / RS,20,0.017,0.017
-Vila Nova / GO,20,0.042,0.042
-São Bento / SP,19,0.167,0.369
-Criciúma / SC,19,0.195,0.399
-Figueirense / SC,19,0.165,0.40900000000000003
-Vila Nova / GO,19,0.07,0.11200000000000002
-Oeste / SP,19,0.012,0.016
-Brasil / RS,19,0.054,0.07100000000000001
-Londrina / PR,19,0.062,0.093
-Vitória / BA,19,0.179,0.39
-Guarani / SP,19,0.095,0.14
-Operário / PR,19,0.001,0.001
-Criciúma / SC,18,0.149,0.548
-Cuiabá / MT,18,0.001,0.001
-Figueirense / SC,18,0.144,0.5529999999999999
-Oeste / SP,18,0.017,0.033
-Londrina / PR,18,0.082,0.175
+Vitória / BA,20,0.208,0.208
+Guarani / SP,20,0.043,0.043
+Brasil / RS,20,0.022,0.022
+Vila Nova / GO,20,0.048,0.048
+Criciúma / SC,20,0.185,0.185
+São Bento / SP,20,0.227,0.227
+Figueirense / SC,20,0.228,0.228
+Oeste / SP,20,0.006,0.006
+Londrina / PR,20,0.033,0.033
+Brasil / RS,19,0.036,0.057999999999999996
+Criciúma / SC,19,0.184,0.369
+Figueirense / SC,19,0.169,0.397
+Guarani / SP,19,0.096,0.139
+América / MG,19,0.001,0.001
+Londrina / PR,19,0.046,0.079
+Oeste / SP,19,0.011,0.017
+São Bento / SP,19,0.19,0.41700000000000004
+Vila Nova / GO,19,0.069,0.117
+Vitória / BA,19,0.198,0.406
+Londrina / PR,18,0.054,0.133
 Botafogo / SP,18,0.002,0.002
-Operário / PR,18,0.003,0.004
-Ponte Preta / SP,18,0.001,0.001
-São Bento / SP,18,0.15,0.519
-Vila Nova / GO,18,0.096,0.20800000000000002
-Vitória / BA,18,0.145,0.5349999999999999
-Brasil / RS,18,0.074,0.145
-Guarani / SP,18,0.135,0.275
-América / MG,18,0.001,0.001
-Londrina / PR,17,0.097,0.272
-Operário / PR,17,0.001,0.005
-Cuiabá / MT,17,0.001,0.002
-São Bento / SP,17,0.13,0.649
-Oeste / SP,17,0.033,0.066
-América / MG,17,0.003,0.004
-Vila Nova / GO,17,0.103,0.311
-Figueirense / SC,17,0.117,0.67
-Brasil / RS,17,0.091,0.236
-Paraná / PR,17,0.001,0.001
-Vitória / BA,17,0.134,0.669
-Botafogo / SP,17,0.005,0.007
-Criciúma / SC,17,0.152,0.7
-Guarani / SP,17,0.132,0.40700000000000003
-Operário / PR,16,0.009,0.013999999999999999
-América / MG,16,0.006,0.01
-Paraná / PR,16,0.001,0.002
-Cuiabá / MT,16,0.002,0.004
-São Bento / SP,16,0.118,0.767
-Criciúma / SC,16,0.105,0.8049999999999999
-Ponte Preta / SP,16,0.001,0.002
-Oeste / SP,16,0.054,0.12
-Brasil / RS,16,0.104,0.33999999999999997
-Guarani / SP,16,0.141,0.548
-Botafogo / SP,16,0.011,0.018
-Vitória / BA,16,0.108,0.777
-Figueirense / SC,16,0.102,0.772
-Vila Nova / GO,16,0.133,0.444
-Londrina / PR,16,0.105,0.377
-Vila Nova / GO,15,0.132,0.5760000000000001
-Londrina / PR,15,0.12,0.497
-Criciúma / SC,15,0.067,0.872
-Coritiba / PR,15,0.001,0.001
-Botafogo / SP,15,0.014,0.032
-Paraná / PR,15,0.012,0.014
-Vitória / BA,15,0.086,0.863
-Operário / PR,15,0.013,0.027
-Ponte Preta / SP,15,0.007,0.009000000000000001
-Guarani / SP,15,0.135,0.683
-América / MG,15,0.014,0.024
-Cuiabá / MT,15,0.008,0.012
-Figueirense / SC,15,0.082,0.854
-São Bento / SP,15,0.067,0.8340000000000001
-Brasil / RS,15,0.163,0.503
-Oeste / SP,15,0.079,0.199
-Oeste / SP,14,0.098,0.29700000000000004
-Londrina / PR,14,0.136,0.633
-Cuiabá / MT,14,0.025,0.037000000000000005
-América / MG,14,0.017,0.041
-Figueirense / SC,14,0.059,0.913
-Criciúma / SC,14,0.055,0.9269999999999999
-Operário / PR,14,0.027,0.054
-Guarani / SP,14,0.111,0.794
-Vitória / BA,14,0.057,0.9199999999999999
-Vila Nova / GO,14,0.13,0.706
-São Bento / SP,14,0.074,0.908
+Oeste / SP,18,0.015,0.032
+São Bento / SP,18,0.152,0.569
+Figueirense / SC,18,0.165,0.562
+Cuiabá / MT,18,0.002,0.002
+Vila Nova / GO,18,0.096,0.21300000000000002
+Criciúma / SC,18,0.156,0.525
+Vitória / BA,18,0.145,0.5509999999999999
+Brasil / RS,18,0.078,0.136
+Guarani / SP,18,0.134,0.273
+América / MG,18,0.001,0.002
+Londrina / PR,17,0.098,0.231
+Botafogo / SP,17,0.004,0.006
+Criciúma / SC,17,0.132,0.657
+Cuiabá / MT,17,0.004,0.006
+Figueirense / SC,17,0.119,0.681
+Guarani / SP,17,0.145,0.41800000000000004
+São Bento / SP,17,0.113,0.682
+Vila Nova / GO,17,0.108,0.321
+Vitória / BA,17,0.122,0.673
+Brasil / RS,17,0.098,0.23399999999999999
+América / MG,17,0.001,0.003
+Oeste / SP,17,0.051,0.08299999999999999
+Operário / PR,17,0.004,0.004
+Ponte Preta / SP,17,0.001,0.001
+América / MG,16,0.008,0.011
+Oeste / SP,16,0.052,0.135
+São Bento / SP,16,0.112,0.794
+Operário / PR,16,0.006,0.01
+Guarani / SP,16,0.134,0.552
+Paraná / PR,16,0.007,0.007
+Cuiabá / MT,16,0.013,0.019
+Ponte Preta / SP,16,0.002,0.003
+Criciúma / SC,16,0.102,0.759
+Vila Nova / GO,16,0.127,0.448
+Londrina / PR,16,0.127,0.358
+Figueirense / SC,16,0.075,0.756
+Vitória / BA,16,0.109,0.782
+Botafogo / SP,16,0.006,0.012
+Brasil / RS,16,0.12,0.354
+Guarani / SP,15,0.141,0.6930000000000001
+Oeste / SP,15,0.081,0.216
+Cuiabá / MT,15,0.018,0.037
+Vila Nova / GO,15,0.134,0.5820000000000001
+Figueirense / SC,15,0.074,0.8300000000000001
+Brasil / RS,15,0.126,0.48
+Criciúma / SC,15,0.081,0.84
+Vitória / BA,15,0.076,0.858
+São Bento / SP,15,0.08,0.874
+Londrina / PR,15,0.13,0.488
+Botafogo / SP,15,0.014,0.026000000000000002
+América / MG,15,0.018,0.028999999999999998
+Operário / PR,15,0.013,0.023
+Ponte Preta / SP,15,0.006,0.009000000000000001
+Paraná / PR,15,0.008,0.015
+Londrina / PR,14,0.128,0.616
+Vila Nova / GO,14,0.144,0.726
 Ponte Preta / SP,14,0.011,0.02
-Botafogo / SP,14,0.03,0.062
-CRB / AL,14,0.006,0.006
-Paraná / PR,14,0.032,0.046
-Brasil / RS,14,0.132,0.635
-Figueirense / SC,13,0.034,0.947
-Botafogo / SP,13,0.063,0.125
-Vila Nova / GO,13,0.113,0.8190000000000001
-Brasil / RS,13,0.136,0.771
-América / MG,13,0.042,0.083
-Vitória / BA,13,0.029,0.949
-São Bento / SP,13,0.041,0.9490000000000001
-Londrina / PR,13,0.116,0.749
-Oeste / SP,13,0.145,0.442
-Paraná / PR,13,0.032,0.078
-Cuiabá / MT,13,0.044,0.081
-Operário / PR,13,0.039,0.093
-Ponte Preta / SP,13,0.033,0.053000000000000005
-Criciúma / SC,13,0.035,0.962
-Guarani / SP,13,0.083,0.877
-CRB / AL,13,0.01,0.016
-Coritiba / PR,13,0.005,0.006
-Figueirense / SC,12,0.02,0.967
-Criciúma / SC,12,0.023,0.985
-Vitória / BA,12,0.029,0.978
-Botafogo / SP,12,0.094,0.219
-Londrina / PR,12,0.092,0.841
-Brasil / RS,12,0.083,0.854
-Paraná / PR,12,0.06,0.138
-CRB / AL,12,0.018,0.034
-Coritiba / PR,12,0.005,0.011
-Ponte Preta / SP,12,0.043,0.096
-Vila Nova / GO,12,0.08,0.899
-América / MG,12,0.064,0.14700000000000002
-Operário / PR,12,0.083,0.176
-São Bento / SP,12,0.029,0.978
-Guarani / SP,12,0.057,0.934
-Cuiabá / MT,12,0.076,0.157
-Oeste / SP,12,0.144,0.586
-Londrina / PR,11,0.057,0.898
-Paraná / PR,11,0.111,0.249
-Vitória / BA,11,0.008,0.986
-Oeste / SP,11,0.133,0.719
-Vila Nova / GO,11,0.042,0.9410000000000001
-São Bento / SP,11,0.011,0.989
-Operário / PR,11,0.103,0.279
-Ponte Preta / SP,11,0.074,0.16999999999999998
-América / MG,11,0.08,0.227
-Botafogo / SP,11,0.111,0.33
-Guarani / SP,11,0.04,0.974
-Criciúma / SC,11,0.006,0.991
-Figueirense / SC,11,0.019,0.986
-Coritiba / PR,11,0.007,0.018000000000000002
-Cuiabá / MT,11,0.094,0.251
-CRB / AL,11,0.042,0.076
-Brasil / RS,11,0.062,0.916
-Guarani / SP,10,0.008,0.982
-Ponte Preta / SP,10,0.089,0.259
-Vitória / BA,10,0.008,0.994
-CRB / AL,10,0.051,0.127
-Brasil / RS,10,0.033,0.9490000000000001
-Cuiabá / MT,10,0.115,0.366
-Paraná / PR,10,0.156,0.405
-Figueirense / SC,10,0.008,0.994
-Oeste / SP,10,0.083,0.802
-São Bento / SP,10,0.007,0.996
-Criciúma / SC,10,0.005,0.996
-Operário / PR,10,0.112,0.391
-Coritiba / PR,10,0.026,0.044
-Botafogo / SP,10,0.112,0.442
-Vila Nova / GO,10,0.025,0.966
-América / MG,10,0.121,0.348
-Londrina / PR,10,0.041,0.9390000000000001
-Guarani / SP,9,0.007,0.989
-Vitória / BA,9,0.002,0.996
-Operário / PR,9,0.119,0.51
-CRB / AL,9,0.07,0.197
-Ponte Preta / SP,9,0.118,0.377
-Brasil / RS,9,0.018,0.967
-Londrina / PR,9,0.02,0.959
-Vila Nova / GO,9,0.02,0.986
-Cuiabá / MT,9,0.131,0.497
-Coritiba / PR,9,0.043,0.087
-Sport / PE,9,0.001,0.001
-Figueirense / SC,9,0.002,0.996
-Paraná / PR,9,0.129,0.534
-Oeste / SP,9,0.07,0.872
-Botafogo / SP,9,0.12,0.562
-Criciúma / SC,9,0.002,0.998
-São Bento / SP,9,0.002,0.998
-América / MG,9,0.126,0.474
-Coritiba / PR,8,0.048,0.135
-Botafogo / SP,8,0.114,0.676
-Paraná / PR,8,0.139,0.673
-Vila Nova / GO,8,0.007,0.993
-Ponte Preta / SP,8,0.122,0.499
-Brasil / RS,8,0.02,0.987
-Criciúma / SC,8,0.001,0.999
-Operário / PR,8,0.125,0.635
-Guarani / SP,8,0.005,0.994
-CRB / AL,8,0.095,0.29200000000000004
-Vitória / BA,8,0.003,0.999
-São Bento / SP,8,0.001,0.999
-América / MG,8,0.133,0.607
-Oeste / SP,8,0.049,0.921
-Cuiabá / MT,8,0.117,0.614
-Londrina / PR,8,0.018,0.977
+Figueirense / SC,14,0.061,0.891
+Brasil / RS,14,0.136,0.616
+Paraná / PR,14,0.024,0.039
+Criciúma / SC,14,0.071,0.911
+Guarani / SP,14,0.083,0.776
+CRB / AL,14,0.004,0.004
+Botafogo / SP,14,0.044,0.07
+Operário / PR,14,0.037,0.06
+América / MG,14,0.02,0.049
+Oeste / SP,14,0.108,0.324
+Vitória / BA,14,0.054,0.912
+São Bento / SP,14,0.043,0.917
+Cuiabá / MT,14,0.032,0.069
+Guarani / SP,13,0.097,0.873
+Cuiabá / MT,13,0.036,0.105
+América / MG,13,0.028,0.077
+Londrina / PR,13,0.134,0.75
+Botafogo / SP,13,0.045,0.11499999999999999
+Paraná / PR,13,0.048,0.087
+Oeste / SP,13,0.121,0.445
+Operário / PR,13,0.048,0.108
+Figueirense / SC,13,0.048,0.9390000000000001
+Brasil / RS,13,0.129,0.745
+Ponte Preta / SP,13,0.041,0.061
+São Bento / SP,13,0.032,0.9490000000000001
+Vitória / BA,13,0.038,0.95
+CRB / AL,13,0.007,0.011
+Criciúma / SC,13,0.055,0.966
+Coritiba / PR,13,0.003,0.003
+Vila Nova / GO,13,0.09,0.8160000000000001
+CRB / AL,12,0.017,0.028
+São Bento / SP,12,0.024,0.973
+Botafogo / SP,12,0.069,0.184
+Guarani / SP,12,0.058,0.931
+Criciúma / SC,12,0.017,0.983
+Vitória / BA,12,0.022,0.972
+Ponte Preta / SP,12,0.054,0.115
+Figueirense / SC,12,0.019,0.958
+Oeste / SP,12,0.155,0.6
+América / MG,12,0.066,0.14300000000000002
+Paraná / PR,12,0.067,0.154
+Brasil / RS,12,0.103,0.848
+Vila Nova / GO,12,0.077,0.893
+Coritiba / PR,12,0.006,0.009000000000000001
+Operário / PR,12,0.079,0.187
+Cuiabá / MT,12,0.07,0.175
+Londrina / PR,12,0.097,0.847
+Oeste / SP,11,0.113,0.713
+Coritiba / PR,11,0.01,0.019
+Sport / PE,11,0.001,0.001
+Paraná / PR,11,0.084,0.238
+Guarani / SP,11,0.037,0.968
+América / MG,11,0.088,0.23099999999999998
+Criciúma / SC,11,0.01,0.993
+Londrina / PR,11,0.065,0.912
+Vila Nova / GO,11,0.054,0.947
+Operário / PR,11,0.102,0.289
+Vitória / BA,11,0.009,0.981
+Brasil / RS,11,0.062,0.91
+Ponte Preta / SP,11,0.076,0.191
+Figueirense / SC,11,0.018,0.976
+Cuiabá / MT,11,0.103,0.278
+Botafogo / SP,11,0.12,0.304
+CRB / AL,11,0.038,0.066
+São Bento / SP,11,0.01,0.983
+CRB / AL,10,0.052,0.118
+Oeste / SP,10,0.087,0.7999999999999999
+São Bento / SP,10,0.009,0.992
+Botafogo / SP,10,0.131,0.435
+Londrina / PR,10,0.036,0.9480000000000001
+Coritiba / PR,10,0.024,0.043
+Ponte Preta / SP,10,0.091,0.28200000000000003
+Operário / PR,10,0.115,0.404
+América / MG,10,0.09,0.321
+Guarani / SP,10,0.01,0.978
+Brasil / RS,10,0.033,0.943
+Vitória / BA,10,0.011,0.992
+Figueirense / SC,10,0.009,0.985
+Paraná / PR,10,0.159,0.397
+Vila Nova / GO,10,0.03,0.977
+Criciúma / SC,10,0.004,0.997
+Cuiabá / MT,10,0.109,0.387
+Vila Nova / GO,9,0.015,0.992
+São Bento / SP,9,0.004,0.996
+Vitória / BA,9,0.005,0.997
+Ponte Preta / SP,9,0.106,0.388
+CRB / AL,9,0.062,0.18
+América / MG,9,0.117,0.438
+Botafogo / SP,9,0.117,0.552
+Figueirense / SC,9,0.012,0.997
+Londrina / PR,9,0.017,0.9650000000000001
+Oeste / SP,9,0.068,0.868
+Atlético / GO,9,0.002,0.002
+Brasil / RS,9,0.03,0.973
+Cuiabá / MT,9,0.143,0.53
+Coritiba / PR,9,0.03,0.073
+Operário / PR,9,0.137,0.541
+Paraná / PR,9,0.129,0.526
+Criciúma / SC,9,0.001,0.998
+Guarani / SP,9,0.005,0.983
+CRB / AL,8,0.09,0.27
 Sport / PE,8,0.002,0.003
-Figueirense / SC,8,0.001,0.997
-CRB / AL,7,0.095,0.387
-São Bento / SP,7,0.001,1.0
-Coritiba / PR,7,0.083,0.218
-Ponte Preta / SP,7,0.146,0.645
-América / MG,7,0.128,0.735
-Vitória / BA,7,0.001,1.0
-Vila Nova / GO,7,0.004,0.997
-Sport / PE,7,0.001,0.004
-Paraná / PR,7,0.127,0.8
-Botafogo / SP,7,0.113,0.789
-Operário / PR,7,0.113,0.748
-Brasil / RS,7,0.004,0.991
-Figueirense / SC,7,0.001,0.998
-Oeste / SP,7,0.039,0.96
-Cuiabá / MT,7,0.132,0.746
-Guarani / SP,7,0.002,0.996
-Londrina / PR,7,0.01,0.987
-Guarani / SP,6,0.004,1.0
-Atlético / GO,6,0.005,0.005
-CRB / AL,6,0.143,0.53
-Paraná / PR,6,0.093,0.893
-Sport / PE,6,0.012,0.016
-Londrina / PR,6,0.007,0.994
-América / MG,6,0.109,0.844
-Operário / PR,6,0.111,0.859
-Oeste / SP,6,0.026,0.986
-Criciúma / SC,6,0.001,1.0
-Cuiabá / MT,6,0.106,0.852
-Coritiba / PR,6,0.122,0.33999999999999997
-Ponte Preta / SP,6,0.161,0.8059999999999999
-Botafogo / SP,6,0.095,0.884
-Brasil / RS,6,0.005,0.996
-Brasil / RS,5,0.003,0.999
-América / MG,5,0.096,0.9400000000000001
-Londrina / PR,5,0.005,0.999
-Paraná / PR,5,0.07,0.9630000000000001
-Vila Nova / GO,5,0.002,0.999
-Ponte Preta / SP,5,0.12,0.9259999999999999
-CRB / AL,5,0.197,0.727
-Operário / PR,5,0.084,0.9430000000000001
-Atlético / GO,5,0.016,0.021
-Coritiba / PR,5,0.221,0.5609999999999999
-Figueirense / SC,5,0.002,1.0
-Oeste / SP,5,0.008,0.994
-Botafogo / SP,5,0.058,0.9420000000000001
-Sport / PE,5,0.026,0.041999999999999996
-Cuiabá / MT,5,0.092,0.944
-Oeste / SP,4,0.006,1.0
-América / MG,4,0.045,0.985
-Atlético / GO,4,0.106,0.127
-Londrina / PR,4,0.001,1.0
-Operário / PR,4,0.043,0.986
-Ponte Preta / SP,4,0.063,0.989
-Vila Nova / GO,4,0.001,1.0
-Brasil / RS,4,0.001,1.0
-Cuiabá / MT,4,0.046,0.99
-CRB / AL,4,0.202,0.929
-Botafogo / SP,4,0.045,0.987
-Sport / PE,4,0.11,0.152
-Coritiba / PR,4,0.302,0.863
-Paraná / PR,4,0.029,0.992
-Ponte Preta / SP,3,0.011,1.0
-Paraná / PR,3,0.008,1.0
-Operário / PR,3,0.014,1.0
-Sport / PE,3,0.395,0.547
-América / MG,3,0.011,0.996
-Atlético / GO,3,0.368,0.495
+Botafogo / SP,8,0.135,0.687
+Ponte Preta / SP,8,0.128,0.516
+Vitória / BA,8,0.001,0.998
+Paraná / PR,8,0.127,0.653
+Cuiabá / MT,8,0.111,0.641
+Operário / PR,8,0.115,0.656
+Oeste / SP,8,0.054,0.9219999999999999
+Figueirense / SC,8,0.003,1.0
+Atlético / GO,8,0.002,0.004
+Vila Nova / GO,8,0.004,0.996
+Guarani / SP,8,0.009,0.992
+Brasil / RS,8,0.016,0.989
+Criciúma / SC,8,0.002,1.0
+Londrina / PR,8,0.008,0.9730000000000001
+Coritiba / PR,8,0.07,0.14300000000000002
+América / MG,8,0.121,0.5589999999999999
+São Bento / SP,8,0.002,0.998
+Sport / PE,7,0.006,0.009000000000000001
+Cuiabá / MT,7,0.116,0.757
+São Bento / SP,7,0.002,1.0
+Ponte Preta / SP,7,0.129,0.645
+Atlético / GO,7,0.004,0.008
+Vitória / BA,7,0.002,1.0
+Vila Nova / GO,7,0.002,0.998
+Guarani / SP,7,0.006,0.998
+Oeste / SP,7,0.038,0.96
+CRB / AL,7,0.105,0.375
+Brasil / RS,7,0.006,0.995
+Londrina / PR,7,0.019,0.992
+Operário / PR,7,0.117,0.773
+Botafogo / SP,7,0.105,0.792
+Paraná / PR,7,0.141,0.794
+Coritiba / PR,7,0.079,0.222
+América / MG,7,0.123,0.6819999999999999
+América / MG,6,0.131,0.813
+Vila Nova / GO,6,0.001,0.999
+Sport / PE,6,0.004,0.013000000000000001
+Botafogo / SP,6,0.095,0.887
+Ponte Preta / SP,6,0.157,0.802
+Operário / PR,6,0.092,0.865
+Brasil / RS,6,0.004,0.999
+CRB / AL,6,0.16,0.5349999999999999
+Coritiba / PR,6,0.121,0.34299999999999997
+Atlético / GO,6,0.009,0.017
+Cuiabá / MT,6,0.11,0.867
+Londrina / PR,6,0.003,0.995
+Oeste / SP,6,0.02,0.98
+Guarani / SP,6,0.002,1.0
+Paraná / PR,6,0.091,0.885
+Atlético / GO,5,0.025,0.042
+Botafogo / SP,5,0.073,0.96
+Coritiba / PR,5,0.222,0.565
+Cuiabá / MT,5,0.088,0.955
+Vila Nova / GO,5,0.001,1.0
+Ponte Preta / SP,5,0.101,0.903
+Londrina / PR,5,0.002,0.997
+Oeste / SP,5,0.015,0.995
+CRB / AL,5,0.2,0.735
+Operário / PR,5,0.081,0.9460000000000001
+América / MG,5,0.094,0.907
+Sport / PE,5,0.023,0.036000000000000004
+Paraná / PR,5,0.075,0.96
+Operário / PR,4,0.046,0.992
+Paraná / PR,4,0.032,0.992
+CRB / AL,4,0.202,0.937
+Coritiba / PR,4,0.296,0.861
+Sport / PE,4,0.111,0.14700000000000002
+Cuiabá / MT,4,0.033,0.988
+Atlético / GO,4,0.089,0.131
+Botafogo / SP,4,0.032,0.992
+Ponte Preta / SP,4,0.08,0.983
+Londrina / PR,4,0.003,1.0
+América / MG,4,0.071,0.978
+Oeste / SP,4,0.005,1.0
+Paraná / PR,3,0.006,0.998
+Operário / PR,3,0.007,0.999
+América / MG,3,0.018,0.996
+Sport / PE,3,0.403,0.55
+Botafogo / SP,3,0.008,1.0
+Ponte Preta / SP,3,0.016,0.999
+Cuiabá / MT,3,0.01,0.998
+CRB / AL,3,0.054,0.991
+Brasil / RS,3,0.001,1.0
+Coritiba / PR,3,0.106,0.967
 Red Bull Bragantino / SP,3,0.003,0.003
-Botafogo / SP,3,0.012,0.999
-Coritiba / PR,3,0.109,0.972
-CRB / AL,3,0.059,0.988
-Cuiabá / MT,3,0.01,1.0
-Botafogo / SP,2,0.001,1.0
-Atlético / GO,2,0.495,0.99
-CRB / AL,2,0.012,1.0
-Coritiba / PR,2,0.028,1.0
-Red Bull Bragantino / SP,2,0.013,0.016
-Sport / PE,2,0.447,0.994
+Atlético / GO,3,0.368,0.499
+CRB / AL,2,0.009,1.0
+Sport / PE,2,0.441,0.9910000000000001
+Coritiba / PR,2,0.032,0.999
+Ponte Preta / SP,2,0.001,1.0
+Cuiabá / MT,2,0.002,1.0
+Atlético / GO,2,0.493,0.992
+Red Bull Bragantino / SP,2,0.015,0.018
+Operário / PR,2,0.001,1.0
+Paraná / PR,2,0.002,1.0
 América / MG,2,0.004,1.0
-Atlético / GO,1,0.01,1.0
-Red Bull Bragantino / SP,1,0.984,1.0
-Sport / PE,1,0.006,1.0
+Coritiba / PR,1,0.001,1.0
+Red Bull Bragantino / SP,1,0.982,1.0
+Atlético / GO,1,0.008,1.0
+Sport / PE,1,0.009,1.0
