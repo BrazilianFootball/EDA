@@ -1,0 +1,290 @@
+Club,Position,Probability,Cumulative
+Vila Nova / GO,20,0.399,0.399
+Náutico / PE,20,0.122,0.122
+Guarani / SP,20,0.059,0.059
+Operário / PR,20,0.001,0.001
+Brusque / SC,20,0.057,0.057
+Tombense / MG,20,0.002,0.002
+Ituano / SP,20,0.032,0.032
+Ponte Preta / SP,20,0.012,0.012
+Chapecoense / SC,20,0.052,0.052
+CSA / AL,20,0.024,0.024
+Novorizontino / SP,20,0.07,0.07
+CRB / AL,20,0.17,0.17
+Ponte Preta / SP,19,0.025,0.037000000000000005
+Tombense / MG,19,0.009,0.011
+Chapecoense / SC,19,0.071,0.123
+CSA / AL,19,0.046,0.07
+Brusque / SC,19,0.071,0.128
+Sampaio Corrêa / MA,19,0.002,0.002
+CRB / AL,19,0.192,0.362
+Náutico / PE,19,0.136,0.258
+Vila Nova / GO,19,0.214,0.613
+Guarani / SP,19,0.086,0.145
+Ituano / SP,19,0.047,0.079
+Operário / PR,19,0.001,0.002
+Novorizontino / SP,19,0.1,0.17
+Chapecoense / SC,18,0.096,0.21899999999999997
+CSA / AL,18,0.087,0.157
+Náutico / PE,18,0.128,0.386
+Sport / PE,18,0.002,0.002
+CRB / AL,18,0.139,0.501
+Novorizontino / SP,18,0.119,0.28900000000000003
+Guarani / SP,18,0.116,0.261
+Operário / PR,18,0.001,0.003
+Ituano / SP,18,0.055,0.134
+Sampaio Corrêa / MA,18,0.004,0.006
+Ponte Preta / SP,18,0.045,0.082
+Criciúma / SC,18,0.001,0.001
+Tombense / MG,18,0.012,0.023
+Vila Nova / GO,18,0.121,0.734
+Brusque / SC,18,0.074,0.20199999999999999
+CRB / AL,17,0.115,0.616
+Ituano / SP,17,0.07,0.20400000000000001
+Tombense / MG,17,0.019,0.041999999999999996
+Criciúma / SC,17,0.003,0.004
+Sampaio Corrêa / MA,17,0.007,0.013000000000000001
+Brusque / SC,17,0.091,0.293
+Ponte Preta / SP,17,0.05,0.132
+Guarani / SP,17,0.118,0.379
+CSA / AL,17,0.099,0.256
+Operário / PR,17,0.005,0.008
+Novorizontino / SP,17,0.11,0.399
+Náutico / PE,17,0.137,0.523
+Vila Nova / GO,17,0.079,0.8130000000000001
+Chapecoense / SC,17,0.097,0.316
+CRB / AL,16,0.097,0.7130000000000001
+Londrina / PR,16,0.004,0.004
+Brusque / SC,16,0.126,0.419
+Novorizontino / SP,16,0.098,0.497
+Ituano / SP,16,0.083,0.28700000000000003
+Guarani / SP,16,0.099,0.478
+Vila Nova / GO,16,0.061,0.874
+Criciúma / SC,16,0.003,0.007
+Chapecoense / SC,16,0.112,0.428
+Operário / PR,16,0.004,0.012
+Náutico / PE,16,0.11,0.633
+Tombense / MG,16,0.023,0.065
+Sampaio Corrêa / MA,16,0.018,0.031
+Ponte Preta / SP,16,0.054,0.186
+CSA / AL,16,0.105,0.361
+Sport / PE,16,0.003,0.005
+Chapecoense / SC,15,0.095,0.523
+Novorizontino / SP,15,0.112,0.609
+Ituano / SP,15,0.098,0.385
+CSA / AL,15,0.11,0.471
+Guarani / SP,15,0.13,0.608
+Operário / PR,15,0.005,0.017
+Ponte Preta / SP,15,0.076,0.262
+Brusque / SC,15,0.101,0.52
+Sampaio Corrêa / MA,15,0.012,0.043
+Sport / PE,15,0.002,0.007
+Criciúma / SC,15,0.006,0.013000000000000001
+Londrina / PR,15,0.006,0.01
+Vila Nova / GO,15,0.054,0.928
+Tombense / MG,15,0.039,0.104
+Náutico / PE,15,0.084,0.7170000000000001
+CRB / AL,15,0.07,0.783
+Novorizontino / SP,14,0.091,0.7
+Vila Nova / GO,14,0.026,0.954
+Náutico / PE,14,0.09,0.807
+Operário / PR,14,0.008,0.025
+Guarani / SP,14,0.091,0.699
+CRB / AL,14,0.073,0.8560000000000001
+Sport / PE,14,0.004,0.011
+Londrina / PR,14,0.014,0.024
+Ponte Preta / SP,14,0.107,0.369
+Brusque / SC,14,0.089,0.609
+CSA / AL,14,0.116,0.587
+Sampaio Corrêa / MA,14,0.028,0.07100000000000001
+Chapecoense / SC,14,0.1,0.623
+Tombense / MG,14,0.046,0.15
+Ituano / SP,14,0.106,0.491
+Criciúma / SC,14,0.011,0.024
+Brusque / SC,13,0.086,0.695
+Ponte Preta / SP,13,0.114,0.483
+Chapecoense / SC,13,0.089,0.712
+Sport / PE,13,0.016,0.027
+Guarani / SP,13,0.071,0.77
+CSA / AL,13,0.112,0.6990000000000001
+CRB / AL,13,0.048,0.904
+Tombense / MG,13,0.079,0.22899999999999998
+Londrina / PR,13,0.017,0.041
+Náutico / PE,13,0.062,0.869
+Novorizontino / SP,13,0.078,0.778
+Sampaio Corrêa / MA,13,0.059,0.13
+Vila Nova / GO,13,0.022,0.976
+Ituano / SP,13,0.113,0.604
+Operário / PR,13,0.016,0.041
+Grêmio / RS,13,0.002,0.002
+Criciúma / SC,13,0.016,0.04
+Londrina / PR,12,0.018,0.059
+CSA / AL,12,0.087,0.786
+Operário / PR,12,0.025,0.066
+Vila Nova / GO,12,0.014,0.99
+Novorizontino / SP,12,0.074,0.852
+Tombense / MG,12,0.067,0.296
+Ituano / SP,12,0.094,0.6980000000000001
+Náutico / PE,12,0.044,0.913
+Guarani / SP,12,0.088,0.858
+Sport / PE,12,0.029,0.056
+Grêmio / RS,12,0.006,0.008
+Chapecoense / SC,12,0.096,0.808
+Ponte Preta / SP,12,0.111,0.594
+CRB / AL,12,0.045,0.9490000000000001
+Sampaio Corrêa / MA,12,0.071,0.20099999999999998
+Criciúma / SC,12,0.032,0.07200000000000001
+Brusque / SC,12,0.099,0.794
+Ituano / SP,11,0.114,0.812
+Novorizontino / SP,11,0.05,0.902
+CRB / AL,11,0.027,0.9760000000000001
+Tombense / MG,11,0.116,0.41200000000000003
+Operário / PR,11,0.043,0.109
+Criciúma / SC,11,0.048,0.12
+Chapecoense / SC,11,0.068,0.876
+Sport / PE,11,0.046,0.10200000000000001
+Náutico / PE,11,0.032,0.9450000000000001
+Sampaio Corrêa / MA,11,0.111,0.312
+CSA / AL,11,0.071,0.857
+Ponte Preta / SP,11,0.116,0.71
+Vila Nova / GO,11,0.006,0.996
+Brusque / SC,11,0.063,0.857
+Londrina / PR,11,0.033,0.092
+Grêmio / RS,11,0.007,0.015
+Guarani / SP,11,0.049,0.907
+Náutico / PE,10,0.025,0.97
+Ponte Preta / SP,10,0.095,0.805
+Sport / PE,10,0.08,0.182
+CRB / AL,10,0.011,0.987
+Brusque / SC,10,0.06,0.917
+Criciúma / SC,10,0.055,0.175
+Vila Nova / GO,10,0.004,1.0
+CSA / AL,10,0.071,0.9279999999999999
+Grêmio / RS,10,0.008,0.023
+Tombense / MG,10,0.142,0.554
+Guarani / SP,10,0.039,0.946
+Novorizontino / SP,10,0.042,0.9440000000000001
+Londrina / PR,10,0.072,0.16399999999999998
+Sampaio Corrêa / MA,10,0.109,0.421
+Operário / PR,10,0.072,0.181
+Ituano / SP,10,0.071,0.883
+Chapecoense / SC,10,0.044,0.92
+Vasco da Gama / RJ,9,0.001,0.001
+Operário / PR,9,0.1,0.281
+Sport / PE,9,0.134,0.316
+Ponte Preta / SP,9,0.066,0.871
+Sampaio Corrêa / MA,9,0.151,0.572
+Tombense / MG,9,0.124,0.6779999999999999
+Londrina / PR,9,0.095,0.259
+Náutico / PE,9,0.013,0.983
+CSA / AL,9,0.032,0.96
+Guarani / SP,9,0.03,0.976
+Grêmio / RS,9,0.02,0.043
+Criciúma / SC,9,0.081,0.256
+Ituano / SP,9,0.045,0.928
+Chapecoense / SC,9,0.034,0.954
+CRB / AL,9,0.007,0.994
+Novorizontino / SP,9,0.029,0.973
+Brusque / SC,9,0.038,0.955
+CSA / AL,8,0.021,0.981
+Tombense / MG,8,0.133,0.8109999999999999
+Chapecoense / SC,8,0.022,0.976
+Sport / PE,8,0.135,0.451
+Criciúma / SC,8,0.118,0.374
+CRB / AL,8,0.002,0.996
+Náutico / PE,8,0.009,0.992
+Sampaio Corrêa / MA,8,0.141,0.713
+Grêmio / RS,8,0.044,0.087
+Vasco da Gama / RJ,8,0.002,0.003
+Guarani / SP,8,0.011,0.987
+Ituano / SP,8,0.03,0.958
+Ponte Preta / SP,8,0.063,0.934
+Brusque / SC,8,0.023,0.978
+Novorizontino / SP,8,0.017,0.99
+Londrina / PR,8,0.106,0.365
+Operário / PR,8,0.123,0.404
+Sampaio Corrêa / MA,7,0.115,0.828
+Tombense / MG,7,0.084,0.895
+Grêmio / RS,7,0.077,0.16399999999999998
+CSA / AL,7,0.012,0.993
+CRB / AL,7,0.001,0.997
+Bahia / BA,7,0.001,0.001
+Novorizontino / SP,7,0.005,0.995
+Guarani / SP,7,0.007,0.994
+Brusque / SC,7,0.01,0.988
+Londrina / PR,7,0.147,0.512
+Sport / PE,7,0.153,0.604
+Operário / PR,7,0.149,0.5529999999999999
+Ituano / SP,7,0.02,0.978
+Criciúma / SC,7,0.152,0.526
+Vasco da Gama / RJ,7,0.008,0.011
+Ponte Preta / SP,7,0.041,0.975
+Chapecoense / SC,7,0.016,0.992
+Náutico / PE,7,0.002,0.994
+Tombense / MG,6,0.052,0.947
+Chapecoense / SC,6,0.007,0.999
+Criciúma / SC,6,0.155,0.681
+Novorizontino / SP,6,0.003,0.998
+Bahia / BA,6,0.001,0.002
+CSA / AL,6,0.006,0.999
+Sport / PE,6,0.163,0.767
+Grêmio / RS,6,0.137,0.301
+Guarani / SP,6,0.005,0.999
+Náutico / PE,6,0.005,0.999
+Ponte Preta / SP,6,0.015,0.99
+Vasco da Gama / RJ,6,0.017,0.028
+Ituano / SP,6,0.015,0.993
+Brusque / SC,6,0.008,0.996
+Londrina / PR,6,0.159,0.671
+CRB / AL,6,0.002,0.999
+Sampaio Corrêa / MA,6,0.088,0.9159999999999999
+Operário / PR,6,0.162,0.715
+Brusque / SC,5,0.003,0.999
+CSA / AL,5,0.001,1.0
+CRB / AL,5,0.001,1.0
+Tombense / MG,5,0.041,0.988
+Vasco da Gama / RJ,5,0.046,0.074
+Chapecoense / SC,5,0.001,1.0
+Operário / PR,5,0.161,0.876
+Bahia / BA,5,0.005,0.007
+Novorizontino / SP,5,0.002,1.0
+Sampaio Corrêa / MA,5,0.059,0.975
+Ponte Preta / SP,5,0.006,0.996
+Londrina / PR,5,0.177,0.848
+Ituano / SP,5,0.004,0.997
+Guarani / SP,5,0.001,1.0
+Grêmio / RS,5,0.188,0.489
+Criciúma / SC,5,0.163,0.844
+Sport / PE,5,0.141,0.908
+Sport / PE,4,0.079,0.987
+Operário / PR,4,0.101,0.977
+Ponte Preta / SP,4,0.004,1.0
+Criciúma / SC,4,0.126,0.97
+Londrina / PR,4,0.121,0.969
+Tombense / MG,4,0.012,1.0
+Vasco da Gama / RJ,4,0.125,0.199
+Ituano / SP,4,0.003,1.0
+Bahia / BA,4,0.04,0.047
+Brusque / SC,4,0.001,1.0
+Sampaio Corrêa / MA,4,0.022,0.997
+Náutico / PE,4,0.001,1.0
+Grêmio / RS,4,0.365,0.854
+Londrina / PR,3,0.026,0.995
+Criciúma / SC,3,0.027,0.997
+Vasco da Gama / RJ,3,0.522,0.7210000000000001
+Grêmio / RS,3,0.126,0.98
+Bahia / BA,3,0.248,0.295
+Operário / PR,3,0.02,0.997
+Cruzeiro / MG,3,0.015,0.015
+Sport / PE,3,0.013,1.0
+Sampaio Corrêa / MA,3,0.003,1.0
+Cruzeiro / MG,2,0.086,0.10099999999999999
+Vasco da Gama / RJ,2,0.256,0.9770000000000001
+Criciúma / SC,2,0.003,1.0
+Grêmio / RS,2,0.02,1.0
+Londrina / PR,2,0.005,1.0
+Bahia / BA,2,0.627,0.9219999999999999
+Operário / PR,2,0.003,1.0
+Vasco da Gama / RJ,1,0.023,1.0
+Cruzeiro / MG,1,0.899,1.0
+Bahia / BA,1,0.078,0.9999999999999999

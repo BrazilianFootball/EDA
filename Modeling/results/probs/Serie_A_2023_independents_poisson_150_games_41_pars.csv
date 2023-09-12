@@ -1,0 +1,332 @@
+Club,Position,Probability,Cumulative
+Vasco da Gama / RJ,20,0.218001,0.218001
+América / MG,20,0.265889,0.265889
+Athletico Paranaense / PR,20,1e-06,1e-06
+Internacional / RS,20,1.9e-05,1.9e-05
+Santos / SP,20,0.027252,0.027252
+Bahia / BA,20,0.027908,0.027908
+Corinthians / SP,20,0.000986,0.000986
+Atlético Mineiro / MG,20,2e-06,2e-06
+Cuiabá / MT,20,0.000372,0.000372
+Coritiba / PR,20,0.323421,0.323421
+Goiás / GO,20,0.136149,0.136149
+Coritiba / PR,19,0.252717,0.576138
+Cruzeiro / MG,19,1e-06,1e-06
+Cuiabá / MT,19,0.002033,0.002405
+Santos / SP,19,0.06372,0.090972
+Athletico Paranaense / PR,19,3e-06,4e-06
+Internacional / RS,19,0.000184,0.000203
+Fortaleza / CE,19,1e-06,1e-06
+Bahia / BA,19,0.060138,0.088046
+Goiás / GO,19,0.180204,0.316353
+Corinthians / SP,19,0.004064,0.00505
+Atlético Mineiro / MG,19,2e-05,2.2000000000000003e-05
+Vasco da Gama / RJ,19,0.213696,0.431697
+América / MG,19,0.223219,0.489108
+Athletico Paranaense / PR,18,1.6e-05,1.9999999999999998e-05
+Cuiabá / MT,18,0.007012,0.009417
+Goiás / GO,18,0.201833,0.518186
+Atlético Mineiro / MG,18,9.1e-05,0.00011300000000000001
+Coritiba / PR,18,0.181232,0.7573700000000001
+Corinthians / SP,18,0.01126,0.016309999999999998
+Bahia / BA,18,0.101681,0.18972699999999998
+Santos / SP,18,0.112356,0.203328
+Vasco da Gama / RJ,18,0.19733,0.629027
+Cruzeiro / MG,18,1e-05,1.1000000000000001e-05
+América / MG,18,0.186261,0.675369
+Fortaleza / CE,18,2.1e-05,2.2e-05
+Internacional / RS,18,0.000897,0.0011
+Santos / SP,17,0.170543,0.373871
+Internacional / RS,17,0.0038,0.0049
+Fluminense / RJ,17,1e-06,1e-06
+Bahia / BA,17,0.154602,0.344329
+Atlético Mineiro / MG,17,0.000447,0.0005600000000000001
+Athletico Paranaense / PR,17,8.8e-05,0.000108
+Grêmio / RS,17,6e-06,6e-06
+Cuiabá / MT,17,0.019269,0.028686000000000003
+Red Bull Bragantino / SP,17,4e-06,4e-06
+Fortaleza / CE,17,0.000137,0.000159
+Corinthians / SP,17,0.02778,0.04409
+Goiás / GO,17,0.195006,0.713192
+São Paulo / SP,17,5e-06,5e-06
+Coritiba / PR,17,0.122068,0.879438
+Vasco da Gama / RJ,17,0.161352,0.7903789999999999
+América / MG,17,0.144823,0.820192
+Cruzeiro / MG,17,6.9e-05,7.999999999999999e-05
+Santos / SP,16,0.22781,0.601681
+Cruzeiro / MG,16,0.000463,0.000543
+Coritiba / PR,16,0.071393,0.950831
+Corinthians / SP,16,0.062765,0.106855
+Cuiabá / MT,16,0.050077,0.078763
+Bahia / BA,16,0.213229,0.557558
+Fluminense / RJ,16,2e-06,3e-06
+Red Bull Bragantino / SP,16,2.4e-05,2.8e-05
+Vasco da Gama / RJ,16,0.111544,0.901923
+Fortaleza / CE,16,0.000701,0.00086
+Internacional / RS,16,0.01354,0.018439999999999998
+Athletico Paranaense / PR,16,0.000545,0.000653
+Goiás / GO,16,0.147578,0.86077
+Atlético Mineiro / MG,16,0.002253,0.002813
+São Paulo / SP,16,3.2e-05,3.7e-05
+América / MG,16,0.098025,0.9182170000000001
+Grêmio / RS,16,1.9e-05,2.5e-05
+Vasco da Gama / RJ,15,0.064068,0.965991
+Coritiba / PR,15,0.03464,0.985471
+Santos / SP,15,0.218686,0.8203670000000001
+América / MG,15,0.055495,0.973712
+Goiás / GO,15,0.09061,0.95138
+Red Bull Bragantino / SP,15,0.000183,0.000211
+Athletico Paranaense / PR,15,0.002704,0.0033569999999999997
+Corinthians / SP,15,0.131336,0.238191
+Cruzeiro / MG,15,0.002408,0.002951
+Grêmio / RS,15,0.000136,0.000161
+Fortaleza / CE,15,0.003493,0.004353
+Cuiabá / MT,15,0.115212,0.193975
+Atlético Mineiro / MG,15,0.008922,0.011734999999999999
+Fluminense / RJ,15,3.3e-05,3.6e-05
+São Paulo / SP,15,0.000275,0.000312
+Internacional / RS,15,0.043255,0.061695
+Flamengo / RJ,15,5e-06,5e-06
+Bahia / BA,15,0.228527,0.786085
+Palmeiras / SP,15,1.2e-05,1.2e-05
+Santos / SP,14,0.109048,0.929415
+Vasco da Gama / RJ,14,0.023824,0.989815
+São Paulo / SP,14,0.001701,0.002013
+América / MG,14,0.019083,0.992795
+Bahia / BA,14,0.124033,0.910118
+Palmeiras / SP,14,0.000105,0.000117
+Flamengo / RJ,14,3.2e-05,3.7e-05
+Grêmio / RS,14,0.001016,0.001177
+Cruzeiro / MG,14,0.011294,0.014245
+Coritiba / PR,14,0.010876,0.996347
+Red Bull Bragantino / SP,14,0.001258,0.001469
+Athletico Paranaense / PR,14,0.012089,0.015446000000000001
+Atlético Mineiro / MG,14,0.031555,0.043289999999999995
+Fortaleza / CE,14,0.015165,0.019518
+Internacional / RS,14,0.121795,0.18349
+Cuiabá / MT,14,0.235822,0.429797
+Corinthians / SP,14,0.247128,0.485319
+Fluminense / RJ,14,0.000335,0.000371
+Goiás / GO,14,0.033841,0.985221
+Cruzeiro / MG,13,0.033437,0.047682
+Palmeiras / SP,13,0.000633,0.00075
+Goiás / GO,13,0.010937,0.996158
+Cuiabá / MT,13,0.243259,0.673056
+Fluminense / RJ,13,0.001696,0.0020670000000000003
+Red Bull Bragantino / SP,13,0.00517,0.006639
+Flamengo / RJ,13,0.000239,0.000276
+Fortaleza / CE,13,0.042481,0.061999
+Internacional / RS,13,0.196033,0.379523
+Grêmio / RS,13,0.003986,0.005163
+Vasco da Gama / RJ,13,0.00762,0.997435
+Athletico Paranaense / PR,13,0.033326,0.048772
+São Paulo / SP,13,0.006547,0.00856
+Bahia / BA,13,0.057789,0.967907
+Corinthians / SP,13,0.22896,0.714279
+Coritiba / PR,13,0.00291,0.9992570000000001
+Atlético Mineiro / MG,13,0.073098,0.11638799999999999
+Santos / SP,13,0.046326,0.975741
+América / MG,13,0.005553,0.998348
+Athletico Paranaense / PR,12,0.070698,0.11946999999999999
+São Paulo / SP,12,0.018219,0.026778999999999997
+Vasco da Gama / RJ,12,0.001962,0.999397
+Santos / SP,12,0.01645,0.992191
+América / MG,12,0.001287,0.999635
+Cuiabá / MT,12,0.157313,0.830369
+Fluminense / RJ,12,0.006077,0.008144
+Corinthians / SP,12,0.141779,0.856058
+Palmeiras / SP,12,0.002621,0.003371
+Flamengo / RJ,12,0.001113,0.001389
+Red Bull Bragantino / SP,12,0.015078,0.021717
+Bahia / BA,12,0.021329,0.989236
+Coritiba / PR,12,0.000609,0.999866
+Goiás / GO,12,0.002879,0.999037
+Fortaleza / CE,12,0.088899,0.150898
+Grêmio / RS,12,0.011988,0.017151
+Cruzeiro / MG,12,0.075749,0.123431
+Internacional / RS,12,0.234161,0.613684
+Atlético Mineiro / MG,12,0.131789,0.24817699999999998
+Flamengo / RJ,11,0.00349,0.004879
+Fluminense / RJ,11,0.015418,0.023562
+Palmeiras / SP,11,0.00755,0.010921
+Athletico Paranaense / PR,11,0.114105,0.233575
+Fortaleza / CE,11,0.137653,0.288551
+Goiás / GO,11,0.000698,0.999735
+Corinthians / SP,11,0.07274,0.928798
+São Paulo / SP,11,0.038793,0.06557199999999999
+América / MG,11,0.00028,0.999915
+Bahia / BA,11,0.007111,0.996347
+Cuiabá / MT,11,0.083255,0.913624
+Atlético Mineiro / MG,11,0.17335,0.421527
+Red Bull Bragantino / SP,11,0.032193,0.05391
+Vasco da Gama / RJ,11,0.000445,0.999842
+Coritiba / PR,11,0.000102,0.9999680000000001
+Santos / SP,11,0.005252,0.997443
+Grêmio / RS,11,0.026632,0.043783
+Cruzeiro / MG,11,0.123224,0.246655
+Internacional / RS,11,0.157709,0.771393
+Bahia / BA,10,0.002422,0.998769
+Atlético Mineiro / MG,10,0.16018,0.581707
+Vasco da Gama / RJ,10,0.000122,0.999964
+Cruzeiro / MG,10,0.149075,0.39573
+Fluminense / RJ,10,0.029029,0.052591
+Cuiabá / MT,10,0.043423,0.957047
+Corinthians / SP,10,0.036554,0.965352
+Grêmio / RS,10,0.044363,0.088146
+Santos / SP,10,0.001728,0.999171
+Coritiba / PR,10,2.7e-05,0.9999950000000001
+Red Bull Bragantino / SP,10,0.053339,0.107249
+América / MG,10,6.5e-05,0.99998
+Goiás / GO,10,0.000194,0.999929
+Fortaleza / CE,10,0.156374,0.444925
+Internacional / RS,10,0.098223,0.869616
+Athletico Paranaense / PR,10,0.13865,0.37222500000000003
+Flamengo / RJ,10,0.007917,0.012796
+São Paulo / SP,10,0.062074,0.12764599999999998
+Palmeiras / SP,10,0.016241,0.027162
+Internacional / RS,9,0.058972,0.928588
+Athletico Paranaense / PR,9,0.144079,0.516304
+América / MG,9,1.5e-05,0.999995
+Grêmio / RS,9,0.066095,0.15424100000000002
+Vasco da Gama / RJ,9,2.7e-05,0.999991
+Goiás / GO,9,5.3e-05,0.999982
+Cruzeiro / MG,9,0.151315,0.547045
+Fortaleza / CE,9,0.149425,0.59435
+Palmeiras / SP,9,0.029031,0.056193
+São Paulo / SP,9,0.086697,0.214343
+Santos / SP,9,0.000538,0.9997090000000001
+Coritiba / PR,9,4e-06,0.9999990000000001
+Atlético Mineiro / MG,9,0.131231,0.712938
+Red Bull Bragantino / SP,9,0.077258,0.18450699999999998
+Bahia / BA,9,0.000817,0.999586
+Fluminense / RJ,9,0.048296,0.100887
+Flamengo / RJ,9,0.01547,0.028266
+Cuiabá / MT,9,0.022275,0.979322
+Corinthians / SP,9,0.018402,0.983754
+Corinthians / SP,8,0.008857,0.992611
+Cuiabá / MT,8,0.011074,0.990396
+Internacional / RS,8,0.034137,0.962725
+Athletico Paranaense / PR,8,0.134534,0.650838
+Grêmio / RS,8,0.089132,0.243373
+Cruzeiro / MG,8,0.135845,0.68289
+Red Bull Bragantino / SP,8,0.101229,0.285736
+São Paulo / SP,8,0.11071,0.325053
+Flamengo / RJ,8,0.027604,0.05587
+América / MG,8,3e-06,0.999998
+Palmeiras / SP,8,0.047396,0.103589
+Goiás / GO,8,1.4e-05,0.999996
+Fluminense / RJ,8,0.071573,0.17246
+Bahia / BA,8,0.000279,0.999865
+Atlético Mineiro / MG,8,0.100299,0.813237
+Fortaleza / CE,8,0.127103,0.721453
+Vasco da Gama / RJ,8,7e-06,0.999998
+Santos / SP,8,0.000204,0.999913
+São Paulo / SP,7,0.129473,0.454526
+Red Bull Bragantino / SP,7,0.123449,0.409185
+Vasco da Gama / RJ,7,2e-06,1.0
+Internacional / RS,7,0.018851,0.981576
+Palmeiras / SP,7,0.071586,0.175175
+Santos / SP,7,6.1e-05,0.999974
+América / MG,7,2e-06,1.0
+Grêmio / RS,7,0.111857,0.35523
+Goiás / GO,7,2e-06,0.999998
+Cruzeiro / MG,7,0.109373,0.792263
+Cuiabá / MT,7,0.005461,0.995857
+Atlético Mineiro / MG,7,0.072106,0.885343
+Bahia / BA,7,9.3e-05,0.999958
+Flamengo / RJ,7,0.044521,0.100391
+Corinthians / SP,7,0.004187,0.996798
+Athletico Paranaense / PR,7,0.112983,0.763821
+Fluminense / RJ,7,0.097599,0.270059
+Fortaleza / CE,7,0.098393,0.819846
+Coritiba / PR,7,1e-06,1.0
+Santos / SP,6,1.7e-05,0.999991
+Red Bull Bragantino / SP,6,0.136305,0.54549
+Botafogo / RJ,6,3e-06,3e-06
+Internacional / RS,6,0.010164,0.99174
+Goiás / GO,6,2e-06,1.0
+Fluminense / RJ,6,0.122728,0.392787
+Palmeiras / SP,6,0.100384,0.275559
+Cruzeiro / MG,6,0.082337,0.8746
+Flamengo / RJ,6,0.068192,0.16858299999999998
+Bahia / BA,6,3.2e-05,0.99999
+Athletico Paranaense / PR,6,0.088387,0.852208
+Atlético Mineiro / MG,6,0.049595,0.9349379999999999
+São Paulo / SP,6,0.135846,0.590372
+Grêmio / RS,6,0.129147,0.484377
+Cuiabá / MT,6,0.002486,0.998343
+Fortaleza / CE,6,0.072444,0.89229
+Corinthians / SP,6,0.001931,0.998729
+Grêmio / RS,5,0.13951,0.623887
+Red Bull Bragantino / SP,5,0.139753,0.685243
+Atlético Mineiro / MG,5,0.031989,0.966927
+Santos / SP,5,7e-06,0.999998
+Flamengo / RJ,5,0.100384,0.268967
+Botafogo / RJ,5,3e-06,6e-06
+Internacional / RS,5,0.004956,0.996696
+Fluminense / RJ,5,0.143689,0.536476
+Palmeiras / SP,5,0.133686,0.40924499999999997
+Cruzeiro / MG,5,0.05783,0.93243
+Bahia / BA,5,5e-06,0.999995
+São Paulo / SP,5,0.131296,0.721668
+Athletico Paranaense / PR,5,0.065015,0.917223
+Corinthians / SP,5,0.000878,0.999607
+Fortaleza / CE,5,0.049911,0.942201
+Cuiabá / MT,5,0.001088,0.9994310000000001
+Cuiabá / MT,4,0.000403,0.999834
+Santos / SP,4,2e-06,1.0
+Cruzeiro / MG,4,0.037769,0.970199
+Corinthians / SP,4,0.000279,0.9998859999999999
+Athletico Paranaense / PR,4,0.044128,0.961351
+Botafogo / RJ,4,3.4e-05,3.9999999999999996e-05
+Bahia / BA,4,2e-06,0.999997
+Red Bull Bragantino / SP,4,0.129679,0.8149219999999999
+Internacional / RS,4,0.002244,0.99894
+Flamengo / RJ,4,0.147685,0.416652
+Fluminense / RJ,4,0.159245,0.695721
+Palmeiras / SP,4,0.170733,0.579978
+Grêmio / RS,4,0.139579,0.763466
+Fortaleza / CE,4,0.032217,0.974418
+São Paulo / SP,4,0.116831,0.838499
+Atlético Mineiro / MG,4,0.01917,0.986097
+Corinthians / SP,3,9.6e-05,0.999982
+São Paulo / SP,3,0.095462,0.933961
+Red Bull Bragantino / SP,3,0.109325,0.924247
+Bahia / BA,3,2e-06,0.999999
+Cruzeiro / MG,3,0.021029,0.991228
+Cuiabá / MT,3,0.000136,0.99997
+Flamengo / RJ,3,0.218503,0.635155
+Atlético Mineiro / MG,3,0.009931,0.9960279999999999
+Fluminense / RJ,3,0.162388,0.858109
+Palmeiras / SP,3,0.206804,0.786782
+Fortaleza / CE,3,0.018086,0.992504
+Athletico Paranaense / PR,3,0.026591,0.987942
+Grêmio / RS,3,0.130496,0.893962
+Internacional / RS,3,0.000863,0.999803
+Botafogo / RJ,3,0.000288,0.000328
+Bahia / BA,2,1e-06,1.0
+Atlético Mineiro / MG,2,0.00397,0.9999979999999999
+Athletico Paranaense / PR,2,0.012046,0.999988
+Cuiabá / MT,2,3e-05,1.0
+Fluminense / RJ,2,0.141381,0.99949
+São Paulo / SP,2,0.065876,0.999837
+Corinthians / SP,2,1.8e-05,1.0
+Internacional / RS,2,0.000197,1.0
+Cruzeiro / MG,2,0.008763,0.999991
+Grêmio / RS,2,0.105686,0.999648
+Flamengo / RJ,2,0.362245,0.9974000000000001
+Red Bull Bragantino / SP,2,0.075552,0.999799
+Botafogo / RJ,2,0.004433,0.0047610000000000005
+Palmeiras / SP,2,0.212312,0.9990939999999999
+Fortaleza / CE,2,0.00749,0.999994
+Fortaleza / CE,1,6e-06,1.0
+Athletico Paranaense / PR,1,1.2e-05,1.0
+Grêmio / RS,1,0.000352,1.0
+Botafogo / RJ,1,0.995239,1.0
+Palmeiras / SP,1,0.000906,1.0
+Atlético Mineiro / MG,1,2e-06,1.0
+Red Bull Bragantino / SP,1,0.000201,1.0
+Flamengo / RJ,1,0.0026,1.0
+Cruzeiro / MG,1,9e-06,1.0
+São Paulo / SP,1,0.000163,1.0
+Fluminense / RJ,1,0.00051,1.0
