@@ -40,6 +40,8 @@ if __name__ == '__main__':
     attachments = list()
     files_to_remove = list()
     for competition in competitions:
+        if competition == 'Serie_A' and year == 2023 and max_games > 220: continue
+        elif competition == 'Serie_B' and year == 2023 and max_games > 270: continue
         for model in models:
             for home_away_pars in home_away_pars_list:
                 if cleaning: os.system('clear')
