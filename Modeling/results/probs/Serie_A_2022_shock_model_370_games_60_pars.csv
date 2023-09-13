@@ -1,0 +1,65 @@
+Club,Position,Probability,Cumulative
+Juventude / RS,20,1.0,1.0
+Avaí / SC,19,0.912518,0.912518
+Ceará / CE,19,0.061554,0.061554
+Atlético / GO,19,0.025928,0.025928
+Atlético / GO,18,0.358365,0.384293
+Ceará / CE,18,0.582716,0.64427
+Avaí / SC,18,0.058919,0.9714370000000001
+Atlético / GO,17,0.613673,0.997966
+Avaí / SC,17,0.028563,1.0
+Ceará / CE,17,0.35573,1.0
+Cuiabá / MT,17,0.002034,0.002034
+Atlético / GO,16,0.002034,1.0
+Cuiabá / MT,16,0.997966,1.0
+Coritiba / PR,15,0.740721,0.740721
+Red Bull Bragantino / SP,15,0.259279,0.259279
+Coritiba / PR,14,0.259279,1.0
+Red Bull Bragantino / SP,14,0.581233,0.8405119999999999
+Goiás / GO,14,0.159488,0.159488
+Santos / SP,13,0.158279,0.158279
+Red Bull Bragantino / SP,13,0.159488,1.0
+Goiás / GO,13,0.682233,0.8417209999999999
+Goiás / GO,12,0.158279,1.0
+Santos / SP,12,0.841721,1.0
+Botafogo / RJ,11,0.029331,0.029331
+Fortaleza / CE,11,0.271606,0.271606
+São Paulo / SP,11,0.579332,0.579332
+América / MG,11,0.119731,0.119731
+Botafogo / RJ,10,0.157506,0.186837
+São Paulo / SP,10,0.180951,0.7602829999999999
+Fortaleza / CE,10,0.344237,0.615843
+América / MG,10,0.255683,0.375414
+Athletico Paranaense / PR,10,0.03997,0.03997
+Atlético Mineiro / MG,10,0.021653,0.021653
+Botafogo / RJ,9,0.274622,0.46145899999999995
+Athletico Paranaense / PR,9,0.144542,0.184512
+São Paulo / SP,9,0.186897,0.9471799999999999
+Atlético Mineiro / MG,9,0.099558,0.12121099999999999
+Fortaleza / CE,9,0.146377,0.76222
+América / MG,9,0.148004,0.523418
+América / MG,8,0.314513,0.837931
+Atlético Mineiro / MG,8,0.151817,0.27302800000000005
+São Paulo / SP,8,0.05282,1.0
+Athletico Paranaense / PR,8,0.154632,0.339144
+Botafogo / RJ,8,0.151992,0.613451
+Fortaleza / CE,8,0.174226,0.936446
+América / MG,7,0.162069,1.0
+Fortaleza / CE,7,0.063554,1.0
+Botafogo / RJ,7,0.119679,0.73313
+Athletico Paranaense / PR,7,0.138701,0.47784499999999996
+Atlético Mineiro / MG,7,0.515997,0.7890250000000001
+Athletico Paranaense / PR,6,0.522155,1.0
+Atlético Mineiro / MG,6,0.210975,1.0
+Botafogo / RJ,6,0.26687,1.0
+Corinthians / SP,5,0.21539,0.21539
+Flamengo / RJ,5,0.78461,0.78461
+Fluminense / RJ,4,0.072748,0.072748
+Flamengo / RJ,4,0.21539,1.0
+Corinthians / SP,4,0.711862,0.927252
+Corinthians / SP,3,0.072748,1.0
+Internacional / RS,3,0.270492,0.270492
+Fluminense / RJ,3,0.65676,0.729508
+Internacional / RS,2,0.729508,1.0
+Fluminense / RJ,2,0.270492,1.0
+Palmeiras / SP,1,1.0,1.0
