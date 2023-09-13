@@ -25,6 +25,8 @@ if __name__ == '__main__':
             total = 0
             expected = 0
             for games in n_games:
+                if competition == 'Serie_A' and year == 2023 and games > 220: continue
+                elif competition == 'Serie_B' and year == 2023 and games > 270: continue
                 expected += 12
                 for file in glob(f'results/optimizer/*{competition}_{year}*{games}_games*'):
                     with open(file, 'rb') as f: res = pickle.load(f)
@@ -35,6 +37,6 @@ if __name__ == '__main__':
 
             total_ += total
             expected_ += expected
-            if total != 0: print(f'{year}\'s {competition.replace("_", " ")} is {total / expected:.2%} completed')
+            if total != 0 and total != expected: print(f'{year}\'s {competition.replace("_", " ")} is {total / expected:.2%} completed')
 
     print(f'\nAll is {total_ / expected_:.2%} completed')
