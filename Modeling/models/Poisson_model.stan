@@ -15,7 +15,7 @@ model {
     habilidade ~ normal(0, 1);  // Prior normal para as habilidades
     for (jogo in 1:num_jogos) {
         // Likelihood
-        target += gols_equipe1[jogo] * log(habilidade[equipe1[jogo]]) - habilidade[equipe1[jogo]];
-        target += gols_equipe2[jogo] * log(habilidade[equipe2[jogo]]) - habilidade[equipe2[jogo]];
+        target += gols_equipe1[jogo] * (log(habilidade[equipe1[jogo]]) - log(habilidade[equipe2[jogo]])) - (habilidade[equipe1[jogo]] / habilidade[equipe2[jogo]]);
+        target += gols_equipe2[jogo] * (log(habilidade[equipe2[jogo]]) - log(habilidade[equipe1[jogo]])) - (habilidade[equipe2[jogo]] / habilidade[equipe1[jogo]]);
     }
 }

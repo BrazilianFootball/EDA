@@ -8,7 +8,6 @@ data {
 }
 
 parameters {
-    real<lower=0> home_force;
     vector<lower=0>[num_equipes] habilidade;  // Habilidade de cada equipe
 }
 
@@ -16,7 +15,7 @@ model {
     habilidade ~ normal(0, 1);  // Prior normal para as habilidades
     for (jogo in 1:num_jogos) {
         // Likelihood
-        target += gols_equipe1[jogo] * log(habilidade[equipe1[jogo]] + real home_force;) - habilidade[equipe1[jogo]] - real home_force;;
-        target += gols_equipe2[jogo] * log(habilidade[equipe2[jogo]]) - habilidade[equipe2[jogo]];
+        target += gols_equipe1[jogo] * (log(habilidade[equipe1[jogo]] + 1) - log(habilidade[equipe2[jogo]])) - ((habilidade[equipe1[jogo]] + 1) / habilidade[equipe2[jogo]]);
+        target += gols_equipe2[jogo] * (log(habilidade[equipe2[jogo]]) - log(habilidade[equipe1[jogo]])) - (habilidade[equipe2[jogo]] / habilidade[equipe1[jogo]]);
     }
 }
