@@ -1,3 +1,4 @@
+import os
 import json
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -25,35 +26,34 @@ for file in sorted(glob('../../Data/results/processed/Serie_A_*_squads.json')):
                 if player_A in players_connectivity[player_B]: players_connectivity[player_B][player_A] += total_time
                 else: players_connectivity[player_B][player_A] = total_time
 
-fig, ax = plt.subplots(figsize = (100, 100))
+    fig, ax = plt.subplots(figsize = (100, 100))
 
-G = nx.Graph()
-for player in players_connectivity:
-    G.add_node(player, color='steelblue', weight=players_connectivity[player][player])
+    G = nx.Graph()
+    for player in players_connectivity:
+        G.add_node(player, color='steelblue', weight=players_connectivity[player][player])
 
-for player_A, player_B in product(players_connectivity, repeat=2):
-    if player_A == player_B: continue
-    if player_B not in players_connectivity[player_A]: continue
-    G.add_edge(player_A, player_B, color='lightskyblue',
-               width=players_connectivity[player_A][player_B],
-               weight=players_connectivity[player_A][player_B])
+    for player_A, player_B in product(players_connectivity, repeat=2):
+        if player_A == player_B: continue
+        if player_B not in players_connectivity[player_A]: continue
+        G.add_edge(player_A, player_B, color='lightskyblue',
+                width=players_connectivity[player_A][player_B],
+                weight=players_connectivity[player_A][player_B])
 
-print('graph already created')
-pos = nx.circular_layout(G)
+    pos = nx.circular_layout(G)
 
-print(f'drawing graph with {len(players_connectivity)} nodes')
-nx.draw_networkx(G,
-                 ax=ax,
-                 pos=pos,
-                 with_labels=False,
-                 node_color='steelblue',
-                 edge_color='lightskyblue',
-                 node_size=[nx.get_node_attributes(G, 'weight')[g] * 0.25 for g in G.nodes()],
-                 width=[nx.get_edge_attributes(G, 'width')[g] * 0.001 for g in G.edges()])
+    if f'players_connectivity_{year}.png' not in os.listdir('../figures/'):
+        print(f'drawing graph with {len(players_connectivity)} nodes ({year})')
+        nx.draw_networkx(G,
+                        ax=ax,
+                        pos=pos,
+                        with_labels=False,
+                        node_color='steelblue',
+                        edge_color='lightskyblue',
+                        node_size=[nx.get_node_attributes(G, 'weight')[g] * 0.25 for g in G.nodes()],
+                        width=[nx.get_edge_attributes(G, 'width')[g] * 0.001 for g in G.edges()])
 
-plt.savefig(f'../figures/players_connectivity.png')
+        plt.savefig(f'../figures/players_connectivity_{year}.png')
 
-print('finding communities')
-communities = nx.community.greedy_modularity_communities(G, weight='weight')
-n_communities = len(communities)
-print(f'We found a total of {n_communities} community(ies)')
+    communities = nx.community.greedy_modularity_communities(G, weight='weight')
+    n_communities = len(communities)
+    print(f'We found a total of {n_communities} community(ies) in {year}')

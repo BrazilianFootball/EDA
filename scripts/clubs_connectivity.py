@@ -1,3 +1,4 @@
+import os
 import json
 import numpy as np
 import networkx as nx
@@ -101,61 +102,63 @@ if __name__ == '__main__':
 
         inx_clubs = {value: key for key, value in clubs_inx.items()}
 
-        fig, ax = plt.subplots(figsize = (50, 50))
-        pos = nx.circular_layout(G)
-        nx.draw_networkx_edge_labels(G,
-                                    pos,
-                                    edge_labels=nx.get_edge_attributes(G, 'relation'),
-                                    label_pos=1.5,
-                                    font_size=9,
-                                    font_color='red',
-                                    font_family='sans-serif',
-                                    font_weight='normal',
-                                    alpha=1.0,
-                                    bbox=None,
+        if f'clubs_connectivity_{year}.png' not in os.listdir('../figures/'):
+            fig, ax = plt.subplots(figsize = (50, 50))
+            pos = nx.circular_layout(G)
+            nx.draw_networkx_edge_labels(G,
+                                         pos,
+                                         edge_labels=nx.get_edge_attributes(G, 'relation'),
+                                         label_pos=1.5,
+                                         font_size=9,
+                                         font_color='red',
+                                         font_family='sans-serif',
+                                         font_weight='normal',
+                                         alpha=1.0,
+                                         bbox=None,
+                                         ax=ax,
+                                         rotate=True)
+
+            nx.draw_networkx(G,
+                             pos=pos,
+                             ax=ax,
+                             node_color=[nx.get_node_attributes(G, 'color')[g] for g in G.nodes()],
+                             edge_color=[nx.get_edge_attributes(G, 'color')[g] for g in G.edges()],
+                             node_size=[nx.get_node_attributes(G, 'weight')[g] * 10 for g in G.nodes()],
+                             width=[nx.get_edge_attributes(G, 'width')[g] * 0.5 for g in G.edges()])
+
+            trans = ax.transData.transform
+            trans2 = fig.transFigure.inverted().transform
+            weights = nx.get_node_attributes(G, 'weight')
+            for club in weights:
+                if weights[club] > w_max: w_max = weights[club]
+                if weights[club] < w_min: w_min = weights[club]
+
+            dif = w_max - w_min
+            new = 0
+            relabel = {}
+            labels = {}
+            for g in G.nodes(): labels[g] = g
+            nx.draw_networkx_labels(G,
+                                    pos=pos,
+                                    labels=labels,
                                     ax=ax,
-                                    rotate=True)
+                                    font_color='steelblue')
 
-        nx.draw_networkx(G,
-                        pos=pos,
-                        ax=ax,
-                        node_color=[nx.get_node_attributes(G, 'color')[g] for g in G.nodes()],
-                        edge_color=[nx.get_edge_attributes(G, 'color')[g] for g in G.edges()],
-                        node_size=[nx.get_node_attributes(G, 'weight')[g] * 10 for g in G.nodes()],
-                        width=[nx.get_edge_attributes(G, 'width')[g] * 0.5 for g in G.edges()])
+            for g in G.nodes():
+                node = replace_special_char(inx_clubs[g]).replace(' ', '')
+                img = mpimg.imread('../../' + img_files[node])
+                weight = nx.get_node_attributes(G, 'weight')[g]
+                imsize = (weight - w_min) / dif * 0.04 + 0.02
+                (x, y) = pos[g]
+                xx, yy = trans((x, y))
+                xa, ya = trans2((xx, yy))
+                a = plt.axes([xa - imsize / 2, ya - imsize / 2, imsize, imsize])
+                a.imshow(img)
+                a.set_aspect('equal')
+                a.axis('off')
 
-        trans = ax.transData.transform
-        trans2 = fig.transFigure.inverted().transform
-        weights = nx.get_node_attributes(G, 'weight')
-        for club in weights:
-            if weights[club] > w_max: w_max = weights[club]
-            if weights[club] < w_min: w_min = weights[club]
-
-        dif = w_max - w_min
-        new = 0
-        relabel = {}
-        labels = {}
-        for g in G.nodes(): labels[g] = g
-        nx.draw_networkx_labels(G,
-                                pos=pos,
-                                labels=labels,
-                                ax=ax,
-                                font_color='steelblue')
-
-        for g in G.nodes():
-            node = replace_special_char(inx_clubs[g]).replace(' ', '')
-            img = mpimg.imread('../../' + img_files[node])
-            weight = nx.get_node_attributes(G, 'weight')[g]
-            imsize = (weight - w_min) / dif * 0.04 + 0.02
-            (x, y) = pos[g]
-            xx, yy = trans((x, y))
-            xa, ya = trans2((xx, yy))
-            a = plt.axes([xa - imsize / 2, ya - imsize / 2, imsize, imsize])
-            a.imshow(img)
-            a.set_aspect('equal')
-            a.axis('off')
-
-        plt.savefig(f'../figures/clubs_connectivity_{year}.png')
+            plt.savefig(f'../figures/clubs_connectivity_{year}.png')
+        
         communities = nx.community.greedy_modularity_communities(G, weight='weight')
         n_communities = len(communities)
         print(f'We found a total of {n_communities} community(ies) in {year}')
